@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Account Executive — The Broadsheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#faf7f0;
+    --ink:#141210;
+    --ink-soft:#3d3831;
+    --ink-faint:#6e675c;
+    --rule:#c9c2b4;
+    --rule-dark:#141210;
+    --red:#c1200b;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{background:#e8e4da;}
+  body{
+    font-family:'Source Serif 4', Georgia, serif;
+    background:var(--paper);
+    color:var(--ink);
+    width:1440px;
+    margin:0 auto;
+    padding:36px 56px 64px;
+    font-size:15px;
+    line-height:1.45;
+  }
+  .smallcaps{font-variant-caps:all-small-caps;letter-spacing:.14em;}
+  .mono{font-family:'IBM Plex Mono',monospace;}
+
+  /* ============ TOP EAR ROW ============ */
+  .earrow{
+    display:flex;justify-content:space-between;align-items:baseline;
+    font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--ink-soft);
+    border-bottom:1px solid var(--rule-dark);padding-bottom:7px;
+  }
+  .earrow .red{color:var(--red);font-weight:600;}
+
+  /* ============ MASTHEAD ============ */
+  .masthead{text-align:center;padding:26px 0 18px;}
+  .masthead h1{
+    font-family:'Playfair Display',serif;font-weight:900;
+    font-size:96px;line-height:.94;letter-spacing:.005em;
+    text-transform:uppercase;
+    transform:scaleX(.86);transform-origin:center;
+    white-space:nowrap;
+  }
+  .masthead h1 .dot{color:var(--red);}
+  .masthead .motto{
+    font-family:'Playfair Display',serif;font-style:italic;
+    font-size:15px;color:var(--ink-soft);margin-top:10px;
+  }
+  .dateline{
+    display:flex;justify-content:space-between;align-items:center;
+    border-top:2px solid var(--rule-dark);border-bottom:1px solid var(--rule-dark);
+    margin-top:16px;padding:6px 2px;
+    font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;
+    font-weight:600;
+  }
+  .dateline .mid{font-weight:400;color:var(--ink-soft);}
+
+  /* section nav */
+  .sections{
+    display:flex;justify-content:center;gap:0;
+    border-bottom:3px double var(--rule-dark);
+    padding:9px 0;font-size:12.5px;font-weight:700;
+    letter-spacing:.22em;text-transform:uppercase;
+  }
+  .sections span{padding:0 26px;border-right:1px solid var(--rule);}
+  .sections span:last-child{border-right:none;}
+  .sections .active{color:var(--red);}
+
+  /* ============ ASK BAR (classified line) ============ */
+  .askwrap{
+    margin:18px auto 0;max-width:980px;
+    border:1px solid var(--rule-dark);
+    background:#fffdf7;
+    display:flex;align-items:center;
+    padding:11px 18px;gap:14px;
+    box-shadow:3px 3px 0 rgba(20,18,16,.12);
+  }
+  .askwrap .label{
+    font-family:'Playfair Display',serif;font-weight:700;font-style:italic;
+    font-size:15px;white-space:nowrap;
+  }
+  .askwrap .label b{color:var(--red);font-style:normal;}
+  .askwrap .query{
+    flex:1;font-family:'IBM Plex Mono',monospace;font-size:13.5px;color:var(--ink-soft);
+    border-bottom:1px dotted var(--ink-faint);padding-bottom:2px;
+  }
+  .askwrap .query .caret{color:var(--red);font-weight:600;}
+  .askwrap .go{
+    font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;
+    background:var(--ink);color:var(--paper);padding:6px 14px;
+  }
+  .statline{
+    text-align:center;margin:12px 0 24px;
+    font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--ink-soft);
+  }
+  .statline b{color:var(--ink);font-weight:600;}
+  .statline .sep{color:var(--red);margin:0 10px;}
+
+  /* ============ MAIN GRID ============ */
+  .grid{
+    display:grid;
+    grid-template-columns:1fr 1px 372px 1px 318px;
+    gap:0 26px;
+  }
+  .vrule{background:var(--rule);width:1px;}
+
+  .kicker{
+    font-size:11px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--red);margin-bottom:8px;
+  }
+  .secthead{
+    font-size:12px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;
+    border-top:2px solid var(--rule-dark);border-bottom:1px solid var(--rule-dark);
+    padding:5px 0;margin-bottom:14px;
+    display:flex;justify-content:space-between;align-items:baseline;
+  }
+  .secthead .note{font-family:'IBM Plex Mono',monospace;font-weight:400;font-size:9.5px;letter-spacing:.06em;color:var(--ink-faint);text-transform:none;}
+
+  /* --- Lead story --- */
+  .lead h2{
+    font-family:'Playfair Display',serif;font-weight:900;
+    font-size:46px;line-height:1.04;letter-spacing:-.005em;
+    margin-bottom:10px;
+  }
+  .lead .deck{
+    font-family:'Playfair Display',serif;font-style:italic;
+    font-size:18px;line-height:1.4;color:var(--ink-soft);
+    margin-bottom:12px;
+  }
+  .byline{
+    font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;
+    color:var(--ink-soft);border-bottom:1px solid var(--rule);
+    padding-bottom:8px;margin-bottom:14px;
+  }
+  .byline .red{color:var(--red);}
+
+  .lead-body{
+    columns:2;column-gap:24px;column-rule:1px solid var(--rule);
+    font-size:14.5px;line-height:1.58;text-align:justify;hyphens:auto;
+  }
+  .lead-body p{margin-bottom:11px;}
+  .lead-body p:first-child::first-letter{
+    font-family:'Playfair Display',serif;font-weight:900;
+    float:left;font-size:56px;line-height:.82;
+    padding:6px 8px 0 0;
+  }
+
+  .pullstat{
+    break-inside:avoid;
+    border-top:3px solid var(--rule-dark);border-bottom:1px solid var(--rule-dark);
+    padding:14px 0 12px;margin:8px 0 14px;text-align:center;
+  }
+  .pullstat .num{
+    font-family:'Playfair Display',serif;font-weight:900;
+    font-size:72px;line-height:1;letter-spacing:-.01em;
+  }
+  .pullstat .num .k{color:var(--red);}
+  .pullstat .cap{
+    font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;
+    margin-top:8px;color:var(--ink-soft);
+  }
+  .pullstat .sub{
+    font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-faint);margin-top:4px;
+  }
+
+  /* --- alumni chart --- */
+  .chartblock{margin-top:26px;}
+  .chartblock .chart-title{
+    font-family:'Playfair Display',serif;font-weight:700;font-size:20px;margin-bottom:2px;
+  }
+  .chartblock .chart-sub{
+    font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--ink-faint);margin-bottom:10px;
+  }
+  .chartframe{border:1px solid var(--rule-dark);padding:16px 18px 10px;background:#fffdf7;}
+  .chart-src{
+    font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--ink-faint);
+    margin-top:6px;display:flex;justify-content:space-between;
+  }
+
+  /* --- rankings column --- */
+  .ranklist{list-style:none;}
+  .ranklist li{
+    display:flex;align-items:baseline;gap:12px;
+    padding:9px 0;border-bottom:1px dotted var(--rule);
+  }
+  .ranklist li:first-child{padding-top:0;}
+  .ranklist .rank{
+    font-family:'Playfair Display',serif;font-weight:900;font-size:24px;
+    width:34px;flex-shrink:0;text-align:right;
+  }
+  .ranklist li:nth-child(1) .rank{color:var(--red);}
+  .ranklist .rinfo{flex:1;min-width:0;}
+  .ranklist .rname{font-weight:700;font-size:16px;font-family:'Playfair Display',serif;}
+  .ranklist .rmeta{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-faint);margin-top:2px;letter-spacing:.02em;}
+  .ranklist .rscore{
+    font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;
+    text-align:right;flex-shrink:0;
+  }
+  .ranklist .rscore .up{color:var(--red);}
+  .ranklist .rscore .lbl{display:block;font-size:8.5px;font-weight:400;color:var(--ink-faint);letter-spacing:.08em;text-transform:uppercase;margin-top:1px;}
+  .seeall{
+    display:block;text-align:center;margin-top:12px;
+    font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;
+    border:1px solid var(--rule-dark);padding:8px;color:var(--ink);text-decoration:none;
+  }
+
+  /* moves column */
+  .moves{margin-top:28px;}
+  .movelist{list-style:none;}
+  .movelist li{
+    padding:8px 0;border-bottom:1px dotted var(--rule);
+    font-size:13.5px;line-height:1.45;
+  }
+  .movelist .who{font-weight:700;}
+  .movelist .role{font-style:italic;color:var(--ink-soft);}
+  .movelist .arrow{color:var(--red);font-weight:700;padding:0 3px;}
+  .movelist .tag{
+    font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--ink-faint);display:block;margin-top:2px;
+  }
+
+  /* --- jobs board column --- */
+  .joblist{list-style:none;}
+  .joblist li{padding:10px 0;border-bottom:1px solid var(--rule);}
+  .joblist li:first-child{padding-top:0;}
+  .jobtop{display:flex;justify-content:space-between;align-items:baseline;gap:8px;}
+  .jobtitle{font-family:'Playfair Display',serif;font-weight:700;font-size:15px;line-height:1.2;}
+  .jobote{font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:600;white-space:nowrap;}
+  .jobmeta{
+    font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--ink-faint);
+    margin-top:3px;letter-spacing:.03em;
+  }
+  .jobmeta .co{color:var(--ink-soft);font-weight:600;}
+  .jobmeta .new{color:var(--red);font-weight:600;}
+
+  .classified{
+    margin-top:22px;border:1px solid var(--rule-dark);padding:12px 14px;background:#fffdf7;
+  }
+  .classified .chead{
+    font-family:'Playfair Display',serif;font-weight:900;font-size:15px;
+    text-transform:uppercase;letter-spacing:.06em;text-align:center;
+    border-bottom:1px solid var(--rule-dark);padding-bottom:6px;margin-bottom:8px;
+  }
+  .classified p{font-size:12.5px;line-height:1.5;text-align:justify;}
+  .classified .mono-line{
+    font-family:'IBM Plex Mono',monospace;font-size:10.5px;margin-top:8px;
+    color:var(--red);font-weight:600;text-align:center;letter-spacing:.06em;
+  }
+
+  /* index box */
+  .indexbox{margin-top:22px;}
+  .indexbox table{width:100%;border-collapse:collapse;font-size:12.5px;}
+  .indexbox td{padding:5px 0;border-bottom:1px dotted var(--rule);}
+  .indexbox td:last-child{text-align:right;font-family:'IBM Plex Mono',monospace;font-size:11px;}
+  .indexbox .up{color:var(--red);font-weight:600;}
+  .indexbox .dn{color:var(--ink-faint);}
+
+  /* ============ FOOTER ============ */
+  .footrule{border-top:3px double var(--rule-dark);margin-top:36px;padding-top:10px;
+    display:flex;justify-content:space-between;
+    font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--ink-faint);}
+  .footrule b{color:var(--ink);}
+</style>
+</head>
+<body>
+
+  <div class="earrow">
+    <span>Vol. II — No. 141</span>
+    <span class="red">All the roles fit to close</span>
+    <span>Price: your quota</span>
+  </div>
+
+  <header class="masthead">
+    <h1>Account Executive<span class="dot">.</span></h1>
+    <div class="motto">The newspaper of record for the software-sales profession — hiring, compensation &amp; career intelligence.</div>
+    <div class="dateline">
+      <span>Tuesday, July 14, 2026</span>
+      <span class="mid">New York · San Francisco · Austin · Remote Editions</span>
+      <span>accountexecutive.com</span>
+    </div>
+    <nav class="sections">
+      <span class="active">Markets</span>
+      <span>Moves</span>
+      <span>Openings</span>
+      <span>Rankings</span>
+      <span>Paths</span>
+      <span>The Desk</span>
+    </nav>
+  </header>
+
+  <div class="askwrap">
+    <span class="label"><b>Ask the desk</b> —</span>
+    <span class="query">where do Gong reps go next?<span class="caret">▊</span></span>
+    <span class="go">Inquire</span>
+  </div>
+  <div class="statline">
+    <b>27,842</b> live AE roles<span class="sep">·</span><b>9,410</b> companies tracked<span class="sep">·</span><b>50,212</b> career paths mapped<span class="sep">·</span>updated hourly by the desk
+  </div>
+
+  <main class="grid">
+
+    <!-- ===== LEAD COLUMN ===== -->
+    <section class="lead">
+      <div class="kicker">Markets · Special Report</div>
+      <h2>State of AE Hiring, Q3 2026: Enterprise Comp Breaks Records as AI-Native Vendors Raid the Old Guard</h2>
+      <div class="deck">Median Enterprise OTE crosses $287,000 as Series C application-layer companies out-hire public incumbents for the first quarter on record.</div>
+      <div class="byline">By the Compensation Desk <span class="red">·</span> Data: 27,842 listings, 9,410 companies <span class="red">·</span> 7 min read</div>
+
+      <div class="lead-body">
+        <p>The market for Enterprise Account Executives has entered its most seller-friendly quarter since 2021. Across 27,842 live listings tracked by this desk, median Enterprise on-target earnings reached $287,000 — up 11.2% year over year — with the top decile of offers at AI-native vendors now clearing $410,000.</p>
+        <p>The composition of demand has shifted decisively. Series C and D application-layer companies — Cursor, Sierra, Clay and Writer chief among them — posted 38% more AE openings this quarter than the trailing average, while public infrastructure incumbents held flat. Datadog and Gong, historically net importers of enterprise talent, became net exporters for the first time in the alumni graph's history.</p>
+        <div class="pullstat">
+          <div class="num">$287<span class="k">K</span></div>
+          <div class="cap">Median Enterprise AE OTE, Q3 2026</div>
+          <div class="sub">n = 11,204 listings · 50/50 split modal · +11.2% YoY</div>
+        </div>
+        <p>Follow the reps and the story sharpens. Of the 1,847 sellers who departed Gong in the trailing twelve months, 22% landed at Clay, 18% at Sierra, and 14% at Cursor — a migration corridor that did not exist eighteen months ago. "Where reps from a company go next" has become the single most predictive signal of that company's next four quarters, outperforming funding announcements by a wide margin in this desk's back-testing.</p>
+        <p>Geography tells a quieter story. Remote-eligible enterprise roles fell to 41% of listings, down from 55% at peak, as San Francisco reasserted itself: the city now hosts 34% of all AI-native AE openings, with New York at 26% and Austin holding 11%. Base-to-variable splits remain anchored at 50/50, but accelerator structures above 100% of quota have grown notably richer at Series C.</p>
+        <p>Equity remains the wildcard. AE offers at Anthropic, Sierra and Cursor now routinely include refresh grants formerly reserved for engineering — a structural concession to a labor market in which the best enterprise sellers behave, and are priced, like scarce technical talent.</p>
+        <p>The desk's guidance is unchanged: rank the company before the offer. Sales-headcount growth, investor quality and alumni destinations predict a rep's four-year earnings better than the OTE printed on the offer letter. The board below is sorted accordingly.</p>
+      </div>
+
+      <!-- Alumni flow chart -->
+      <div class="chartblock">
+        <div class="secthead"><span>Paths · Data Journal</span><span class="note">fig. 1 — alumni outflow</span></div>
+        <div class="chart-title">Where Gong Reps Go Next</div>
+        <div class="chart-sub">Destination share of 1,847 tracked AE departures, trailing 12 months</div>
+        <div class="chartframe">
+          <svg viewBox="0 0 620 250" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Mono',monospace">
+            <!-- source node -->
+            <rect x="10" y="95" width="118" height="60" fill="none" stroke="#141210" stroke-width="1.5"/>
+            <text x="69" y="120" text-anchor="middle" font-family="'Playfair Display',serif" font-weight="900" font-size="17" fill="#141210">GONG</text>
+            <text x="69" y="140" text-anchor="middle" font-size="9" fill="#6e675c">1,847 departures</text>
+
+            <!-- flow lines -->
+            <path d="M128 110 C 250 110, 300 38, 420 38" fill="none" stroke="#141210" stroke-width="9" opacity=".9"/>
+            <path d="M128 118 C 250 118, 300 88, 420 88" fill="none" stroke="#141210" stroke-width="7" opacity=".7"/>
+            <path d="M128 126 C 250 126, 300 138, 420 138" fill="none" stroke="#c1200b" stroke-width="6"/>
+            <path d="M128 134 C 250 134, 300 186, 420 186" fill="none" stroke="#141210" stroke-width="4" opacity=".55"/>
+            <path d="M128 142 C 250 142, 300 228, 420 228" fill="none" stroke="#141210" stroke-width="3" opacity=".4"/>
+
+            <!-- destination ticks -->
+            <line x1="420" y1="30" x2="420" y2="46" stroke="#141210" stroke-width="1.5"/>
+            <line x1="420" y1="80" x2="420" y2="96" stroke="#141210" stroke-width="1.5"/>
+            <line x1="420" y1="130" x2="420" y2="146" stroke="#c1200b" stroke-width="1.5"/>
+            <line x1="420" y1="178" x2="420" y2="194" stroke="#141210" stroke-width="1.5"/>
+            <line x1="420" y1="220" x2="420" y2="236" stroke="#141210" stroke-width="1.5"/>
+
+            <!-- destination labels -->
+            <text x="432" y="36" font-family="'Playfair Display',serif" font-weight="700" font-size="14" fill="#141210">Clay</text>
+            <text x="432" y="49" font-size="9" fill="#6e675c">22% · 406 reps · Series C</text>
+            <text x="432" y="86" font-family="'Playfair Display',serif" font-weight="700" font-size="14" fill="#141210">Sierra</text>
+            <text x="432" y="99" font-size="9" fill="#6e675c">18% · 332 reps · Series B</text>
+            <text x="432" y="136" font-family="'Playfair Display',serif" font-weight="700" font-size="14" fill="#c1200b">Cursor</text>
+            <text x="432" y="149" font-size="9" fill="#6e675c">14% · 259 reps · Series C</text>
+            <text x="432" y="184" font-family="'Playfair Display',serif" font-weight="700" font-size="14" fill="#141210">Rippling</text>
+            <text x="432" y="197" font-size="9" fill="#6e675c">9% · 166 reps · Series D</text>
+            <text x="432" y="226" font-family="'Playfair Display',serif" font-weight="700" font-size="14" fill="#141210">Writer</text>
+            <text x="432" y="239" font-size="9" fill="#6e675c">6% · 111 reps · Series C</text>
+          </svg>
+        </div>
+        <div class="chart-src">
+          <span>Source: AccountExecutive.com alumni graph · 50,212 career paths</span>
+          <span>Chart: The Desk</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="vrule"></div>
+
+    <!-- ===== RANKINGS COLUMN ===== -->
+    <section>
+      <div class="secthead"><span>Rankings</span><span class="note">Q3 2026 edition</span></div>
+      <div class="kicker">Top 50 Companies to Sell For</div>
+      <ol class="ranklist">
+        <li><span class="rank">1</span><div class="rinfo"><div class="rname">Anthropic</div><div class="rmeta">Series F · SF · sales HC +64% YoY</div></div><div class="rscore">98.2<span class="lbl">desk score</span></div></li>
+        <li><span class="rank">2</span><div class="rinfo"><div class="rname">Cursor</div><div class="rmeta">Series C · SF · sales HC +212% YoY</div></div><div class="rscore"><span class="up">96.7</span><span class="lbl">desk score</span></div></li>
+        <li><span class="rank">3</span><div class="rinfo"><div class="rname">Sierra</div><div class="rmeta">Series B · SF · Benchmark, Sequoia</div></div><div class="rscore">95.1<span class="lbl">desk score</span></div></li>
+        <li><span class="rank">4</span><div class="rinfo"><div class="rname">Clay</div><div class="rmeta">Series C · NYC · sales HC +148% YoY</div></div><div class="rscore"><span class="up">94.4</span><span class="lbl">desk score</span></div></li>
+        <li><span class="rank">5</span><div class="rinfo"><div class="rname">Ramp</div><div class="rmeta">Series D · NYC · Founders Fund</div></div><div class="rscore">93.0<span class="lbl">desk score</span></div></li>
+        <li><span class="rank">6</span><div class="rinfo"><div class="rname">Rippling</div><div class="rmeta">Series D · SF · sales HC +41% YoY</div></div><div class="rscore">91.8<span class="lbl">desk score</span></div></li>
+        <li><span class="rank">7</span><div class="rinfo"><div class="rname">Vanta</div><div class="rmeta">Series C · SF/Remote · Sequoia</div></div><div class="rscore">90.5<span class="lbl">desk score</span></div></li>
+        <li><span class="rank">8</span><div class="rinfo"><div class="rname">Writer</div><div class="rmeta">Series C · SF · ICONIQ, Insight</div></div><div class="rscore">89.9<span class="lbl">desk score</span></div></li>
+      </ol>
+      <a class="seeall" href="#">Read the full fifty →</a>
+
+      <div class="moves">
+        <div class="secthead"><span>Moves</span><span class="note">the transfer wire</span></div>
+        <ul class="movelist">
+          <li><span class="who">J. Alvarez</span>, <span class="role">Ent AE</span>: Datadog <span class="arrow">→</span> Cursor<span class="tag">Filed 07·13 · comp step est. +$60K OTE</span></li>
+          <li><span class="who">M. Okafor</span>, <span class="role">Strategic AE</span>: Gong <span class="arrow">→</span> Sierra<span class="tag">Filed 07·13 · third Gong departure this week</span></li>
+          <li><span class="who">S. Lindqvist</span>, <span class="role">Mid-Market AE</span>: Deel <span class="arrow">→</span> Ramp<span class="tag">Filed 07·12 · NYC · promoted to Enterprise</span></li>
+          <li><span class="who">R. Patel</span>, <span class="role">Ent AE</span>: Rippling <span class="arrow">→</span> Anthropic<span class="tag">Filed 07·11 · SF · founding-segment hire</span></li>
+          <li><span class="who">C. Dubois</span>, <span class="role">Ent AE</span>: Retool <span class="arrow">→</span> Clay<span class="tag">Filed 07·10 · follows two former teammates</span></li>
+          <li><span class="who">A. Nakamura</span>, <span class="role">Strategic AE</span>: Gong <span class="arrow">→</span> Writer<span class="tag">Filed 07·09 · remote · vertical: financial services</span></li>
+        </ul>
+      </div>
+
+      <div class="indexbox">
+        <div class="secthead"><span>The Comp Index</span><span class="note">median OTE by segment</span></div>
+        <table>
+          <tr><td>Enterprise AE</td><td><span class="up">$287K ▲ 11.2%</span></td></tr>
+          <tr><td>Strategic AE</td><td><span class="up">$334K ▲ 8.4%</span></td></tr>
+          <tr><td>Mid-Market AE</td><td><span class="up">$212K ▲ 5.1%</span></td></tr>
+          <tr><td>SMB / Velocity AE</td><td><span class="dn">$158K ▼ 1.3%</span></td></tr>
+          <tr><td>AI-native premium</td><td><span class="up">+$42K ▲ vs. sector</span></td></tr>
+        </table>
+      </div>
+    </section>
+
+    <div class="vrule"></div>
+
+    <!-- ===== JOBS BOARD COLUMN ===== -->
+    <section>
+      <div class="secthead"><span>Openings</span><span class="note">27,842 live · verified OTE</span></div>
+      <ul class="joblist">
+        <li><div class="jobtop"><span class="jobtitle">Enterprise AE</span><span class="jobote">$150K / $300K</span></div><div class="jobmeta"><span class="co">Cursor</span> · SF · Series C · <span class="new">new today</span></div></li>
+        <li><div class="jobtop"><span class="jobtitle">Strategic AE, Founding</span><span class="jobote">$170K / $340K</span></div><div class="jobmeta"><span class="co">Sierra</span> · SF · Series B · equity-heavy</div></li>
+        <li><div class="jobtop"><span class="jobtitle">Enterprise AE — East</span><span class="jobote">$145K / $290K</span></div><div class="jobmeta"><span class="co">Clay</span> · NYC · Series C · <span class="new">new today</span></div></li>
+        <li><div class="jobtop"><span class="jobtitle">Enterprise AE</span><span class="jobote">$160K / $320K</span></div><div class="jobmeta"><span class="co">Anthropic</span> · SF · vertical: fin-serv</div></li>
+        <li><div class="jobtop"><span class="jobtitle">Mid-Market AE</span><span class="jobote">$110K / $220K</span></div><div class="jobmeta"><span class="co">Ramp</span> · NYC · Series D</div></li>
+        <li><div class="jobtop"><span class="jobtitle">Enterprise AE, Central</span><span class="jobote">$140K / $280K</span></div><div class="jobmeta"><span class="co">Rippling</span> · Austin · Series D</div></li>
+        <li><div class="jobtop"><span class="jobtitle">Commercial AE</span><span class="jobote">$95K / $190K</span></div><div class="jobmeta"><span class="co">Vanta</span> · Remote · Series C</div></li>
+        <li><div class="jobtop"><span class="jobtitle">Enterprise AE, EMEA-out</span><span class="jobote">$130K / $260K</span></div><div class="jobmeta"><span class="co">Deel</span> · Remote · Series D</div></li>
+        <li><div class="jobtop"><span class="jobtitle">Strategic AE</span><span class="jobote">$155K / $310K</span></div><div class="jobmeta"><span class="co">Writer</span> · SF · Series C</div></li>
+        <li><div class="jobtop"><span class="jobtitle">Enterprise AE, Dev-Tools</span><span class="jobote">$135K / $270K</span></div><div class="jobmeta"><span class="co">Retool</span> · SF · Series C</div></li>
+      </ul>
+      <a class="seeall" href="#">Open the full board — 27,842 roles →</a>
+
+      <div class="classified">
+        <div class="chead">Notice to Readers</div>
+        <p>Every listing on this board carries verified on-target earnings, funding stage, investor slate and sales-headcount trend. No comp range, no print. Alumni destinations are drawn from 50,212 mapped career paths and updated hourly.</p>
+        <p class="mono-line">ask the desk · accountexecutive.com/desk</p>
+      </div>
+
+      <div class="indexbox">
+        <div class="secthead"><span>Inside</span><span class="note">this edition</span></div>
+        <table>
+          <tr><td>Rankings — Top 50 to Sell For</td><td>B1</td></tr>
+          <tr><td>Paths — the alumni graph</td><td>C2</td></tr>
+          <tr><td>Comp Tables — by city &amp; stage</td><td>C4</td></tr>
+          <tr><td>Moves — the transfer wire</td><td>D1</td></tr>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footrule">
+    <span><b>AccountExecutive.com</b> · The record of the profession</span>
+    <span>27,842 roles · 9,410 companies · 50,212 paths</span>
+    <span>© 2026 · Printed hourly</span>
+  </footer>
+
+</body>
+</html>

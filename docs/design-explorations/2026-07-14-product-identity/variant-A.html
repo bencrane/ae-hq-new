@@ -1,0 +1,272 @@
+<meta charset="utf-8">
+<title>AccountExecutive.com — The Terminal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0c10;
+    --bg-raise:#0e1117;
+    --bg-row:#0c0f14;
+    --line:#1c212b;
+    --line-soft:#151923;
+    --txt:#d6dae2;
+    --txt-dim:#8b93a3;
+    --txt-faint:#5a6272;
+    --accent:#ffb020;
+    --green:#3ddc84;
+    --red:#ff5d5d;
+    --mono:'IBM Plex Mono',monospace;
+    --sans:'Inter',sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--txt);font-family:var(--sans);font-size:13px;line-height:1.5;-webkit-font-smoothing:antialiased}
+  .mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+  .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--txt-faint)}
+  .up{color:var(--green)}
+  .dn{color:var(--red)}
+  .wrap{max-width:1360px;margin:0 auto;padding:0 32px}
+
+  /* ── top nav ─────────────────────────── */
+  .nav{border-bottom:1px solid var(--line);background:var(--bg)}
+  .nav-in{display:flex;align-items:center;height:52px;gap:40px}
+  .wordmark{font-family:var(--mono);font-size:13px;font-weight:600;letter-spacing:.12em;color:var(--txt)}
+  .wordmark span{color:var(--accent)}
+  .nav-links{display:flex;gap:2px;height:100%}
+  .nav-links a{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--txt-dim);text-decoration:none;display:flex;align-items:center;padding:0 16px;border-bottom:2px solid transparent}
+  .nav-links a.active{color:var(--txt);border-bottom-color:var(--accent)}
+  .nav-right{margin-left:auto;display:flex;align-items:center;gap:20px}
+  .nav-right .sess{font-family:var(--mono);font-size:10px;color:var(--txt-faint);letter-spacing:.08em}
+  .btn-acct{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--bg);background:var(--accent);padding:6px 14px;text-decoration:none;font-weight:600}
+
+  /* ── ask bar ─────────────────────────── */
+  .askbar{border-bottom:1px solid var(--line);background:var(--bg-raise);padding:14px 0 12px}
+  .ask-line{display:flex;align-items:center;gap:12px;border:1px solid var(--line);background:var(--bg);padding:11px 16px}
+  .ask-line .prompt{font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:.14em;color:var(--accent);white-space:nowrap}
+  .ask-line .q{font-family:var(--mono);font-size:13px;color:var(--txt)}
+  .ask-line .caret{display:inline-block;width:8px;height:16px;background:var(--accent);vertical-align:-3px;margin-left:2px}
+  .ask-line .hint{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--txt-faint);letter-spacing:.08em}
+  .chips{display:flex;gap:8px;margin-top:10px;align-items:center}
+  .chips .lbl{margin-right:4px}
+  .chip{font-family:var(--mono);font-size:11px;color:var(--txt-dim);border:1px solid var(--line);padding:4px 10px;background:var(--bg);white-space:nowrap}
+
+  /* ── stat strip ──────────────────────── */
+  .stats{border-bottom:1px solid var(--line)}
+  .stats-in{display:grid;grid-template-columns:repeat(4,1fr)}
+  .stat{padding:16px 24px;border-right:1px solid var(--line-soft)}
+  .stat:first-child{padding-left:0}
+  .stat:last-child{border-right:none}
+  .stat .num{font-family:var(--mono);font-size:22px;font-weight:500;font-variant-numeric:tabular-nums;color:var(--txt);margin-top:2px}
+  .stat .num em{font-style:normal;font-size:12px;color:var(--txt-faint);margin-left:6px}
+  .stat .delta{font-family:var(--mono);font-size:11px;margin-top:2px}
+
+  /* ── main grid ───────────────────────── */
+  .main{display:grid;grid-template-columns:1fr 360px;gap:0;align-items:start}
+  .col-left{border-right:1px solid var(--line);padding-right:28px;padding-top:24px;padding-bottom:32px}
+  .col-right{padding-left:28px;padding-top:24px;padding-bottom:32px}
+
+  .mod-head{display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:0}
+  .mod-head h2{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--txt)}
+  .mod-head h2 b{color:var(--accent);font-weight:600}
+  .mod-head .meta{font-family:var(--mono);font-size:10px;color:var(--txt-faint);letter-spacing:.08em}
+
+  /* ── jobs table ──────────────────────── */
+  table{width:100%;border-collapse:collapse}
+  th{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--txt-faint);font-weight:500;text-align:left;padding:10px 12px 8px;border-bottom:1px solid var(--line-soft);white-space:nowrap}
+  td{font-size:12.5px;padding:9px 12px;border-bottom:1px solid var(--line-soft);white-space:nowrap;vertical-align:middle}
+  th.r,td.r{text-align:right}
+  td.mono,th.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+  tr:nth-child(even) td{background:var(--bg-row)}
+  td.co{font-weight:600;color:var(--txt)}
+  td.role{color:var(--txt-dim)}
+  td.loc{font-family:var(--mono);font-size:11px;color:var(--txt-dim)}
+  .stage{font-family:var(--mono);font-size:10px;letter-spacing:.06em;color:var(--txt-dim);border:1px solid var(--line);padding:2px 7px}
+  .ote{color:var(--txt)}
+  .ote i{font-style:normal;color:var(--txt-faint)}
+  td.hc{font-family:var(--mono);font-size:11.5px}
+  .tbl-foot{display:flex;justify-content:space-between;padding:10px 12px 0;font-family:var(--mono);font-size:10px;color:var(--txt-faint);letter-spacing:.08em}
+  .tbl-foot a{color:var(--accent);text-decoration:none;letter-spacing:.1em}
+
+  /* ── alumni flows ────────────────────── */
+  .flows{margin-top:36px}
+  .flow-row{display:flex;align-items:center;gap:0;padding:11px 0;border-bottom:1px solid var(--line-soft);font-family:var(--mono);font-size:12px}
+  .flow-src{width:120px;color:var(--txt);font-weight:600;flex-shrink:0}
+  .flow-arrow{color:var(--txt-faint);width:34px;flex-shrink:0}
+  .flow-dests{display:flex;gap:24px;flex:1}
+  .flow-dest{color:var(--txt-dim)}
+  .flow-dest b{color:var(--txt);font-weight:500}
+  .flow-dest .n{color:var(--accent)}
+  .flow-bar{width:180px;height:4px;background:var(--line-soft);flex-shrink:0;margin-left:16px;position:relative}
+  .flow-bar i{position:absolute;left:0;top:0;bottom:0;background:var(--txt-faint)}
+  .flow-bar.hot i{background:var(--accent)}
+
+  /* ── right column modules ────────────── */
+  .moves{margin-bottom:36px}
+  .move{padding:10px 0;border-bottom:1px solid var(--line-soft);font-family:var(--mono);font-size:11.5px;line-height:1.55}
+  .move .who{color:var(--txt)}
+  .move .what{color:var(--txt-dim)}
+  .move .path{color:var(--txt-dim)}
+  .move .path b{color:var(--txt);font-weight:500}
+  .move .arr{color:var(--accent)}
+  .move .ago{display:block;font-size:10px;color:var(--txt-faint);letter-spacing:.06em;margin-top:2px}
+
+  .rank-row{display:flex;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--line-soft);font-family:var(--mono);font-size:12px}
+  .rank-row .idx{width:32px;color:var(--txt-faint);font-size:11px}
+  .rank-row .name{flex:1;color:var(--txt);font-weight:500}
+  .rank-row .score{color:var(--txt-dim);font-size:11px;margin-right:14px}
+  .rank-row .d{width:64px;text-align:right;font-size:11px}
+
+  .watch{margin-top:36px;border:1px solid var(--line);background:var(--bg-raise);padding:16px 18px}
+  .watch p{font-family:var(--mono);font-size:11.5px;color:var(--txt-dim);line-height:1.7;margin-top:8px}
+  .watch p b{color:var(--txt);font-weight:500}
+  .watch .cta{display:inline-block;margin-top:12px;font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);text-decoration:none;border:1px solid var(--accent);padding:6px 12px}
+
+  /* ── footer ──────────────────────────── */
+  .footer{border-top:1px solid var(--line);margin-top:8px}
+  .footer-in{display:flex;justify-content:space-between;padding:18px 0 22px;font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--txt-faint)}
+  .footer a{color:var(--txt-faint);text-decoration:none;margin-left:24px;text-transform:uppercase}
+</style>
+
+<!-- NAV -->
+<div class="nav"><div class="wrap nav-in">
+  <div class="wordmark">ACCOUNTEXECUTIVE<span>.COM</span></div>
+  <nav class="nav-links">
+    <a class="active" href="#">Jobs</a><a href="#">Companies</a><a href="#">Moves</a><a href="#">Rankings</a><a href="#">Ask</a>
+  </nav>
+  <div class="nav-right">
+    <span class="sess">DATA AS OF 2026-07-14 09:31 ET</span>
+    <a class="btn-acct" href="#">Sign in</a>
+  </div>
+</div></div>
+
+<!-- ASK BAR -->
+<div class="askbar"><div class="wrap">
+  <div class="ask-line">
+    <span class="prompt">ASK&nbsp;▸</span>
+    <span class="q">where do Datadog reps go next?<span class="caret"></span></span>
+    <span class="hint">⏎ RUN&nbsp;&nbsp;·&nbsp;&nbsp;⌘K</span>
+  </div>
+  <div class="chips">
+    <span class="lbl">Try</span>
+    <span class="chip">highest OTE Series C in NYC</span>
+    <span class="chip">companies growing sales headcount &gt;25%</span>
+    <span class="chip">who left Rippling this quarter</span>
+    <span class="chip">Strategic AE roles, remote, $320k+</span>
+  </div>
+</div></div>
+
+<!-- STATS -->
+<div class="stats"><div class="wrap stats-in">
+  <div class="stat"><div class="lbl">Live AE Roles</div><div class="num">27,842</div><div class="delta up">+412 today</div></div>
+  <div class="stat"><div class="lbl">Companies Tracked</div><div class="num">9,410</div><div class="delta up">+38 this wk</div></div>
+  <div class="stat"><div class="lbl">Rep Career Paths</div><div class="num">50,212</div><div class="delta up">+1,206 30d</div></div>
+  <div class="stat"><div class="lbl">Median Ent. AE OTE</div><div class="num">$286k<em>50/50</em></div><div class="delta up">+3.2% yoy</div></div>
+</div></div>
+
+<!-- MAIN -->
+<div class="wrap main">
+  <div class="col-left">
+
+    <div class="mod-head">
+      <h2><b>JOBS</b> / LIVE AE OPENINGS</h2>
+      <span class="meta">SORT: HEADCOUNT Δ ↓ &nbsp;·&nbsp; 27,842 MATCHES</span>
+    </div>
+    <table>
+      <thead><tr>
+        <th>Company</th><th>Role</th><th class="r">OTE (Base / OTE)</th><th>Loc</th><th>Stage</th><th class="r">Sales HC Δ 6mo</th>
+      </tr></thead>
+      <tbody>
+        <tr><td class="co">Sierra</td><td class="role">Enterprise AE</td><td class="mono r ote">$160k <i>/</i> $320k</td><td class="loc">SF</td><td><span class="stage">SERIES B</span></td><td class="hc r up">▲ +42%</td></tr>
+        <tr><td class="co">Cursor</td><td class="role">Enterprise AE</td><td class="mono r ote">$155k <i>/</i> $310k</td><td class="loc">SF</td><td><span class="stage">SERIES C</span></td><td class="hc r up">▲ +38%</td></tr>
+        <tr><td class="co">Clay</td><td class="role">Mid-Market AE</td><td class="mono r ote">$130k <i>/</i> $260k</td><td class="loc">NYC</td><td><span class="stage">SERIES C</span></td><td class="hc r up">▲ +31%</td></tr>
+        <tr><td class="co">Anthropic</td><td class="role">Strategic AE</td><td class="mono r ote">$175k <i>/</i> $350k</td><td class="loc">SF</td><td><span class="stage">LATE</span></td><td class="hc r up">▲ +27%</td></tr>
+        <tr><td class="co">Writer</td><td class="role">Enterprise AE</td><td class="mono r ote">$150k <i>/</i> $300k</td><td class="loc">NYC</td><td><span class="stage">SERIES C</span></td><td class="hc r up">▲ +24%</td></tr>
+        <tr><td class="co">Ramp</td><td class="role">Mid-Market AE</td><td class="mono r ote">$140k <i>/</i> $280k</td><td class="loc">NYC</td><td><span class="stage">SERIES D</span></td><td class="hc r up">▲ +18%</td></tr>
+        <tr><td class="co">Vanta</td><td class="role">Enterprise AE</td><td class="mono r ote">$150k <i>/</i> $300k</td><td class="loc">Remote</td><td><span class="stage">SERIES C</span></td><td class="hc r up">▲ +14%</td></tr>
+        <tr><td class="co">Deel</td><td class="role">Mid-Market AE</td><td class="mono r ote">$120k <i>/</i> $240k</td><td class="loc">Remote</td><td><span class="stage">SERIES D</span></td><td class="hc r up">▲ +9%</td></tr>
+        <tr><td class="co">Retool</td><td class="role">Enterprise AE</td><td class="mono r ote">$145k <i>/</i> $290k</td><td class="loc">SF</td><td><span class="stage">SERIES C</span></td><td class="hc r up">▲ +6%</td></tr>
+        <tr><td class="co">Rippling</td><td class="role">Strategic AE</td><td class="mono r ote">$160k <i>/</i> $320k</td><td class="loc">Austin</td><td><span class="stage">SERIES F</span></td><td class="hc r up">▲ +3%</td></tr>
+        <tr><td class="co">Gong</td><td class="role">Enterprise AE</td><td class="mono r ote">$150k <i>/</i> $300k</td><td class="loc">NYC</td><td><span class="stage">LATE</span></td><td class="hc r dn">▼ −2%</td></tr>
+        <tr><td class="co">Datadog</td><td class="role">Enterprise AE</td><td class="mono r ote">$145k <i>/</i> $290k</td><td class="loc">NYC</td><td><span class="stage">PUBLIC</span></td><td class="hc r dn">▼ −4%</td></tr>
+      </tbody>
+    </table>
+    <div class="tbl-foot"><span>SHOWING 12 OF 27,842 · FILTER: NONE</span><a href="#">VIEW ALL ROLES →</a></div>
+
+    <!-- ALUMNI FLOWS -->
+    <div class="flows">
+      <div class="mod-head">
+        <h2><b>ALUMNI FLOWS</b> / WHERE REPS GO NEXT</h2>
+        <span class="meta">TRAILING 12MO · N = 50,212 PATHS</span>
+      </div>
+      <div class="flow-row">
+        <span class="flow-src">GONG</span><span class="flow-arrow">→</span>
+        <div class="flow-dests"><span class="flow-dest"><b>Sierra</b> <span class="n">(14)</span></span><span class="flow-dest"><b>Clay</b> <span class="n">(11)</span></span><span class="flow-dest"><b>Writer</b> <span class="n">(9)</span></span></div>
+        <div class="flow-bar hot"><i style="width:88%"></i></div>
+      </div>
+      <div class="flow-row">
+        <span class="flow-src">DATADOG</span><span class="flow-arrow">→</span>
+        <div class="flow-dests"><span class="flow-dest"><b>Cursor</b> <span class="n">(12)</span></span><span class="flow-dest"><b>Anthropic</b> <span class="n">(10)</span></span><span class="flow-dest"><b>Vanta</b> <span class="n">(7)</span></span></div>
+        <div class="flow-bar hot"><i style="width:76%"></i></div>
+      </div>
+      <div class="flow-row">
+        <span class="flow-src">RIPPLING</span><span class="flow-arrow">→</span>
+        <div class="flow-dests"><span class="flow-dest"><b>Ramp</b> <span class="n">(9)</span></span><span class="flow-dest"><b>Deel</b> <span class="n">(8)</span></span><span class="flow-dest"><b>Clay</b> <span class="n">(6)</span></span></div>
+        <div class="flow-bar"><i style="width:60%"></i></div>
+      </div>
+      <div class="flow-row">
+        <span class="flow-src">RETOOL</span><span class="flow-arrow">→</span>
+        <div class="flow-dests"><span class="flow-dest"><b>Cursor</b> <span class="n">(8)</span></span><span class="flow-dest"><b>Sierra</b> <span class="n">(5)</span></span><span class="flow-dest"><b>Writer</b> <span class="n">(4)</span></span></div>
+        <div class="flow-bar"><i style="width:44%"></i></div>
+      </div>
+      <div class="flow-row">
+        <span class="flow-src">DEEL</span><span class="flow-arrow">→</span>
+        <div class="flow-dests"><span class="flow-dest"><b>Ramp</b> <span class="n">(6)</span></span><span class="flow-dest"><b>Rippling</b> <span class="n">(5)</span></span><span class="flow-dest"><b>Vanta</b> <span class="n">(3)</span></span></div>
+        <div class="flow-bar"><i style="width:36%"></i></div>
+      </div>
+      <div class="tbl-foot"><span>SOURCE: VERIFIED REP CAREER GRAPH</span><a href="#">EXPLORE THE GRAPH →</a></div>
+    </div>
+  </div>
+
+  <!-- RIGHT COLUMN -->
+  <div class="col-right">
+    <div class="moves">
+      <div class="mod-head">
+        <h2><b>MOVES</b> / LATEST</h2>
+        <span class="meta">LIVE</span>
+      </div>
+      <div class="move"><span class="who">J. Alvarez</span> <span class="what">· Ent AE</span><br><span class="path"><b>Datadog</b> <span class="arr">→</span> <b>Cursor</b></span><span class="ago">2H AGO · NYC → SF</span></div>
+      <div class="move"><span class="who">S. Okafor</span> <span class="what">· Strategic AE</span><br><span class="path"><b>Gong</b> <span class="arr">→</span> <b>Sierra</b></span><span class="ago">5H AGO · SF</span></div>
+      <div class="move"><span class="who">M. Chen</span> <span class="what">· MM AE</span><br><span class="path"><b>Rippling</b> <span class="arr">→</span> <b>Clay</b></span><span class="ago">YESTERDAY · NYC</span></div>
+      <div class="move"><span class="who">D. Kaplan</span> <span class="what">· Ent AE</span><br><span class="path"><b>Deel</b> <span class="arr">→</span> <b>Ramp</b></span><span class="ago">YESTERDAY · REMOTE → NYC</span></div>
+      <div class="move"><span class="who">R. Iyer</span> <span class="what">· Ent AE</span><br><span class="path"><b>Retool</b> <span class="arr">→</span> <b>Anthropic</b></span><span class="ago">2D AGO · SF</span></div>
+      <div class="move"><span class="who">L. Bergström</span> <span class="what">· MM AE</span><br><span class="path"><b>Vanta</b> <span class="arr">→</span> <b>Writer</b></span><span class="ago">2D AGO · NYC</span></div>
+      <div class="tbl-foot" style="padding-left:0;padding-right:0"><span>1,206 MOVES · 30D</span><a href="#">ALL MOVES →</a></div>
+    </div>
+
+    <div class="mod-head">
+      <h2><b>RANKINGS</b> / DESTINATION INDEX</h2>
+      <span class="meta">Q3 '26</span>
+    </div>
+    <div class="rank-row"><span class="idx">01</span><span class="name">Sierra</span><span class="score">98.2</span><span class="d up">▲ 3</span></div>
+    <div class="rank-row"><span class="idx">02</span><span class="name">Cursor</span><span class="score">96.7</span><span class="d up">▲ 5</span></div>
+    <div class="rank-row"><span class="idx">03</span><span class="name">Anthropic</span><span class="score">95.1</span><span class="d up">▲ 1</span></div>
+    <div class="rank-row"><span class="idx">04</span><span class="name">Clay</span><span class="score">92.4</span><span class="d up">▲ 2</span></div>
+    <div class="rank-row"><span class="idx">05</span><span class="name">Ramp</span><span class="score">90.8</span><span class="d dn">▼ 2</span></div>
+    <div class="rank-row"><span class="idx">06</span><span class="name">Writer</span><span class="score">88.3</span><span class="d up">▲ 4</span></div>
+    <div class="rank-row"><span class="idx">07</span><span class="name">Vanta</span><span class="score">86.9</span><span class="d dn">▼ 1</span></div>
+    <div class="rank-row"><span class="idx">08</span><span class="name">Rippling</span><span class="score">84.5</span><span class="d dn">▼ 3</span></div>
+    <div class="tbl-foot" style="padding-left:0;padding-right:0"><span>OTE × GROWTH × ALUMNI PULL</span><a href="#">FULL INDEX →</a></div>
+
+    <div class="watch">
+      <div class="lbl" style="color:var(--accent)">ASK · SAMPLE ANSWER</div>
+      <p>Q: where do Datadog reps go next?<br><br>Top destinations (12mo): <b>Cursor (12)</b>, <b>Anthropic (10)</b>, <b>Vanta (7)</b>. Median OTE uplift on exit: <b>+$28k</b>. 71% moved to Series B–C.</p>
+      <a class="cta" href="#">RUN YOUR OWN QUERY ▸</a>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer"><div class="wrap footer-in">
+  <span>© 2026 ACCOUNTEXECUTIVE.COM · DATA REFRESHED HOURLY</span>
+  <span><a href="#">Methodology</a><a href="#">Sources</a><a href="#">Privacy</a><a href="#">Terms</a></span>
+</div></div>

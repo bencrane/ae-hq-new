@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AccountExecutive.com — The Scoreboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --field:#0c1428;
+    --field-2:#101a33;
+    --panel:#131e3a;
+    --panel-2:#182448;
+    --line:rgba(255,255,255,.08);
+    --line-2:rgba(255,255,255,.14);
+    --volt:#d4ff3f;
+    --volt-dim:rgba(212,255,63,.14);
+    --ink:#f2f5fb;
+    --ink-2:#9aa6c2;
+    --ink-3:#5f6c8c;
+    --red:#ff5d6c;
+    --disp:'Archivo Black',sans-serif;
+    --cond:'Barlow Condensed',sans-serif;
+    --body:'Inter',sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{background:var(--field)}
+  body{font-family:var(--body);color:var(--ink);background:var(--field);-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1280px;margin:0 auto;padding:0 40px}
+  .micro{font-family:var(--cond);font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:12px;color:var(--ink-3)}
+  .micro.volt{color:var(--volt)}
+  a{color:inherit;text-decoration:none}
+
+  /* NAV */
+  nav{border-bottom:1px solid var(--line)}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{display:flex;align-items:center;gap:10px}
+  .logo-mark{width:26px;height:26px;background:var(--volt);color:var(--field);font-family:var(--disp);font-size:13px;display:flex;align-items:center;justify-content:center;border-radius:4px}
+  .logo-word{font-family:var(--cond);font-weight:700;font-size:19px;letter-spacing:.06em;text-transform:uppercase}
+  .logo-word span{color:var(--volt)}
+  .nav-links{display:flex;gap:32px}
+  .nav-links a{font-family:var(--cond);font-weight:600;font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+  .nav-links a.on{color:var(--volt)}
+  .nav-cta{display:flex;gap:12px;align-items:center}
+  .btn-ghost{font-family:var(--cond);font-weight:600;font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);padding:9px 14px}
+  .btn-volt{font-family:var(--cond);font-weight:700;font-size:14px;letter-spacing:.12em;text-transform:uppercase;background:var(--volt);color:#0a1122;padding:10px 20px;border-radius:4px}
+
+  /* STAT STRIP */
+  .statstrip{border-bottom:1px solid var(--line);background:var(--field-2)}
+  .statstrip-inner{display:flex;align-items:center;height:44px;gap:0;overflow:hidden}
+  .stat-cell{display:flex;align-items:baseline;gap:8px;padding:0 28px;border-right:1px solid var(--line)}
+  .stat-cell:first-child{padding-left:0}
+  .stat-num{font-family:var(--cond);font-weight:700;font-size:18px;color:var(--volt);letter-spacing:.02em;font-variant-numeric:tabular-nums}
+  .stat-lab{font-family:var(--cond);font-weight:600;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+  .live-dot{width:7px;height:7px;border-radius:50%;background:var(--volt);box-shadow:0 0 8px rgba(212,255,63,.8);margin-right:4px;align-self:center}
+  .stat-updated{margin-left:auto;font-family:var(--cond);font-weight:600;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+
+  /* HERO */
+  .hero{padding:76px 0 64px;position:relative;overflow:hidden}
+  .hero::before{content:"";position:absolute;inset:0;background:
+    linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px) 0 0/100% 88px,
+    linear-gradient(90deg,rgba(255,255,255,.02) 1px,transparent 1px) 0 0/88px 100%;
+    pointer-events:none}
+  .hero-grid{display:grid;grid-template-columns:1fr 400px;gap:72px;align-items:start;position:relative}
+  .kicker{display:inline-flex;align-items:center;gap:10px;margin-bottom:28px}
+  .kicker-bar{width:28px;height:3px;background:var(--volt)}
+  h1{font-family:var(--disp);font-size:76px;line-height:.98;letter-spacing:-.01em;text-transform:uppercase;margin-bottom:12px}
+  h1 .stroke{color:transparent;-webkit-text-stroke:2px var(--volt)}
+  .hero-sub{font-size:17px;line-height:1.65;color:var(--ink-2);max-width:520px;margin-top:22px}
+  .hero-sub strong{color:var(--ink);font-weight:600}
+  .hero-ctas{display:flex;gap:14px;margin-top:34px;align-items:center}
+  .btn-volt.lg{font-size:16px;padding:15px 30px}
+  .btn-outline{font-family:var(--cond);font-weight:600;font-size:16px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);border:1px solid var(--line-2);padding:14px 28px;border-radius:4px}
+
+  /* hero stat card */
+  .statline{background:var(--panel);border:1px solid var(--line-2);border-radius:8px;overflow:hidden}
+  .statline-head{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid var(--line);background:var(--panel-2)}
+  .statline-body{padding:26px 20px 22px}
+  .big-ote{font-family:var(--disp);font-size:64px;line-height:1;color:var(--volt);letter-spacing:-.01em}
+  .big-ote small{font-size:22px;color:var(--ink-2);font-family:var(--cond);font-weight:600;letter-spacing:.08em;margin-left:8px}
+  .statline-meta{margin-top:8px;font-family:var(--cond);font-weight:600;font-size:15px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2)}
+  .statline-rows{border-top:1px solid var(--line);margin-top:22px}
+  .sl-row{display:flex;justify-content:space-between;align-items:center;padding:13px 0;border-bottom:1px solid var(--line)}
+  .sl-row:last-child{border-bottom:none}
+  .sl-lab{font-family:var(--cond);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+  .sl-val{font-family:var(--cond);font-weight:700;font-size:17px;letter-spacing:.03em;font-variant-numeric:tabular-nums}
+  .sl-val.up{color:var(--volt)}
+  .arrow-up::before{content:"▲ ";font-size:11px}
+  .arrow-dn::before{content:"▼ ";font-size:11px}
+
+  /* ASK TICKER */
+  .ticker-block{padding:0 0 72px;position:relative}
+  .askbar{display:flex;align-items:stretch;border:1px solid var(--line-2);border-radius:6px;overflow:hidden;background:var(--panel)}
+  .askbar-tag{display:flex;align-items:center;gap:10px;background:var(--volt);color:#0a1122;font-family:var(--cond);font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;padding:0 22px;white-space:nowrap}
+  .askbar-q{flex:1;display:flex;align-items:center;padding:0 24px;font-size:16px;color:var(--ink-2);height:64px}
+  .askbar-q .cursor{display:inline-block;width:9px;height:20px;background:var(--volt);margin-left:6px}
+  .askbar-go{display:flex;align-items:center;padding:0 26px;border-left:1px solid var(--line);font-family:var(--cond);font-weight:700;font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:var(--volt)}
+  .ask-chips{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+  .ask-chip{font-family:var(--cond);font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2);border:1px solid var(--line);border-radius:100px;padding:7px 16px}
+
+  /* SECTION HEADS */
+  section{padding:72px 0;border-top:1px solid var(--line)}
+  .sec-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:36px}
+  .sec-title{font-family:var(--disp);font-size:32px;text-transform:uppercase;letter-spacing:.01em}
+  .sec-title .v{color:var(--volt)}
+  .sec-link{font-family:var(--cond);font-weight:600;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--volt)}
+
+  /* TEAM CARDS */
+  .team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .team-card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:20px;display:flex;flex-direction:column;gap:14px;position:relative}
+  .team-card.hot{border-color:rgba(212,255,63,.45)}
+  .tc-top{display:flex;justify-content:space-between;align-items:flex-start}
+  .tc-logo{width:38px;height:38px;border-radius:6px;background:var(--panel-2);border:1px solid var(--line-2);display:flex;align-items:center;justify-content:center;font-family:var(--disp);font-size:15px;color:var(--ink)}
+  .tc-trend{font-family:var(--cond);font-weight:700;font-size:14px;letter-spacing:.04em}
+  .tc-trend.up{color:var(--volt)}
+  .tc-trend.dn{color:var(--red)}
+  .tc-name{font-family:var(--cond);font-weight:700;font-size:22px;letter-spacing:.03em;text-transform:uppercase;line-height:1}
+  .tc-chips{display:flex;gap:6px}
+  .chip{font-family:var(--cond);font-weight:600;font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:4px 9px;border-radius:3px;border:1px solid var(--line-2);color:var(--ink-2)}
+  .chip.volt{background:var(--volt-dim);border-color:rgba(212,255,63,.35);color:var(--volt)}
+  .tc-stats{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid var(--line);padding-top:12px}
+  .tc-stat .n{font-family:var(--cond);font-weight:700;font-size:20px;font-variant-numeric:tabular-nums}
+  .tc-stat .l{font-family:var(--cond);font-weight:600;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-top:2px}
+  .tc-flag{position:absolute;top:-1px;right:16px;background:var(--volt);color:#0a1122;font-family:var(--cond);font-weight:700;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:4px 10px;border-radius:0 0 4px 4px}
+
+  /* JOB BOARD */
+  .board{border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--panel)}
+  .board-head,.board-row{display:grid;grid-template-columns:56px 1.9fr 1.3fr 1fr 1fr 1.1fr 120px;align-items:center;padding:0 24px}
+  .board-head{height:46px;background:var(--panel-2);border-bottom:1px solid var(--line)}
+  .board-head .micro{font-size:11px}
+  .board-row{height:62px;border-bottom:1px solid var(--line);font-size:14px}
+  .board-row:last-child{border-bottom:none}
+  .board-row:nth-child(odd){background:rgba(255,255,255,.015)}
+  .rk{font-family:var(--cond);font-weight:700;font-size:16px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+  .role-cell .r{font-weight:600;font-size:14.5px}
+  .role-cell .c{font-family:var(--cond);font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin-top:2px}
+  .ote-cell{font-family:var(--cond);font-weight:700;font-size:22px;color:var(--volt);letter-spacing:.02em;font-variant-numeric:tabular-nums}
+  .loc-cell{font-family:var(--cond);font-weight:600;font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
+  .seg-cell{font-family:var(--cond);font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
+  .grow-cell{font-family:var(--cond);font-weight:700;font-size:14px}
+  .grow-cell.up{color:var(--volt)}
+  .grow-cell.dn{color:var(--red)}
+  .row-cta{font-family:var(--cond);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--volt);border:1px solid rgba(212,255,63,.35);border-radius:4px;padding:7px 0;text-align:center}
+
+  /* LEADERBOARD */
+  .lb-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:16px;align-items:start}
+  .lb{border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--panel)}
+  .lb-head{display:flex;justify-content:space-between;align-items:center;padding:16px 22px;background:var(--panel-2);border-bottom:1px solid var(--line)}
+  .lb-row{display:grid;grid-template-columns:44px 1fr auto;align-items:center;gap:16px;padding:16px 22px;border-bottom:1px solid var(--line)}
+  .lb-row:last-child{border-bottom:none}
+  .lb-rank{font-family:var(--disp);font-size:20px;color:var(--ink-3)}
+  .lb-row.first .lb-rank{color:var(--volt)}
+  .lb-path{display:flex;align-items:center;gap:12px;font-family:var(--cond);font-weight:700;font-size:19px;letter-spacing:.04em;text-transform:uppercase}
+  .lb-path .arr{color:var(--volt);font-size:16px}
+  .lb-moves{font-family:var(--cond);font-weight:600;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);text-align:right}
+  .lb-moves b{display:block;font-size:19px;font-weight:700;color:var(--ink);letter-spacing:.02em}
+  .lb-row.first .lb-moves b{color:var(--volt)}
+
+  /* transfers side card */
+  .transfers .lb-head{background:var(--panel-2)}
+  .tr-row{display:flex;align-items:center;gap:12px;padding:14px 22px;border-bottom:1px solid var(--line)}
+  .tr-row:last-child{border-bottom:none}
+  .tr-avatar{width:34px;height:34px;border-radius:50%;background:var(--panel-2);border:1px solid var(--line-2);display:flex;align-items:center;justify-content:center;font-family:var(--cond);font-weight:700;font-size:12px;color:var(--ink-2);flex-shrink:0}
+  .tr-line{font-family:var(--cond);font-weight:600;font-size:15px;letter-spacing:.05em;text-transform:uppercase;line-height:1.35}
+  .tr-line .arr{color:var(--volt)}
+  .tr-line .meta{display:block;font-size:12px;letter-spacing:.1em;color:var(--ink-3)}
+
+  /* MOVES TICKER */
+  .moves-ticker{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--field-2);overflow:hidden}
+  .moves-inner{display:flex;align-items:center;height:52px;white-space:nowrap;gap:0}
+  .mt-tag{background:var(--volt);color:#0a1122;font-family:var(--cond);font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;padding:0 20px;height:52px;display:flex;align-items:center;flex-shrink:0}
+  .mt-items{display:flex;gap:0;overflow:hidden}
+  .mt-item{font-family:var(--cond);font-weight:600;font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2);padding:0 26px;border-right:1px solid var(--line);display:flex;align-items:center;height:52px}
+  .mt-item .arr{color:var(--volt);margin:0 8px}
+  .mt-item b{color:var(--ink);font-weight:700;margin-right:8px}
+
+  /* FOOTER CTA */
+  .final{padding:88px 0;text-align:center;border-top:1px solid var(--line);position:relative;overflow:hidden}
+  .final::before{content:"";position:absolute;inset:0;background:radial-gradient(600px 260px at 50% 0%,rgba(212,255,63,.07),transparent 70%);pointer-events:none}
+  .final h2{font-family:var(--disp);font-size:44px;text-transform:uppercase;line-height:1.05;position:relative}
+  .final h2 .v{color:var(--volt)}
+  .final p{color:var(--ink-2);margin:18px auto 30px;max-width:480px;font-size:16px;line-height:1.6;position:relative}
+  footer{border-top:1px solid var(--line);padding:26px 0}
+  .foot-inner{display:flex;justify-content:space-between;align-items:center}
+  .foot-links{display:flex;gap:26px}
+  .foot-links a{font-family:var(--cond);font-weight:600;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-inner">
+    <div class="logo">
+      <div class="logo-mark">AE</div>
+      <div class="logo-word">AccountExecutive<span>.com</span></div>
+    </div>
+    <div class="nav-links">
+      <a class="on" href="#">Jobs</a>
+      <a href="#">Companies</a>
+      <a href="#">Career Paths</a>
+      <a href="#">Comp Data</a>
+    </div>
+    <div class="nav-cta">
+      <a class="btn-ghost" href="#">Sign In</a>
+      <a class="btn-volt" href="#">Get Scouted</a>
+    </div>
+  </div>
+</nav>
+
+<div class="statstrip">
+  <div class="wrap statstrip-inner">
+    <div class="stat-cell"><span class="live-dot"></span><span class="stat-num">27,842</span><span class="stat-lab">Live AE Roles</span></div>
+    <div class="stat-cell"><span class="stat-num">9,410</span><span class="stat-lab">Companies</span></div>
+    <div class="stat-cell"><span class="stat-num">50,212</span><span class="stat-lab">Career Paths</span></div>
+    <div class="stat-updated">Updated · 07:00 ET</div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kicker"><span class="kicker-bar"></span><span class="micro volt">The Career Intelligence Platform for AEs</span></div>
+      <h1>Know the<br>field before<br>you <span class="stroke">sign.</span></h1>
+      <p class="hero-sub">Real OTE numbers. Real company momentum. Real career paths from <strong>50,212 reps</strong> who made the move before you. Stop guessing which team is winning — read the scoreboard.</p>
+      <div class="hero-ctas">
+        <a class="btn-volt lg" href="#">See The Board</a>
+        <a class="btn-outline" href="#">Track A Company</a>
+      </div>
+    </div>
+    <aside class="statline">
+      <div class="statline-head">
+        <span class="micro volt">Stat Line · Enterprise AE</span>
+        <span class="micro">Cursor · SF</span>
+      </div>
+      <div class="statline-body">
+        <div class="big-ote">$300K<small>OTE</small></div>
+        <div class="statline-meta">$150K Base · 50/50 Split · Series C</div>
+        <div class="statline-rows">
+          <div class="sl-row"><span class="sl-lab">Sales Headcount · 6MO</span><span class="sl-val up arrow-up">+64%</span></div>
+          <div class="sl-row"><span class="sl-lab">Reps Quota Attainment</span><span class="sl-val">71% at plan</span></div>
+          <div class="sl-row"><span class="sl-lab">Alumni Inflow Rank</span><span class="sl-val up">#1 This Quarter</span></div>
+          <div class="sl-row"><span class="sl-lab">Last Round</span><span class="sl-val">$105M · Thrive</span></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</header>
+
+<div class="ticker-block">
+  <div class="wrap">
+    <div class="askbar">
+      <div class="askbar-tag">◈ Ask The Analyst</div>
+      <div class="askbar-q">Which Series C companies in NYC pay $300K+ OTE and grew sales headcount last quarter?<span class="cursor"></span></div>
+      <div class="askbar-go">Run It →</div>
+    </div>
+    <div class="ask-chips">
+      <span class="ask-chip">Where do Datadog ENT reps go next?</span>
+      <span class="ask-chip">Highest OTE remote strategic roles</span>
+      <span class="ask-chip">Series B teams hiring first AEs</span>
+      <span class="ask-chip">Compare Ramp vs Rippling comp</span>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-title">Hot Teams <span class="v">This Week</span></div>
+      <a class="sec-link" href="#">All 9,410 Companies →</a>
+    </div>
+    <div class="team-grid">
+      <div class="team-card hot">
+        <div class="tc-flag">Hiring Streak</div>
+        <div class="tc-top"><div class="tc-logo">CU</div><div class="tc-trend up">▲ +64%</div></div>
+        <div class="tc-name">Cursor</div>
+        <div class="tc-chips"><span class="chip volt">Series C</span><span class="chip">Thrive · a16z</span></div>
+        <div class="tc-stats">
+          <div class="tc-stat"><div class="n">38</div><div class="l">Open AE Roles</div></div>
+          <div class="tc-stat"><div class="n">$260–320K</div><div class="l">OTE Band</div></div>
+        </div>
+      </div>
+      <div class="team-card hot">
+        <div class="tc-flag">Hiring Streak</div>
+        <div class="tc-top"><div class="tc-logo">SI</div><div class="tc-trend up">▲ +51%</div></div>
+        <div class="tc-name">Sierra</div>
+        <div class="tc-chips"><span class="chip volt">Series C</span><span class="chip">Sequoia</span></div>
+        <div class="tc-stats">
+          <div class="tc-stat"><div class="n">24</div><div class="l">Open AE Roles</div></div>
+          <div class="tc-stat"><div class="n">$280–340K</div><div class="l">OTE Band</div></div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="tc-top"><div class="tc-logo">RA</div><div class="tc-trend up">▲ +33%</div></div>
+        <div class="tc-name">Ramp</div>
+        <div class="tc-chips"><span class="chip volt">Series D</span><span class="chip">Founders Fund</span></div>
+        <div class="tc-stats">
+          <div class="tc-stat"><div class="n">41</div><div class="l">Open AE Roles</div></div>
+          <div class="tc-stat"><div class="n">$220–300K</div><div class="l">OTE Band</div></div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="tc-top"><div class="tc-logo">CL</div><div class="tc-trend up">▲ +29%</div></div>
+        <div class="tc-name">Clay</div>
+        <div class="tc-chips"><span class="chip volt">Series C</span><span class="chip">Sequoia · Meritech</span></div>
+        <div class="tc-stats">
+          <div class="tc-stat"><div class="n">17</div><div class="l">Open AE Roles</div></div>
+          <div class="tc-stat"><div class="n">$200–280K</div><div class="l">OTE Band</div></div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="tc-top"><div class="tc-logo">AN</div><div class="tc-trend up">▲ +27%</div></div>
+        <div class="tc-name">Anthropic</div>
+        <div class="tc-chips"><span class="chip volt">Growth</span><span class="chip">Spark · GV</span></div>
+        <div class="tc-stats">
+          <div class="tc-stat"><div class="n">29</div><div class="l">Open AE Roles</div></div>
+          <div class="tc-stat"><div class="n">$270–350K</div><div class="l">OTE Band</div></div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="tc-top"><div class="tc-logo">RI</div><div class="tc-trend up">▲ +19%</div></div>
+        <div class="tc-name">Rippling</div>
+        <div class="tc-chips"><span class="chip volt">Series F</span><span class="chip">Kleiner</span></div>
+        <div class="tc-stats">
+          <div class="tc-stat"><div class="n">52</div><div class="l">Open AE Roles</div></div>
+          <div class="tc-stat"><div class="n">$190–280K</div><div class="l">OTE Band</div></div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="tc-top"><div class="tc-logo">WR</div><div class="tc-trend up">▲ +14%</div></div>
+        <div class="tc-name">Writer</div>
+        <div class="tc-chips"><span class="chip volt">Series C</span><span class="chip">ICONIQ</span></div>
+        <div class="tc-stats">
+          <div class="tc-stat"><div class="n">13</div><div class="l">Open AE Roles</div></div>
+          <div class="tc-stat"><div class="n">$230–290K</div><div class="l">OTE Band</div></div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="tc-top"><div class="tc-logo">DD</div><div class="tc-trend dn">▼ −6%</div></div>
+        <div class="tc-name">Datadog</div>
+        <div class="tc-chips"><span class="chip">Public</span><span class="chip">NASDAQ: DDOG</span></div>
+        <div class="tc-stats">
+          <div class="tc-stat"><div class="n">21</div><div class="l">Open AE Roles</div></div>
+          <div class="tc-stat"><div class="n">$240–320K</div><div class="l">OTE Band</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-title">Today's <span class="v">Board</span></div>
+      <a class="sec-link" href="#">All 27,842 Roles →</a>
+    </div>
+    <div class="board">
+      <div class="board-head">
+        <span class="micro">#</span><span class="micro">Role / Company</span><span class="micro">OTE</span><span class="micro">Location</span><span class="micro">Segment</span><span class="micro">Team Trend</span><span class="micro"></span>
+      </div>
+      <div class="board-row"><span class="rk">01</span><div class="role-cell"><div class="r">Enterprise Account Executive</div><div class="c">Cursor</div></div><span class="ote-cell">$300K</span><span class="loc-cell">SF</span><span class="seg-cell">Enterprise</span><span class="grow-cell up">▲ +64% HC</span><a class="row-cta" href="#">Scout</a></div>
+      <div class="board-row"><span class="rk">02</span><div class="role-cell"><div class="r">Strategic Account Executive</div><div class="c">Anthropic</div></div><span class="ote-cell">$340K</span><span class="loc-cell">NYC</span><span class="seg-cell">Strategic</span><span class="grow-cell up">▲ +27% HC</span><a class="row-cta" href="#">Scout</a></div>
+      <div class="board-row"><span class="rk">03</span><div class="role-cell"><div class="r">Enterprise Account Executive</div><div class="c">Sierra</div></div><span class="ote-cell">$320K</span><span class="loc-cell">SF</span><span class="seg-cell">Enterprise</span><span class="grow-cell up">▲ +51% HC</span><a class="row-cta" href="#">Scout</a></div>
+      <div class="board-row"><span class="rk">04</span><div class="role-cell"><div class="r">Mid-Market Account Executive</div><div class="c">Ramp</div></div><span class="ote-cell">$220K</span><span class="loc-cell">NYC</span><span class="seg-cell">Mid-Market</span><span class="grow-cell up">▲ +33% HC</span><a class="row-cta" href="#">Scout</a></div>
+      <div class="board-row"><span class="rk">05</span><div class="role-cell"><div class="r">Enterprise Account Executive</div><div class="c">Rippling</div></div><span class="ote-cell">$280K</span><span class="loc-cell">Austin</span><span class="seg-cell">Enterprise</span><span class="grow-cell up">▲ +19% HC</span><a class="row-cta" href="#">Scout</a></div>
+      <div class="board-row"><span class="rk">06</span><div class="role-cell"><div class="r">Mid-Market Account Executive</div><div class="c">Clay</div></div><span class="ote-cell">$200K</span><span class="loc-cell">NYC</span><span class="seg-cell">Mid-Market</span><span class="grow-cell up">▲ +29% HC</span><a class="row-cta" href="#">Scout</a></div>
+      <div class="board-row"><span class="rk">07</span><div class="role-cell"><div class="r">Enterprise Account Executive</div><div class="c">Vanta</div></div><span class="ote-cell">$260K</span><span class="loc-cell">Remote</span><span class="seg-cell">Enterprise</span><span class="grow-cell up">▲ +11% HC</span><a class="row-cta" href="#">Scout</a></div>
+      <div class="board-row"><span class="rk">08</span><div class="role-cell"><div class="r">Strategic Account Executive</div><div class="c">Gong</div></div><span class="ote-cell">$300K</span><span class="loc-cell">SF</span><span class="seg-cell">Strategic</span><span class="grow-cell dn">▼ −3% HC</span><a class="row-cta" href="#">Scout</a></div>
+      <div class="board-row"><span class="rk">09</span><div class="role-cell"><div class="r">Mid-Market Account Executive</div><div class="c">Retool</div></div><span class="ote-cell">$190K</span><span class="loc-cell">SF</span><span class="seg-cell">Mid-Market</span><span class="grow-cell up">▲ +8% HC</span><a class="row-cta" href="#">Scout</a></div>
+      <div class="board-row"><span class="rk">10</span><div class="role-cell"><div class="r">Enterprise Account Executive</div><div class="c">Deel</div></div><span class="ote-cell">$250K</span><span class="loc-cell">Remote</span><span class="seg-cell">Enterprise</span><span class="grow-cell up">▲ +9% HC</span><a class="row-cta" href="#">Scout</a></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-title">Career <span class="v">Leaderboard</span></div>
+      <a class="sec-link" href="#">Full Transfer Market →</a>
+    </div>
+    <div class="lb-grid">
+      <div class="lb">
+        <div class="lb-head"><span class="micro volt">Top Transfer Routes · Q3 2026</span><span class="micro">50,212 paths tracked</span></div>
+        <div class="lb-row first">
+          <span class="lb-rank">1</span>
+          <div class="lb-path">Datadog <span class="arr">→</span> Cursor</div>
+          <div class="lb-moves"><b>12</b>Moves This Qtr</div>
+        </div>
+        <div class="lb-row">
+          <span class="lb-rank">2</span>
+          <div class="lb-path">Gong <span class="arr">→</span> Sierra</div>
+          <div class="lb-moves"><b>9</b>Moves This Qtr</div>
+        </div>
+        <div class="lb-row">
+          <span class="lb-rank">3</span>
+          <div class="lb-path">Rippling <span class="arr">→</span> Anthropic</div>
+          <div class="lb-moves"><b>8</b>Moves This Qtr</div>
+        </div>
+        <div class="lb-row">
+          <span class="lb-rank">4</span>
+          <div class="lb-path">Retool <span class="arr">→</span> Clay</div>
+          <div class="lb-moves"><b>7</b>Moves This Qtr</div>
+        </div>
+        <div class="lb-row">
+          <span class="lb-rank">5</span>
+          <div class="lb-path">Deel <span class="arr">→</span> Ramp</div>
+          <div class="lb-moves"><b>6</b>Moves This Qtr</div>
+        </div>
+      </div>
+      <div class="lb transfers">
+        <div class="lb-head"><span class="micro volt">Latest Signings</span><span class="micro">Live</span></div>
+        <div class="tr-row"><div class="tr-avatar">JA</div><div class="tr-line"><b>J. Alvarez</b> Datadog <span class="arr">→</span> Cursor<span class="meta">ENT AE · SF · Signed 2 days ago</span></div></div>
+        <div class="tr-row"><div class="tr-avatar">MK</div><div class="tr-line"><b>M. Kwon</b> Gong <span class="arr">→</span> Sierra<span class="meta">Strategic AE · SF · Signed 3 days ago</span></div></div>
+        <div class="tr-row"><div class="tr-avatar">DP</div><div class="tr-line"><b>D. Patel</b> Rippling <span class="arr">→</span> Anthropic<span class="meta">ENT AE · NYC · Signed 5 days ago</span></div></div>
+        <div class="tr-row"><div class="tr-avatar">SR</div><div class="tr-line"><b>S. Romano</b> Vanta <span class="arr">→</span> Writer<span class="meta">MM AE · Remote · Signed 6 days ago</span></div></div>
+        <div class="tr-row"><div class="tr-avatar">TL</div><div class="tr-line"><b>T. Liu</b> Retool <span class="arr">→</span> Clay<span class="meta">MM AE · NYC · Signed 1 week ago</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="moves-ticker">
+  <div class="moves-inner">
+    <div class="mt-tag">Moves Wire</div>
+    <div class="mt-items">
+      <div class="mt-item"><b>J. Alvarez</b> ENT AE · Datadog<span class="arr">→</span>Cursor</div>
+      <div class="mt-item"><b>M. Kwon</b> STRAT AE · Gong<span class="arr">→</span>Sierra</div>
+      <div class="mt-item"><b>D. Patel</b> ENT AE · Rippling<span class="arr">→</span>Anthropic</div>
+      <div class="mt-item"><b>S. Romano</b> MM AE · Vanta<span class="arr">→</span>Writer</div>
+      <div class="mt-item"><b>T. Liu</b> MM AE · Retool<span class="arr">→</span>Clay</div>
+    </div>
+  </div>
+</div>
+
+<section class="final" style="border-top:none">
+  <div class="wrap">
+    <h2>Your next move is <span class="v">on the board.</span></h2>
+    <p>27,842 live AE roles, scored by comp, momentum, and where winning reps actually go next. Free for AEs. Always.</p>
+    <a class="btn-volt lg" href="#">Get Scouted — Free</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-inner">
+    <div class="logo">
+      <div class="logo-mark" style="width:22px;height:22px;font-size:11px">AE</div>
+      <span class="micro" style="color:var(--ink-2)">AccountExecutive.com · The Scoreboard</span>
+    </div>
+    <div class="foot-links">
+      <a href="#">Jobs</a><a href="#">Companies</a><a href="#">Career Paths</a><a href="#">Comp Data</a><a href="#">Privacy</a>
+    </div>
+    <span class="micro">© 2026 AccountExecutive.com</span>
+  </div>
+</footer>
+
+</body>
+</html>
