@@ -1,0 +1,2282 @@
+[
+ {
+  "candidate_id": "c4acd09b-5b44-40f9-b1e5-d8f7f21fa488",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 215170,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:04.087606+00:00",
+  "target_investors": [
+   "Sequoia Capital",
+   "Index Ventures"
+  ],
+  "watched_companies": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6"
+  ],
+  "auto_match": true,
+  "discoverable": false
+ },
+ {
+  "candidate_id": "82a8b767-bd83-405f-b586-229bce2d7b8b",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 192973,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:04.424909+00:00",
+  "target_investors": [
+   "Khosla Ventures",
+   "Founders Fund"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "92b00e04-dd76-45d4-b220-4194e31f2b7b",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 212130,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:04.596633+00:00",
+  "target_investors": [
+   "Index Ventures",
+   "Bessemer Venture Partners"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "ff6ffbc7-e532-42f0-aca4-0591b8cf15c0",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 247902,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:04.75752+00:00",
+  "target_investors": [
+   "Accel",
+   "General Catalyst"
+  ],
+  "watched_companies": [
+   "f3157f6a-b3ba-4b3c-84d4-5bb11bd3c438"
+  ],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "4a5dda10-dca9-4af5-95a6-dedff3faa3e1",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 288975,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:05.095321+00:00",
+  "target_investors": [
+   "Bessemer Venture Partners",
+   "Andreessen Horowitz"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "9148aeb2-0f3a-4f6a-bf47-6f9306f759e0",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 255330,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:05.211333+00:00",
+  "target_investors": [
+   "General Catalyst",
+   "Khosla Ventures"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": false
+ },
+ {
+  "candidate_id": "1579fa9e-6d72-4527-8fa9-a96ca273fc20",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 187382,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:05.342639+00:00",
+  "target_investors": [
+   "Sequoia Capital",
+   "Index Ventures"
+  ],
+  "watched_companies": [
+   "a9e9f612-16db-4af2-ae2c-43aa5d2040fd"
+  ],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "872a8f29-cfa8-4d01-aa61-a14634003f70",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 197503,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:05.508601+00:00",
+  "target_investors": [
+   "Andreessen Horowitz",
+   "Accel"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "30f26f21-6064-445d-b55f-dd10aa613831",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 316354,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:05.780664+00:00",
+  "target_investors": [
+   "Index Ventures",
+   "Bessemer Venture Partners"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "20589600-eba1-4549-a419-40872d9914e2",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 355326,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:05.942307+00:00",
+  "target_investors": [
+   "Accel",
+   "General Catalyst"
+  ],
+  "watched_companies": [
+   "b41884fb-95e7-42a4-8b49-f018e52ee39f"
+  ],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "6b64321d-96f2-49de-81eb-4a31622d3823",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 269152,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:06.098256+00:00",
+  "target_investors": [
+   "Founders Fund",
+   "Sequoia Capital"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "2fea7fa9-fc42-405a-9f8c-a6c5c4e8aa53",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 190558,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:06.396246+00:00",
+  "target_investors": [
+   "General Catalyst",
+   "Khosla Ventures"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "e0fd96c3-d84e-43c0-8234-ad644fef301d",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 356217,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:06.617161+00:00",
+  "target_investors": [
+   "Sequoia Capital",
+   "Index Ventures"
+  ],
+  "watched_companies": [
+   "3a3deaab-09d3-4f09-92cf-8240f572fd36"
+  ],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "3095c602-cc41-48cb-89a4-e930179e8dfc",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 229002,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:06.738252+00:00",
+  "target_investors": [
+   "Andreessen Horowitz",
+   "Accel"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "25d00e77-156a-4a00-a658-4b05389317c8",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 362572,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:06.914691+00:00",
+  "target_investors": [
+   "Khosla Ventures",
+   "Founders Fund"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "895b80f5-402b-4e25-ad90-947215ee3c16",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 273724,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:07.191807+00:00",
+  "target_investors": [
+   "Accel",
+   "General Catalyst"
+  ],
+  "watched_companies": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6"
+  ],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "646ab115-4ae4-4e95-97b7-711902d6d79e",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 185682,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:07.312717+00:00",
+  "target_investors": [
+   "Founders Fund",
+   "Sequoia Capital"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": false
+ },
+ {
+  "candidate_id": "2236524a-d460-49b8-beec-9e0485703ce2",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 313913,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:07.458966+00:00",
+  "target_investors": [
+   "Bessemer Venture Partners",
+   "Andreessen Horowitz"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "8c2a0809-4f32-423e-b063-db30231c0b64",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 202444,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:07.741237+00:00",
+  "target_investors": [
+   "Sequoia Capital",
+   "Index Ventures"
+  ],
+  "watched_companies": [
+   "f3157f6a-b3ba-4b3c-84d4-5bb11bd3c438"
+  ],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "124e1cc4-b8f4-4ec5-911b-6c6cb8c67edf",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 195622,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:07.872346+00:00",
+  "target_investors": [
+   "Andreessen Horowitz",
+   "Accel"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "7691ff99-abb5-4764-83e0-2b1c69ef2448",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 188864,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:08.043729+00:00",
+  "target_investors": [
+   "Khosla Ventures",
+   "Founders Fund"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "70dd5a5c-6994-469f-bb01-3bb560cabeb3",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 222307,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:08.164586+00:00",
+  "target_investors": [
+   "Index Ventures",
+   "Bessemer Venture Partners"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "fa35cbd7-cd13-4caa-a095-6959188ad6d5",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 344191,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:08.467012+00:00",
+  "target_investors": [
+   "Founders Fund",
+   "Sequoia Capital"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "5712215e-6064-48c7-b293-e2c3291a292a",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 201699,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:08.587964+00:00",
+  "target_investors": [
+   "Bessemer Venture Partners",
+   "Andreessen Horowitz"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "7c982f06-f535-45e1-b334-045b2a6a08ba",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 265928,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:08.714236+00:00",
+  "target_investors": [
+   "General Catalyst",
+   "Khosla Ventures"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "7a1d675b-5153-4b5b-8615-9f40c7c12e42",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 188381,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:09.011634+00:00",
+  "target_investors": [
+   "Andreessen Horowitz",
+   "Accel"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "d4d78eec-72d5-4094-859c-fd2588957b6d",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 288060,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:09.122221+00:00",
+  "target_investors": [
+   "Khosla Ventures",
+   "Founders Fund"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "cdd97eaa-e7de-4344-94fd-cad3e82c5568",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 374676,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:09.268296+00:00",
+  "target_investors": [
+   "Index Ventures",
+   "Bessemer Venture Partners"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": false
+ },
+ {
+  "candidate_id": "00ee730c-088c-4602-ab87-88aed2cb568c",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 208382,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:09.440062+00:00",
+  "target_investors": [
+   "Accel",
+   "General Catalyst"
+  ],
+  "watched_companies": [
+   "3a3deaab-09d3-4f09-92cf-8240f572fd36"
+  ],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "eaac7c93-6fcf-48de-8453-c66509c71979",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 180363,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:09.692038+00:00",
+  "target_investors": [
+   "Bessemer Venture Partners",
+   "Andreessen Horowitz"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "832ae099-7da5-4093-944f-c00958ab98cc",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 190996,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:09.812627+00:00",
+  "target_investors": [
+   "General Catalyst",
+   "Khosla Ventures"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "a2ac248a-890e-461f-b32a-f68c9813d044",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 298342,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:10.125386+00:00",
+  "target_investors": [
+   "Andreessen Horowitz",
+   "Accel"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "edd11230-1737-4a14-86e1-420b6baeb8e4",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 376026,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:10.235929+00:00",
+  "target_investors": [
+   "Khosla Ventures",
+   "Founders Fund"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": false
+ },
+ {
+  "candidate_id": "9dd05c70-c299-4a03-afb0-767fe4ed0db9",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 312736,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:10.420682+00:00",
+  "target_investors": [
+   "Index Ventures",
+   "Bessemer Venture Partners"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "b8818f23-3eee-450f-8049-be566380fd37",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 334114,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:10.68984+00:00",
+  "target_investors": [
+   "Founders Fund",
+   "Sequoia Capital"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "1a9dc35a-8465-4d58-84e2-21783d6daef7",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 313922,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:10.810367+00:00",
+  "target_investors": [
+   "Bessemer Venture Partners",
+   "Andreessen Horowitz"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "f84b5ed7-966f-4a74-b7b7-760d566bdd05",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 245197,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:10.932158+00:00",
+  "target_investors": [
+   "General Catalyst",
+   "Khosla Ventures"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "d7e515e3-24c6-4607-a166-59bea9d7cbd1",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 295284,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:11.102867+00:00",
+  "target_investors": [
+   "Sequoia Capital",
+   "Index Ventures"
+  ],
+  "watched_companies": [
+   "a9e9f612-16db-4af2-ae2c-43aa5d2040fd"
+  ],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "d4a35607-5faf-43aa-b764-6f4ed2611138",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 376372,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:11.380076+00:00",
+  "target_investors": [
+   "Khosla Ventures",
+   "Founders Fund"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "d6128c39-1956-4f5e-ad4d-554dade9e9ad",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 373337,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:11.541298+00:00",
+  "target_investors": [
+   "Index Ventures",
+   "Bessemer Venture Partners"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "b11b72bc-26b0-4ced-a6ff-88c878118e9d",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 327316,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:11.662303+00:00",
+  "target_investors": [
+   "Accel",
+   "General Catalyst"
+  ],
+  "watched_companies": [
+   "b41884fb-95e7-42a4-8b49-f018e52ee39f"
+  ],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "e5e42da3-a0d3-476f-8580-f49b2d50e818",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 334583,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:11.984825+00:00",
+  "target_investors": [
+   "Bessemer Venture Partners",
+   "Andreessen Horowitz"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "d3f2bdf4-14b5-4dd4-916c-863c4196fb9d",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 269157,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:12.131042+00:00",
+  "target_investors": [
+   "General Catalyst",
+   "Khosla Ventures"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "5b0b8c99-475d-4a58-9b2d-ad27bba272c9",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 198610,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:12.267114+00:00",
+  "target_investors": [
+   "Sequoia Capital",
+   "Index Ventures"
+  ],
+  "watched_companies": [
+   "3a3deaab-09d3-4f09-92cf-8240f572fd36"
+  ],
+  "auto_match": false,
+  "discoverable": false
+ },
+ {
+  "candidate_id": "bbb62239-e3e5-4819-ac8a-8f78d7bfe1bc",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 193215,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:12.554745+00:00",
+  "target_investors": [
+   "Khosla Ventures",
+   "Founders Fund"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "6fe8ab76-208f-4efb-aa5b-63cda01d58a1",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 266064,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:12.690368+00:00",
+  "target_investors": [
+   "Index Ventures",
+   "Bessemer Venture Partners"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "62010589-5465-4a7c-9a9a-641fec518364",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 297681,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:12.826422+00:00",
+  "target_investors": [
+   "Accel",
+   "General Catalyst"
+  ],
+  "watched_companies": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6"
+  ],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "0d913d3c-7a70-4778-8c6d-6a1499dfb62d",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 266977,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:12.997889+00:00",
+  "target_investors": [
+   "Founders Fund",
+   "Sequoia Capital"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "6dedf442-0147-4479-92fd-31931374398a",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 306560,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:13.285226+00:00",
+  "target_investors": [
+   "General Catalyst",
+   "Khosla Ventures"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": false
+ },
+ {
+  "candidate_id": "9cde717e-93f1-452b-8897-a9723f25546c",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 378588,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:13.456581+00:00",
+  "target_investors": [
+   "Sequoia Capital",
+   "Index Ventures"
+  ],
+  "watched_companies": [
+   "f3157f6a-b3ba-4b3c-84d4-5bb11bd3c438"
+  ],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "068089bc-1fde-4c09-a13f-1c242e5f066b",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 287419,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:13.572497+00:00",
+  "target_investors": [
+   "Andreessen Horowitz",
+   "Accel"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "6c3cdc5e-927a-46cb-bdf0-500228863230",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 306261,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:13.864749+00:00",
+  "target_investors": [
+   "Index Ventures",
+   "Bessemer Venture Partners"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "fbb3b61b-4d98-400a-ac10-8e0ed35d6ef8",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 242590,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:14.00595+00:00",
+  "target_investors": [
+   "Accel",
+   "General Catalyst"
+  ],
+  "watched_companies": [
+   "a9e9f612-16db-4af2-ae2c-43aa5d2040fd"
+  ],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "dfdf7e38-0dc0-4782-82ac-dbd7ad279583",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 336538,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:14.177237+00:00",
+  "target_investors": [
+   "Founders Fund",
+   "Sequoia Capital"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "06fd4da5-a6f6-4204-aa5e-913085c7246b",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 344962,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:14.303216+00:00",
+  "target_investors": [
+   "Bessemer Venture Partners",
+   "Andreessen Horowitz"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": false
+ },
+ {
+  "candidate_id": "e71cc379-1dcb-4077-b85c-9ea7eb40c85e",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 265293,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:14.546225+00:00",
+  "target_investors": [
+   "Sequoia Capital",
+   "Index Ventures"
+  ],
+  "watched_companies": [
+   "b41884fb-95e7-42a4-8b49-f018e52ee39f"
+  ],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "bd47abaf-2dfd-4a31-8e76-e8f73713d819",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 366786,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:14.686334+00:00",
+  "target_investors": [
+   "Andreessen Horowitz",
+   "Accel"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "db9c7548-f92c-4598-bb2a-932d7b648d98",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 227013,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:14.837526+00:00",
+  "target_investors": [
+   "Khosla Ventures",
+   "Founders Fund"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "ffba64ef-ed08-49cd-b94a-2960e0a7f9e6",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise",
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 280000,
+  "target_geos": [
+   "San Francisco, CA",
+   "Remote"
+  ],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:03.729363+00:00",
+  "target_investors": [
+   "Sequoia Capital",
+   "Andreessen Horowitz",
+   "Khosla Ventures"
+  ],
+  "watched_companies": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "a9e9f612-16db-4af2-ae2c-43aa5d2040fd"
+  ],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "df6ac2d5-ff5f-4602-9c91-e043fb86b392",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 231989,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:04.248917+00:00",
+  "target_investors": [
+   "Andreessen Horowitz",
+   "Accel"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "70ffc9ee-1b73-4521-aad4-ef19dee4ede1",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 278288,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:04.924213+00:00",
+  "target_investors": [
+   "Founders Fund",
+   "Sequoia Capital"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "390e9825-f667-4124-b7f5-0df8f93c1b83",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 241431,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:05.649648+00:00",
+  "target_investors": [
+   "Khosla Ventures",
+   "Founders Fund"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "ae12db6b-1b0e-4d9f-a665-e0c5e99c315b",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 262390,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:06.219192+00:00",
+  "target_investors": [
+   "Bessemer Venture Partners",
+   "Andreessen Horowitz"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": false
+ },
+ {
+  "candidate_id": "efc5c2bd-ab6b-4d32-9375-733c39e2328f",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 217292,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:07.05587+00:00",
+  "target_investors": [
+   "Index Ventures",
+   "Bessemer Venture Partners"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "5778ce10-083e-4e90-bb5e-abb3fb890245",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 367388,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:07.620295+00:00",
+  "target_investors": [
+   "General Catalyst",
+   "Khosla Ventures"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "a826bc99-c4c2-436d-8119-cdd54e8cec0e",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 331642,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:08.290646+00:00",
+  "target_investors": [
+   "Accel",
+   "General Catalyst"
+  ],
+  "watched_companies": [
+   "a9e9f612-16db-4af2-ae2c-43aa5d2040fd"
+  ],
+  "auto_match": false,
+  "discoverable": false
+ },
+ {
+  "candidate_id": "d3d18e26-7e14-4968-8ee7-579117e44fa6",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 350799,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:08.875514+00:00",
+  "target_investors": [
+   "Sequoia Capital",
+   "Index Ventures"
+  ],
+  "watched_companies": [
+   "b41884fb-95e7-42a4-8b49-f018e52ee39f"
+  ],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "ccae9d1d-60d1-4a47-9ee6-b91afbaaa865",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 331662,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:09.550594+00:00",
+  "target_investors": [
+   "Founders Fund",
+   "Sequoia Capital"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "b5519e20-1ef9-46fe-8e74-56806e10c65e",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 332159,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:15.125576+00:00",
+  "target_investors": [
+   "Accel",
+   "General Catalyst"
+  ],
+  "watched_companies": [
+   "3a3deaab-09d3-4f09-92cf-8240f572fd36"
+  ],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "6412c75c-6da9-4dc1-9f0b-aaa49c219c29",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 350293,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:15.366721+00:00",
+  "target_investors": [
+   "Bessemer Venture Partners",
+   "Andreessen Horowitz"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "de2e4e42-fb93-436f-a1c7-93bd8ddb010e",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 306436,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:15.488114+00:00",
+  "target_investors": [
+   "General Catalyst",
+   "Khosla Ventures"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "b02386f0-3d88-40e7-8203-8271a67aea64",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 254801,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:15.659006+00:00",
+  "target_investors": [
+   "Sequoia Capital",
+   "Index Ventures"
+  ],
+  "watched_companies": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6"
+  ],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "88f5ec3c-9856-47da-a6c6-0f295214c683",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 323868,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:15.769865+00:00",
+  "target_investors": [
+   "Andreessen Horowitz",
+   "Accel"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "7fa4c5cb-9f4b-4ab5-98a9-55eb1de1e5fe",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 309667,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:16.067285+00:00",
+  "target_investors": [
+   "Index Ventures",
+   "Bessemer Venture Partners"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "5ea6526c-9cd2-456c-87c8-2aae03e7de6f",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 352350,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:16.263838+00:00",
+  "target_investors": [
+   "Accel",
+   "General Catalyst"
+  ],
+  "watched_companies": [
+   "f3157f6a-b3ba-4b3c-84d4-5bb11bd3c438"
+  ],
+  "auto_match": true,
+  "discoverable": false
+ },
+ {
+  "candidate_id": "17a6b1b5-847b-4a7b-bfdf-920ef2e5deec",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 236283,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:16.385144+00:00",
+  "target_investors": [
+   "Founders Fund",
+   "Sequoia Capital"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "c5c375d8-c34b-464b-9238-791fcbde8e0b",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 357209,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:16.66697+00:00",
+  "target_investors": [
+   "General Catalyst",
+   "Khosla Ventures"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "0d72f1f3-f34c-41e7-9d2f-8dc7af273c7d",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 263205,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:16.813214+00:00",
+  "target_investors": [
+   "Sequoia Capital",
+   "Index Ventures"
+  ],
+  "watched_companies": [
+   "a9e9f612-16db-4af2-ae2c-43aa5d2040fd"
+  ],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "7b2da295-b8ab-4874-9847-d2f753e43ba9",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 263635,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:16.974436+00:00",
+  "target_investors": [
+   "Andreessen Horowitz",
+   "Accel"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "d25b01cc-7102-464a-8f38-7c9b48546167",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 250560,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:17.135726+00:00",
+  "target_investors": [
+   "Khosla Ventures",
+   "Founders Fund"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "c1e873c1-be22-46cf-a075-4a03cde9ee08",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 360202,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:17.417999+00:00",
+  "target_investors": [
+   "Accel",
+   "General Catalyst"
+  ],
+  "watched_companies": [
+   "b41884fb-95e7-42a4-8b49-f018e52ee39f"
+  ],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "89bce409-ff39-4805-a12a-b794dec24d92",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 210123,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:17.59933+00:00",
+  "target_investors": [
+   "Founders Fund",
+   "Sequoia Capital"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "fb27de20-ef27-4d79-ab4c-343c2e2c435d",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 213915,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:17.760671+00:00",
+  "target_investors": [
+   "Bessemer Venture Partners",
+   "Andreessen Horowitz"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "c5f9d1de-0011-42af-a392-6dddea19e920",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 299857,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:18.017816+00:00",
+  "target_investors": [
+   "Sequoia Capital",
+   "Index Ventures"
+  ],
+  "watched_companies": [
+   "3a3deaab-09d3-4f09-92cf-8240f572fd36"
+  ],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "bca45b05-4c14-4034-b290-b35092c2a11a",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 375597,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:18.153783+00:00",
+  "target_investors": [
+   "Andreessen Horowitz",
+   "Accel"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "cf37c286-076d-44a3-ab73-c5c69e9eebb2",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 337209,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:18.28507+00:00",
+  "target_investors": [
+   "Khosla Ventures",
+   "Founders Fund"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": false
+ },
+ {
+  "candidate_id": "20762fde-2805-4034-b6d4-4c8bb5c18fa1",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 298518,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:18.420901+00:00",
+  "target_investors": [
+   "Index Ventures",
+   "Bessemer Venture Partners"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "40e8b238-407c-495d-9043-4764ea65b2ef",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 296303,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:09.978924+00:00",
+  "target_investors": [
+   "Sequoia Capital",
+   "Index Ventures"
+  ],
+  "watched_companies": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6"
+  ],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "8d627059-3f7d-4a0a-919b-d95f016f13f9",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 193399,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:10.548482+00:00",
+  "target_investors": [
+   "Accel",
+   "General Catalyst"
+  ],
+  "watched_companies": [
+   "f3157f6a-b3ba-4b3c-84d4-5bb11bd3c438"
+  ],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "56236b9c-e09b-4dd0-8d38-dcf0c3d3d68d",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 253519,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:11.269191+00:00",
+  "target_investors": [
+   "Andreessen Horowitz",
+   "Accel"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": false
+ },
+ {
+  "candidate_id": "5b2c9100-2df3-44e8-93c5-c1b2d48f881c",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 201992,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:11.833662+00:00",
+  "target_investors": [
+   "Founders Fund",
+   "Sequoia Capital"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "4d3b81a8-e90f-439b-877f-2f0b912c1129",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 193689,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:12.382975+00:00",
+  "target_investors": [
+   "Andreessen Horowitz",
+   "Accel"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "3eb10c1e-8ffa-4982-ab4f-600e6eb605ed",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 275732,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:13.133941+00:00",
+  "target_investors": [
+   "Bessemer Venture Partners",
+   "Andreessen Horowitz"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "88689b83-d311-4495-be25-21f89a84931c",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "MidMarket"
+  ],
+  "comp_ote_min": 343830,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:13.743843+00:00",
+  "target_investors": [
+   "Khosla Ventures",
+   "Founders Fund"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "e649e300-2d19-4a77-adbf-151c3e03b235",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 181925,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:14.429207+00:00",
+  "target_investors": [
+   "General Catalyst",
+   "Khosla Ventures"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "0122aad4-2732-4f78-bee1-eaec18979832",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 269223,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:15.018944+00:00",
+  "target_investors": [
+   "Index Ventures",
+   "Bessemer Venture Partners"
+  ],
+  "watched_companies": [],
+  "auto_match": true,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "4dd42460-afca-4cab-a7b6-8eb6c9b736f5",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 330170,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:15.235712+00:00",
+  "target_investors": [
+   "Founders Fund",
+   "Sequoia Capital"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": false
+ },
+ {
+  "candidate_id": "6781469f-19f8-499b-9203-2631ba54224a",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "SMB"
+  ],
+  "comp_ote_min": 231224,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:15.906109+00:00",
+  "target_investors": [
+   "Khosla Ventures",
+   "Founders Fund"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "291cf0c5-2977-4539-9e51-3c91d0887b47",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 331957,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:16.551091+00:00",
+  "target_investors": [
+   "Bessemer Venture Partners",
+   "Andreessen Horowitz"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ },
+ {
+  "candidate_id": "cb37a236-3939-4789-9695-bb480d91c08b",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "Enterprise"
+  ],
+  "comp_ote_min": 288322,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:17.24158+00:00",
+  "target_investors": [
+   "Index Ventures",
+   "Bessemer Venture Partners"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": false
+ },
+ {
+  "candidate_id": "7565c482-4108-4b76-afbe-226e12b3ce97",
+  "target_stages": [
+   "SeriesB",
+   "SeriesC",
+   "SeriesD"
+  ],
+  "target_segments": [
+   "StrategicEnterprise"
+  ],
+  "comp_ote_min": 218403,
+  "target_geos": [],
+  "target_companies": [],
+  "updated_at": "2026-05-20T15:17:17.871438+00:00",
+  "target_investors": [
+   "General Catalyst",
+   "Khosla Ventures"
+  ],
+  "watched_companies": [],
+  "auto_match": false,
+  "discoverable": true
+ }
+]

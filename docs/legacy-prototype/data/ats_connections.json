@@ -1,0 +1,9 @@
+[
+ {
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "vendor": "greenhouse",
+  "encrypted_credentials": "mock_encrypted",
+  "last_synced_at": "2026-05-20T13:17:18.633704+00:00",
+  "created_at": "2026-05-20T15:17:18.633704+00:00"
+ }
+]

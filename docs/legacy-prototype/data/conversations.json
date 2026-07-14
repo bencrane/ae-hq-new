@@ -1,0 +1,182 @@
+[
+ {
+  "id": "cb84b76c-cef2-4397-b4d7-098ebe629c35",
+  "candidate_id": "ffba64ef-ed08-49cd-b94a-2960e0a7f9e6",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "created_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "status": "active",
+  "last_message_at": "2026-05-19T21:17:19.219+00:00",
+  "last_message_preview": "Yes, let's do it. Thursday or Friday afternoon works best for me.",
+  "created_at": "2026-05-19T15:17:19.219+00:00"
+ },
+ {
+  "id": "fc9b7a6e-46da-425f-8fdd-2090029641bf",
+  "candidate_id": "c4acd09b-5b44-40f9-b1e5-d8f7f21fa488",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "created_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "status": "active",
+  "last_message_at": "2026-05-17T20:17:19.471+00:00",
+  "last_message_preview": "Team hit 84% on average last year, with the top third over 120%. Happy to walk through the comp plan in detail on a call.",
+  "created_at": "2026-05-17T15:17:19.471+00:00"
+ },
+ {
+  "id": "10ba2456-de04-4392-a4fd-1d2d5a79ad97",
+  "candidate_id": "df6ac2d5-ff5f-4602-9c91-e043fb86b392",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "created_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "status": "active",
+  "last_message_at": "2026-05-15T22:17:19.616+00:00",
+  "last_message_preview": "Perfect — sending an invite for Tuesday at 10am. Looking forward to it.",
+  "created_at": "2026-05-15T15:17:19.616+00:00"
+ },
+ {
+  "id": "326a44a2-f18c-4969-97a2-94756ce954f2",
+  "candidate_id": "82a8b767-bd83-405f-b586-229bce2d7b8b",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "created_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "status": "active",
+  "last_message_at": "2026-05-13T20:17:19.807+00:00",
+  "last_message_preview": "Pod model — you'd have a dedicated SDR and SE. Tight unit, clear ownership. Want to meet the pod lead?",
+  "created_at": "2026-05-13T15:17:19.807+00:00"
+ },
+ {
+  "id": "fdc526ba-7bc2-4575-a90b-e3af8e38464c",
+  "candidate_id": "92b00e04-dd76-45d4-b220-4194e31f2b7b",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "created_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "status": "active",
+  "last_message_at": "2026-05-11T21:17:19.954+00:00",
+  "last_message_preview": "Yes — let's find time. I'll send over my availability.",
+  "created_at": "2026-05-11T15:17:19.954+00:00"
+ },
+ {
+  "id": "fc671518-6c2c-4bec-9285-09d628ba766e",
+  "candidate_id": "ff6ffbc7-e532-42f0-aca4-0591b8cf15c0",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "created_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "status": "active",
+  "last_message_at": "2026-05-09T20:17:20.126+00:00",
+  "last_message_preview": "A healthy mix — about 60% expansion. I can connect you with a current AE to hear their experience.",
+  "created_at": "2026-05-09T15:17:20.126+00:00"
+ },
+ {
+  "id": "868673fd-2dd5-45c1-b1c5-22fddd638975",
+  "candidate_id": "70ffc9ee-1b73-4521-aad4-ef19dee4ede1",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "created_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "status": "active",
+  "last_message_at": "2026-05-07T20:17:20.43+00:00",
+  "last_message_preview": "Wonderful — I'll send a calendar link shortly. Thanks for the quick reply!",
+  "created_at": "2026-05-07T15:17:20.43+00:00"
+ },
+ {
+  "id": "75bc72e8-947a-431d-bc96-f54d6693533c",
+  "candidate_id": "ffba64ef-ed08-49cd-b94a-2960e0a7f9e6",
+  "company_id": "68c8c049-5f07-4493-bfb1-1887612812ba",
+  "created_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "status": "active",
+  "last_message_at": "2026-05-05T21:17:20.618+00:00",
+  "last_message_preview": "Sounds good — looking forward to it.",
+  "created_at": "2026-05-05T15:17:20.618+00:00"
+ },
+ {
+  "id": "98bf6436-7259-4745-801b-58ab1e3fba4b",
+  "candidate_id": "ffba64ef-ed08-49cd-b94a-2960e0a7f9e6",
+  "company_id": "2938ab1b-125a-41ca-97cd-da48632399a7",
+  "created_by": "ffba64ef-ed08-49cd-b94a-2960e0a7f9e6",
+  "status": "active",
+  "last_message_at": null,
+  "last_message_preview": null,
+  "created_at": "2026-05-18T15:17:34.341+00:00"
+ },
+ {
+  "id": "0ef43aef-c02d-4f18-a2f6-8895ea6883b5",
+  "candidate_id": "ff6ffbc7-e532-42f0-aca4-0591b8cf15c0",
+  "company_id": "e87186c2-76de-41e7-869c-d13759cbc830",
+  "created_by": "ff6ffbc7-e532-42f0-aca4-0591b8cf15c0",
+  "status": "active",
+  "last_message_at": null,
+  "last_message_preview": null,
+  "created_at": "2026-05-13T15:17:34.51+00:00"
+ },
+ {
+  "id": "8a959095-3bf6-48dc-9822-3c46f36b4e7f",
+  "candidate_id": "9148aeb2-0f3a-4f6a-bf47-6f9306f759e0",
+  "company_id": "b41884fb-95e7-42a4-8b49-f018e52ee39f",
+  "created_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "status": "active",
+  "last_message_at": null,
+  "last_message_preview": null,
+  "created_at": "2026-05-10T15:17:34.624+00:00"
+ },
+ {
+  "id": "7c91544c-20b4-4257-b462-e3a0f17b7522",
+  "candidate_id": "390e9825-f667-4124-b7f5-0df8f93c1b83",
+  "company_id": "68c8c049-5f07-4493-bfb1-1887612812ba",
+  "created_by": "390e9825-f667-4124-b7f5-0df8f93c1b83",
+  "status": "active",
+  "last_message_at": null,
+  "last_message_preview": null,
+  "created_at": "2026-05-07T15:17:34.725+00:00"
+ },
+ {
+  "id": "5bc6bf3d-0b5e-40ac-b478-930304e08cb6",
+  "candidate_id": "6b64321d-96f2-49de-81eb-4a31622d3823",
+  "company_id": "40bdafe4-dea5-4009-a6f3-ea49115e1c1f",
+  "created_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "status": "active",
+  "last_message_at": null,
+  "last_message_preview": null,
+  "created_at": "2026-05-04T15:17:34.826+00:00"
+ },
+ {
+  "id": "d91d86ba-9cfc-4ca3-90a4-6bdf8eb1c846",
+  "candidate_id": "e0fd96c3-d84e-43c0-8234-ad644fef301d",
+  "company_id": "7f5c32ff-5e76-40ec-aca5-f35a932adc30",
+  "created_by": "e0fd96c3-d84e-43c0-8234-ad644fef301d",
+  "status": "active",
+  "last_message_at": null,
+  "last_message_preview": null,
+  "created_at": "2026-05-01T15:17:34.916+00:00"
+ },
+ {
+  "id": "e1455a5f-6fbb-4eb1-a60d-6fc0f60e336b",
+  "candidate_id": "efc5c2bd-ab6b-4d32-9375-733c39e2328f",
+  "company_id": "a9e9f612-16db-4af2-ae2c-43aa5d2040fd",
+  "created_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "status": "active",
+  "last_message_at": null,
+  "last_message_preview": null,
+  "created_at": "2026-04-28T15:17:35.012+00:00"
+ },
+ {
+  "id": "c5197339-339f-4e85-9eef-698a2b164138",
+  "candidate_id": "2236524a-d460-49b8-beec-9e0485703ce2",
+  "company_id": "21699104-dfdc-4dea-8c80-837905603d31",
+  "created_by": "2236524a-d460-49b8-beec-9e0485703ce2",
+  "status": "active",
+  "last_message_at": null,
+  "last_message_preview": null,
+  "created_at": "2026-04-25T15:17:35.109+00:00"
+ },
+ {
+  "id": "ed40d01a-ca57-4713-9c39-f9f87e506634",
+  "candidate_id": "124e1cc4-b8f4-4ec5-911b-6c6cb8c67edf",
+  "company_id": "49d4f2b7-da18-482a-952f-bd95bdcde6d7",
+  "created_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "status": "active",
+  "last_message_at": null,
+  "last_message_preview": null,
+  "created_at": "2026-04-22T15:17:35.21+00:00"
+ },
+ {
+  "id": "c03ac1dc-1599-4c15-bb16-eb2619f72a73",
+  "candidate_id": "a826bc99-c4c2-436d-8119-cdd54e8cec0e",
+  "company_id": "a16e49e9-6099-4cb6-acb1-94eae0d29e8f",
+  "created_by": "a826bc99-c4c2-436d-8119-cdd54e8cec0e",
+  "status": "active",
+  "last_message_at": null,
+  "last_message_preview": null,
+  "created_at": "2026-05-17T15:17:35.315+00:00"
+ }
+]

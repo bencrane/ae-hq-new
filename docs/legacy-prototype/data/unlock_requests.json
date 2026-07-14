@@ -1,0 +1,12 @@
+[
+ {
+  "id": "7e2f89c0-4044-464f-a6c4-dada2b4ddeb7",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "candidate_id": "ffba64ef-ed08-49cd-b94a-2960e0a7f9e6",
+  "status": "pending",
+  "message": "Saw your background closing fintech enterprise — we have an Enterprise AE role open in NY.",
+  "mock_stripe_charge_id": "mock_ch_1779290238501",
+  "created_at": "2026-05-20T15:17:18.536795+00:00",
+  "responded_at": null
+ }
+]

@@ -1,0 +1,11 @@
+[
+ {
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "stripe_subscription_id": "mock_sub_stripe_growth",
+  "tier": "growth",
+  "unlocks_per_month": 25,
+  "unlocks_used_current_period": 3,
+  "current_period_start": "2026-05-20T15:17:03.401876+00:00",
+  "current_period_end": "2026-06-19T15:17:03.401876+00:00"
+ }
+]

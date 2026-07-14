@@ -1,0 +1,1082 @@
+[
+ {
+  "id": "c9f6d846-f6fc-4e20-9541-40bbfdc57e34",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:19.076099+00:00"
+ },
+ {
+  "id": "99fcba99-74a3-41a5-815b-46112a417ac1",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:19.126464+00:00"
+ },
+ {
+  "id": "742ee296-ce38-4753-9325-04b917b5bb6d",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:19.156708+00:00"
+ },
+ {
+  "id": "c647f862-0962-4cea-a06b-50f259d2006f",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:19.181946+00:00"
+ },
+ {
+  "id": "605b3526-9bf1-47d2-8da2-bf8d41e66f19",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:19.202156+00:00"
+ },
+ {
+  "id": "769b173c-175d-4d15-a540-3ecb5f642651",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:19.227525+00:00"
+ },
+ {
+  "id": "9d0dd22e-a23c-4bdc-9463-eefcc3ae076d",
+  "company_id": "da4e19d3-1d7c-45ce-98af-8d18461f17b4",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.483525+00:00"
+ },
+ {
+  "id": "b329f2b5-5355-48e7-bdf1-47f176f64ecd",
+  "company_id": "da4e19d3-1d7c-45ce-98af-8d18461f17b4",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.533504+00:00"
+ },
+ {
+  "id": "62369399-5342-468b-b8f7-cbb1cf17cbd2",
+  "company_id": "da4e19d3-1d7c-45ce-98af-8d18461f17b4",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.553692+00:00"
+ },
+ {
+  "id": "2ce10f2a-bca5-4b7d-8e72-878b82d25d82",
+  "company_id": "da4e19d3-1d7c-45ce-98af-8d18461f17b4",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.578909+00:00"
+ },
+ {
+  "id": "8ad6085f-87ef-44f7-aa93-0b71f3062847",
+  "company_id": "da4e19d3-1d7c-45ce-98af-8d18461f17b4",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.604159+00:00"
+ },
+ {
+  "id": "b455cebf-e45c-415b-b41c-2b72e1489782",
+  "company_id": "da4e19d3-1d7c-45ce-98af-8d18461f17b4",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:22.629719+00:00"
+ },
+ {
+  "id": "583dc933-5892-489e-968f-89c803ef785e",
+  "company_id": "f3157f6a-b3ba-4b3c-84d4-5bb11bd3c438",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.654553+00:00"
+ },
+ {
+  "id": "2f8ad654-f7ca-4c7e-af68-9427246ff939",
+  "company_id": "f3157f6a-b3ba-4b3c-84d4-5bb11bd3c438",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.679709+00:00"
+ },
+ {
+  "id": "0efdb951-4c97-4acd-926e-5b972ad72a46",
+  "company_id": "f3157f6a-b3ba-4b3c-84d4-5bb11bd3c438",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.700212+00:00"
+ },
+ {
+  "id": "3323603d-7a8d-4fe8-bd6e-b3c8d0d21c18",
+  "company_id": "f3157f6a-b3ba-4b3c-84d4-5bb11bd3c438",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.725112+00:00"
+ },
+ {
+  "id": "e6b75ad2-fe13-436d-9116-175b65143981",
+  "company_id": "f3157f6a-b3ba-4b3c-84d4-5bb11bd3c438",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.755728+00:00"
+ },
+ {
+  "id": "03a36732-d038-43b8-8dcb-5cca8e21e38f",
+  "company_id": "f3157f6a-b3ba-4b3c-84d4-5bb11bd3c438",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:22.784142+00:00"
+ },
+ {
+  "id": "27b8ef61-3cc2-4fab-92ae-02c6217ee99d",
+  "company_id": "3d056df0-c21e-4917-8c4d-aced442503f5",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.8111+00:00"
+ },
+ {
+  "id": "7760a404-ae77-4210-a319-413c3f8bf348",
+  "company_id": "3d056df0-c21e-4917-8c4d-aced442503f5",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.835866+00:00"
+ },
+ {
+  "id": "82173540-dfa6-4f11-88b3-d29eafec7e0b",
+  "company_id": "3d056df0-c21e-4917-8c4d-aced442503f5",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.861104+00:00"
+ },
+ {
+  "id": "e4135678-b98b-4008-af55-d9acab894bd1",
+  "company_id": "3d056df0-c21e-4917-8c4d-aced442503f5",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.896377+00:00"
+ },
+ {
+  "id": "997093f8-af85-4fc8-ae23-2e4c783f3fa9",
+  "company_id": "3d056df0-c21e-4917-8c4d-aced442503f5",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.921611+00:00"
+ },
+ {
+  "id": "95a29cbb-1e5b-4684-870d-936b60b6c9d6",
+  "company_id": "3d056df0-c21e-4917-8c4d-aced442503f5",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:22.946727+00:00"
+ },
+ {
+  "id": "9c4ea2df-2444-4703-990b-aea905fb41ac",
+  "company_id": "7f5c32ff-5e76-40ec-aca5-f35a932adc30",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.971976+00:00"
+ },
+ {
+  "id": "827d4d39-5423-44b9-ba34-ce7741f5f408",
+  "company_id": "7f5c32ff-5e76-40ec-aca5-f35a932adc30",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:22.997185+00:00"
+ },
+ {
+  "id": "6a01182d-c730-48a6-ad79-8062abbd54e8",
+  "company_id": "7f5c32ff-5e76-40ec-aca5-f35a932adc30",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.017299+00:00"
+ },
+ {
+  "id": "e175578f-5a42-4a6a-b8a8-8ee22a74f5e3",
+  "company_id": "7f5c32ff-5e76-40ec-aca5-f35a932adc30",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.042589+00:00"
+ },
+ {
+  "id": "299562be-ba0f-4790-b913-d07c76e41518",
+  "company_id": "7f5c32ff-5e76-40ec-aca5-f35a932adc30",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.067707+00:00"
+ },
+ {
+  "id": "320cc8b4-18c7-4723-919c-52a97b69aba8",
+  "company_id": "7f5c32ff-5e76-40ec-aca5-f35a932adc30",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:23.093048+00:00"
+ },
+ {
+  "id": "cd0422de-54a0-49a5-b560-61d0d7a8ad18",
+  "company_id": "581f3b91-78ef-49ce-a17d-8e2d9d748e3d",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.118083+00:00"
+ },
+ {
+  "id": "df1a493e-aa2c-402b-9ce6-03348f78a920",
+  "company_id": "581f3b91-78ef-49ce-a17d-8e2d9d748e3d",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.139055+00:00"
+ },
+ {
+  "id": "ad650258-cf5f-4947-aec1-a56adf133760",
+  "company_id": "581f3b91-78ef-49ce-a17d-8e2d9d748e3d",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.163569+00:00"
+ },
+ {
+  "id": "3091276e-821c-48f6-832e-9b55533cb9ed",
+  "company_id": "581f3b91-78ef-49ce-a17d-8e2d9d748e3d",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.183629+00:00"
+ },
+ {
+  "id": "639cfc0c-ce96-47a1-8c80-fcd8b3b3cb80",
+  "company_id": "581f3b91-78ef-49ce-a17d-8e2d9d748e3d",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.208866+00:00"
+ },
+ {
+  "id": "0e2e864e-72dd-4088-8201-b1e551a86120",
+  "company_id": "581f3b91-78ef-49ce-a17d-8e2d9d748e3d",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:23.234114+00:00"
+ },
+ {
+  "id": "7fec041c-2569-4bbb-8d24-21b95c90d864",
+  "company_id": "b6946c69-c953-4a0d-af97-d4e2dd834d12",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.259258+00:00"
+ },
+ {
+  "id": "8fc92383-e99f-4f68-87ad-897e19484fda",
+  "company_id": "b6946c69-c953-4a0d-af97-d4e2dd834d12",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.284821+00:00"
+ },
+ {
+  "id": "3ca3c6d6-eceb-48bd-bc86-815beb0f2e6f",
+  "company_id": "b6946c69-c953-4a0d-af97-d4e2dd834d12",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.304978+00:00"
+ },
+ {
+  "id": "78250ef5-61ed-4af6-9ed9-e405922ab53d",
+  "company_id": "b6946c69-c953-4a0d-af97-d4e2dd834d12",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.334914+00:00"
+ },
+ {
+  "id": "60b3111f-9ae0-401c-b164-af84cb0adb7c",
+  "company_id": "b6946c69-c953-4a0d-af97-d4e2dd834d12",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.355375+00:00"
+ },
+ {
+  "id": "c01037d3-245a-4af2-bae7-5be2380e2769",
+  "company_id": "b6946c69-c953-4a0d-af97-d4e2dd834d12",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:23.380183+00:00"
+ },
+ {
+  "id": "d062f03b-2fd0-4ae1-8296-69817eec0b4f",
+  "company_id": "3a3deaab-09d3-4f09-92cf-8240f572fd36",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.405357+00:00"
+ },
+ {
+  "id": "ea60ebb9-5d1e-41a8-aaf8-796ee552c5ef",
+  "company_id": "3a3deaab-09d3-4f09-92cf-8240f572fd36",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.430717+00:00"
+ },
+ {
+  "id": "58133127-21d1-4f6a-902d-4ae1dbfa1410",
+  "company_id": "3a3deaab-09d3-4f09-92cf-8240f572fd36",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.455877+00:00"
+ },
+ {
+  "id": "f7b4da73-bbd1-4fd4-a917-336874101b3a",
+  "company_id": "3a3deaab-09d3-4f09-92cf-8240f572fd36",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.481018+00:00"
+ },
+ {
+  "id": "e51dc6aa-1e3a-4cbc-add1-f185b493c339",
+  "company_id": "3a3deaab-09d3-4f09-92cf-8240f572fd36",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.506595+00:00"
+ },
+ {
+  "id": "329b5fed-c0c6-4747-8292-101cc9f751b0",
+  "company_id": "3a3deaab-09d3-4f09-92cf-8240f572fd36",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:23.531391+00:00"
+ },
+ {
+  "id": "fd796dea-b23f-4e05-b85c-fc18c37ae0d2",
+  "company_id": "2938ab1b-125a-41ca-97cd-da48632399a7",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.556643+00:00"
+ },
+ {
+  "id": "a93ec6b1-2446-4285-9e1a-89f083926614",
+  "company_id": "2938ab1b-125a-41ca-97cd-da48632399a7",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.582124+00:00"
+ },
+ {
+  "id": "2ec10e83-ac7b-4abf-9771-07021006c664",
+  "company_id": "2938ab1b-125a-41ca-97cd-da48632399a7",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.602083+00:00"
+ },
+ {
+  "id": "c4daba25-e4d5-4854-80ba-251d28682990",
+  "company_id": "2938ab1b-125a-41ca-97cd-da48632399a7",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.627232+00:00"
+ },
+ {
+  "id": "0866d786-d733-4d1c-8644-23fd371bb6a6",
+  "company_id": "2938ab1b-125a-41ca-97cd-da48632399a7",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.652418+00:00"
+ },
+ {
+  "id": "faf44042-1a3b-4d24-be16-ce976bf4baef",
+  "company_id": "2938ab1b-125a-41ca-97cd-da48632399a7",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:23.677621+00:00"
+ },
+ {
+  "id": "3af02a79-3341-41b1-b2a2-fe87d019c130",
+  "company_id": "49d4f2b7-da18-482a-952f-bd95bdcde6d7",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.702799+00:00"
+ },
+ {
+  "id": "ae77f88f-f746-4e98-be30-016b0bb89e35",
+  "company_id": "49d4f2b7-da18-482a-952f-bd95bdcde6d7",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.728083+00:00"
+ },
+ {
+  "id": "70efa240-79e8-4dbf-8847-4fd446cc3b15",
+  "company_id": "49d4f2b7-da18-482a-952f-bd95bdcde6d7",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.753227+00:00"
+ },
+ {
+  "id": "db153b68-cea7-4401-942c-1237cc24bf1f",
+  "company_id": "49d4f2b7-da18-482a-952f-bd95bdcde6d7",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.778392+00:00"
+ },
+ {
+  "id": "7ae0cacd-0f89-4d17-8f9e-f7ad2b258e51",
+  "company_id": "49d4f2b7-da18-482a-952f-bd95bdcde6d7",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.798611+00:00"
+ },
+ {
+  "id": "dc879400-22a1-4147-b899-8989bd55b5f3",
+  "company_id": "49d4f2b7-da18-482a-952f-bd95bdcde6d7",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:23.823817+00:00"
+ },
+ {
+  "id": "f9d8efd2-ae56-4226-a7a3-f67b8795c8f7",
+  "company_id": "40bdafe4-dea5-4009-a6f3-ea49115e1c1f",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.848939+00:00"
+ },
+ {
+  "id": "7ef80176-4f36-426a-ae76-2fa370377c20",
+  "company_id": "40bdafe4-dea5-4009-a6f3-ea49115e1c1f",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.889672+00:00"
+ },
+ {
+  "id": "a4461e56-0100-424c-aa63-a3c89c19c1fd",
+  "company_id": "40bdafe4-dea5-4009-a6f3-ea49115e1c1f",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.909677+00:00"
+ },
+ {
+  "id": "e416b3bf-ed96-41e6-98b6-6747e597f487",
+  "company_id": "40bdafe4-dea5-4009-a6f3-ea49115e1c1f",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.934931+00:00"
+ },
+ {
+  "id": "88f0bcc0-f4af-4622-a518-762c900e9f39",
+  "company_id": "40bdafe4-dea5-4009-a6f3-ea49115e1c1f",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:23.956221+00:00"
+ },
+ {
+  "id": "a0d17529-5970-4c77-bf2a-875252d7e14c",
+  "company_id": "40bdafe4-dea5-4009-a6f3-ea49115e1c1f",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:23.974984+00:00"
+ },
+ {
+  "id": "6b40c533-34e8-4b66-af60-421559b0876f",
+  "company_id": "e87186c2-76de-41e7-869c-d13759cbc830",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.000562+00:00"
+ },
+ {
+  "id": "ef4c2123-58da-4f83-afad-4ba44cf1e140",
+  "company_id": "e87186c2-76de-41e7-869c-d13759cbc830",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.030448+00:00"
+ },
+ {
+  "id": "fe57d123-bc04-439d-9bb6-f73a25ba373f",
+  "company_id": "e87186c2-76de-41e7-869c-d13759cbc830",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.055638+00:00"
+ },
+ {
+  "id": "50cdca05-de1a-4271-8d04-ae108c7ef3c2",
+  "company_id": "e87186c2-76de-41e7-869c-d13759cbc830",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.105993+00:00"
+ },
+ {
+  "id": "70c9cf96-8b04-4913-b0e8-f8d2d63bbb84",
+  "company_id": "e87186c2-76de-41e7-869c-d13759cbc830",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.131262+00:00"
+ },
+ {
+  "id": "93eaae03-9b39-4ae4-8b01-fca60a1d43fb",
+  "company_id": "e87186c2-76de-41e7-869c-d13759cbc830",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:24.156413+00:00"
+ },
+ {
+  "id": "0b24dda4-6abb-4c47-9e51-fedaa3cffe46",
+  "company_id": "b41884fb-95e7-42a4-8b49-f018e52ee39f",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.183016+00:00"
+ },
+ {
+  "id": "1722369e-d8e7-4beb-bae9-1b8af54e82d1",
+  "company_id": "b41884fb-95e7-42a4-8b49-f018e52ee39f",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.206938+00:00"
+ },
+ {
+  "id": "1368eea9-491d-40bc-a074-49138064b20c",
+  "company_id": "b41884fb-95e7-42a4-8b49-f018e52ee39f",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.232829+00:00"
+ },
+ {
+  "id": "6d4ff863-6fb7-4d0c-95c4-f94034ef6210",
+  "company_id": "b41884fb-95e7-42a4-8b49-f018e52ee39f",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.257561+00:00"
+ },
+ {
+  "id": "041d52b2-7dcb-41b3-9625-5d8736212529",
+  "company_id": "b41884fb-95e7-42a4-8b49-f018e52ee39f",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.282381+00:00"
+ },
+ {
+  "id": "e803c986-8f4d-4735-b377-108439baf4ff",
+  "company_id": "b41884fb-95e7-42a4-8b49-f018e52ee39f",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:24.30767+00:00"
+ },
+ {
+  "id": "1c93d249-142e-48f6-a1c7-4fc23bc43fbb",
+  "company_id": "a9e9f612-16db-4af2-ae2c-43aa5d2040fd",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.332928+00:00"
+ },
+ {
+  "id": "29ccfec3-e7fd-4cf5-a6ec-e6f3f2eac76e",
+  "company_id": "a9e9f612-16db-4af2-ae2c-43aa5d2040fd",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.358061+00:00"
+ },
+ {
+  "id": "2b78659d-b33d-4921-9376-18cade7c4e17",
+  "company_id": "a9e9f612-16db-4af2-ae2c-43aa5d2040fd",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.383252+00:00"
+ },
+ {
+  "id": "995b8169-51cb-404f-9f70-2b047d872fae",
+  "company_id": "a9e9f612-16db-4af2-ae2c-43aa5d2040fd",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.408472+00:00"
+ },
+ {
+  "id": "d56d00ee-f7c7-4e48-8f47-52f98b60cffd",
+  "company_id": "a9e9f612-16db-4af2-ae2c-43aa5d2040fd",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.433618+00:00"
+ },
+ {
+  "id": "9e887122-ac06-464b-b0a6-810c56e8b8d6",
+  "company_id": "a9e9f612-16db-4af2-ae2c-43aa5d2040fd",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:24.458813+00:00"
+ },
+ {
+  "id": "71f3979e-95c0-4f47-b31a-0f32c4a87e6f",
+  "company_id": "7e2cef92-8860-41c4-96a6-1d5fd5c110f3",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.479371+00:00"
+ },
+ {
+  "id": "ec28e614-8996-434f-afbd-0a94347f0ebf",
+  "company_id": "7e2cef92-8860-41c4-96a6-1d5fd5c110f3",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.504253+00:00"
+ },
+ {
+  "id": "495e6b54-de2c-4593-a80f-806bddbaede9",
+  "company_id": "7e2cef92-8860-41c4-96a6-1d5fd5c110f3",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.525388+00:00"
+ },
+ {
+  "id": "a8cd3e42-9357-4b7a-8528-814be65b16d4",
+  "company_id": "7e2cef92-8860-41c4-96a6-1d5fd5c110f3",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.549593+00:00"
+ },
+ {
+  "id": "b874b7d1-1c7f-4057-bb2a-6610307af447",
+  "company_id": "7e2cef92-8860-41c4-96a6-1d5fd5c110f3",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.579801+00:00"
+ },
+ {
+  "id": "fcb3df7c-8ae4-471b-9130-df8a93261797",
+  "company_id": "7e2cef92-8860-41c4-96a6-1d5fd5c110f3",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:24.605022+00:00"
+ },
+ {
+  "id": "65131390-fe4c-403c-9e00-7bf1f6193739",
+  "company_id": "a16e49e9-6099-4cb6-acb1-94eae0d29e8f",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.625148+00:00"
+ },
+ {
+  "id": "2e93f435-b672-44ab-bf91-0b6fe322fad3",
+  "company_id": "a16e49e9-6099-4cb6-acb1-94eae0d29e8f",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.645273+00:00"
+ },
+ {
+  "id": "8e97dbda-24ff-44dd-803a-2930461dc9d0",
+  "company_id": "a16e49e9-6099-4cb6-acb1-94eae0d29e8f",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.670458+00:00"
+ },
+ {
+  "id": "1996fbff-0301-4a98-920b-f3c77334c2f5",
+  "company_id": "a16e49e9-6099-4cb6-acb1-94eae0d29e8f",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.695704+00:00"
+ },
+ {
+  "id": "d792d49c-5fc4-480e-bd77-af0f49254d98",
+  "company_id": "a16e49e9-6099-4cb6-acb1-94eae0d29e8f",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.720952+00:00"
+ },
+ {
+  "id": "f8152c4b-e978-4977-a1f4-ff31471b9560",
+  "company_id": "a16e49e9-6099-4cb6-acb1-94eae0d29e8f",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:24.746426+00:00"
+ },
+ {
+  "id": "4cfe23c1-bae2-4109-a130-4bb4f77c363e",
+  "company_id": "1ab36612-87aa-4511-aeb4-b74f662f78af",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.77236+00:00"
+ },
+ {
+  "id": "390abf24-1293-4540-8a92-42984f9fa8b3",
+  "company_id": "1ab36612-87aa-4511-aeb4-b74f662f78af",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.796446+00:00"
+ },
+ {
+  "id": "fb34c644-a68a-4af0-b63e-87774d3daa9e",
+  "company_id": "1ab36612-87aa-4511-aeb4-b74f662f78af",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.82167+00:00"
+ },
+ {
+  "id": "d4bc4e87-f08b-4ac1-ab85-2264cf75c151",
+  "company_id": "1ab36612-87aa-4511-aeb4-b74f662f78af",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.841826+00:00"
+ },
+ {
+  "id": "f88e5405-65f7-42a8-b077-6c177783e555",
+  "company_id": "1ab36612-87aa-4511-aeb4-b74f662f78af",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.862096+00:00"
+ },
+ {
+  "id": "280be523-9131-4b40-b022-238309a5c411",
+  "company_id": "1ab36612-87aa-4511-aeb4-b74f662f78af",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:24.892285+00:00"
+ },
+ {
+  "id": "df1ec742-dc6d-451b-b669-16f9c9679fc4",
+  "company_id": "21699104-dfdc-4dea-8c80-837905603d31",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.917555+00:00"
+ },
+ {
+  "id": "e95cda52-e07c-4f98-9377-fadb8dc76916",
+  "company_id": "21699104-dfdc-4dea-8c80-837905603d31",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.937632+00:00"
+ },
+ {
+  "id": "544b58e1-378c-4a2e-98e7-56084e4493aa",
+  "company_id": "21699104-dfdc-4dea-8c80-837905603d31",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.962817+00:00"
+ },
+ {
+  "id": "9623d7b0-54ec-4405-bfe9-a5931d4bfad6",
+  "company_id": "21699104-dfdc-4dea-8c80-837905603d31",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:24.987974+00:00"
+ },
+ {
+  "id": "71ef39c3-70cc-4fcb-807e-b0215230b46e",
+  "company_id": "21699104-dfdc-4dea-8c80-837905603d31",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:25.014953+00:00"
+ },
+ {
+  "id": "6dc14e30-40db-4f2e-9119-c36593317dd3",
+  "company_id": "21699104-dfdc-4dea-8c80-837905603d31",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:25.03879+00:00"
+ },
+ {
+  "id": "b39fe6ae-18e2-4f69-a37f-e434b2ab0164",
+  "company_id": "32494934-5f24-48c0-8d75-2b862846371d",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:25.06872+00:00"
+ },
+ {
+  "id": "66b4cbde-189a-40d9-839b-eb26faa850e6",
+  "company_id": "32494934-5f24-48c0-8d75-2b862846371d",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:25.093897+00:00"
+ },
+ {
+  "id": "a17a7776-8b1c-4e40-ab5f-2df22e261a12",
+  "company_id": "32494934-5f24-48c0-8d75-2b862846371d",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:25.113969+00:00"
+ },
+ {
+  "id": "e73475c7-77bc-4b44-a34a-1540cf5f891e",
+  "company_id": "32494934-5f24-48c0-8d75-2b862846371d",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:25.139192+00:00"
+ },
+ {
+  "id": "160e1c8f-3060-4c96-948e-6ebaa2a97419",
+  "company_id": "32494934-5f24-48c0-8d75-2b862846371d",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:25.159413+00:00"
+ },
+ {
+  "id": "b3845701-41c9-4d48-b554-ac8fada67b25",
+  "company_id": "32494934-5f24-48c0-8d75-2b862846371d",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:25.184577+00:00"
+ },
+ {
+  "id": "7f6cb6ef-2346-423b-ae43-fcce0102c094",
+  "company_id": "68c8c049-5f07-4493-bfb1-1887612812ba",
+  "name": "New",
+  "position": 0,
+  "color": "info",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:25.209796+00:00"
+ },
+ {
+  "id": "9968d8e1-33e4-4784-87fa-eb26913df5d8",
+  "company_id": "68c8c049-5f07-4493-bfb1-1887612812ba",
+  "name": "Reviewing",
+  "position": 1,
+  "color": "default",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:25.240384+00:00"
+ },
+ {
+  "id": "696fc202-cac9-4c16-8b66-97f6492cb388",
+  "company_id": "68c8c049-5f07-4493-bfb1-1887612812ba",
+  "name": "Phone Screen",
+  "position": 2,
+  "color": "warn",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:25.260561+00:00"
+ },
+ {
+  "id": "d3e7ec34-e866-4202-9d86-b1a2af335051",
+  "company_id": "68c8c049-5f07-4493-bfb1-1887612812ba",
+  "name": "Onsite",
+  "position": 3,
+  "color": "accent",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:25.285353+00:00"
+ },
+ {
+  "id": "b790085c-da5d-4c48-809b-bff368d7dd99",
+  "company_id": "68c8c049-5f07-4493-bfb1-1887612812ba",
+  "name": "Offer",
+  "position": 4,
+  "color": "good",
+  "is_terminal": false,
+  "created_at": "2026-05-20T15:17:25.310662+00:00"
+ },
+ {
+  "id": "100fbea8-b0a1-42cb-a22d-6dcb479d985a",
+  "company_id": "68c8c049-5f07-4493-bfb1-1887612812ba",
+  "name": "Closed",
+  "position": 5,
+  "color": "muted",
+  "is_terminal": true,
+  "created_at": "2026-05-20T15:17:25.336177+00:00"
+ }
+]

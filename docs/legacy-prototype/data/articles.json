@@ -1,0 +1,257 @@
+[
+ {
+  "id": "633ff695-b972-414f-a6dc-8ce4300c0280",
+  "kind": "company_spotlight",
+  "slug": "stripe-enterprise-motion-2026",
+  "title": "Inside Stripe's Enterprise Motion",
+  "dek": "How the payments giant rebuilt its enterprise sales org around outcome-based selling — and what AEs on the team actually carry.",
+  "hero_image_url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&sig=stripe-enterprise-motion-2026",
+  "body_md": "## The shift\n\nStripe spent 2025 quietly **re-architecting** its enterprise go-to-market. Where the company once led with developer love and bottoms-up adoption, the enterprise org now runs a disciplined, multi-threaded motion.\n\n### What changed\n\n- Quotas moved from logo count to *net revenue retention* contribution.\n- Every enterprise AE now pairs with a solutions architect from first call.\n- Deal desks were given veto power on discounting.\n\n> \"We stopped rewarding the close and started rewarding the expansion,\" one sales leader told us.\n\n## What AEs carry\n\nA senior enterprise AE at Stripe today carries a number in the **high six figures** of quota, with accelerators that kick in past 100%. Average deal cycles run 90 to 140 days. The role is unambiguously consultative — the days of transactional payments deals are over.\n\nFor AEs evaluating the move, the signal is clear: this is a seat for someone who can run a room of eight stakeholders and still know the unit economics cold.",
+  "author_name": "Dana Whitfield",
+  "read_minutes": 7,
+  "tags": [
+   "Stripe",
+   "Enterprise",
+   "Payments"
+  ],
+  "published_at": "2026-05-20T15:17:18.654+00:00"
+ },
+ {
+  "id": "4cca9226-b569-4f15-9940-02bf86b209dd",
+  "kind": "company_spotlight",
+  "slug": "snowflake-land-and-expand-playbook",
+  "title": "Snowflake's Land-and-Expand Playbook, Decoded",
+  "dek": "The data-cloud company turned consumption pricing into a sales superpower. We break down the AE comp model behind it.",
+  "hero_image_url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&sig=snowflake-land-and-expand-playbook",
+  "body_md": "## Consumption changes everything\n\nWhen revenue is metered by usage, the sale never really ends. Snowflake built its **entire AE org** around that truth.\n\n### The mechanics\n\nAn AE lands a workload, then the customer-success motion drives consumption. The AE's number is tied to *consumed* credits, not booked contract value — so a great AE is one whose accounts keep growing six months after signature.\n\n## Comp implications\n\nThis creates an unusual comp dynamic:\n\n- Base salaries sit slightly below market.\n- On-target earnings are high, but realized earnings are *variable*.\n- Top performers compound — their book grows even while they sleep.\n\nIt rewards patience and account depth over hunting. AEs who thrive here treat every account like a portfolio position.",
+  "author_name": "Marcus Reide",
+  "read_minutes": 6,
+  "tags": [
+   "Snowflake",
+   "Consumption",
+   "Data"
+  ],
+  "published_at": "2026-05-17T15:17:18.701+00:00"
+ },
+ {
+  "id": "07389e8d-126b-4860-a7e6-fb1b4ca0e9df",
+  "kind": "company_spotlight",
+  "slug": "ramp-velocity-sales-culture",
+  "title": "Ramp and the Velocity Sales Culture",
+  "dek": "Inside the fastest-growing fintech's sales floor, where speed is a feature and the demo is the pitch.",
+  "hero_image_url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&sig=ramp-velocity-sales-culture",
+  "body_md": "## Speed as strategy\n\nRamp's sales org is built for **velocity**. The product demos itself; the AE's job is to remove friction and compress time-to-value.\n\n### On the floor\n\n- Discovery and demo collapse into a single 30-minute call.\n- Mutual action plans are sent before the call ends.\n- The median SMB deal closes inside two weeks.\n\n## The AE profile\n\nThis is not a seat for a consultative enterprise seller. Ramp wants AEs who are *relentless*, organized, and comfortable running 12 cycles at once. Comp skews toward high activity and fast accelerators.\n\nIf you measure your week in closed-won and you like a scoreboard, this floor is for you.",
+  "author_name": "Priya Anand",
+  "read_minutes": 5,
+  "tags": [
+   "Ramp",
+   "Fintech",
+   "Velocity"
+  ],
+  "published_at": "2026-05-14T15:17:18.728+00:00"
+ },
+ {
+  "id": "a86953f4-a2ef-48ba-b02f-30e6a1a5581a",
+  "kind": "company_spotlight",
+  "slug": "datadog-multi-product-selling",
+  "title": "Datadog's Multi-Product Selling Machine",
+  "dek": "Sixteen products, one platform pitch. How Datadog AEs navigate a sprawling portfolio without losing the thread.",
+  "hero_image_url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&sig=datadog-multi-product-selling",
+  "body_md": "## The platform problem\n\nDatadog sells **sixteen-plus products**. The risk: every conversation fragments into a feature tour.\n\n### The fix\n\nDatadog trains AEs to lead with the *platform consolidation* narrative — replace five point tools with one pane of glass. The individual products become proof points, not the pitch.\n\n## What AEs carry\n\nEnterprise AEs at Datadog carry large numbers and long account lists. The motion rewards AEs who can map a customer's tooling sprawl and build a multi-year consolidation roadmap.\n\nIt is one of the most *technical* AE seats in SaaS — expect to know the difference between APM and RUM cold.",
+  "author_name": "Tom Becker",
+  "read_minutes": 6,
+  "tags": [
+   "Datadog",
+   "Observability",
+   "Platform"
+  ],
+  "published_at": "2026-05-11T15:17:18.754+00:00"
+ },
+ {
+  "id": "630ac785-72ce-4fec-8947-38117a6189cd",
+  "kind": "company_spotlight",
+  "slug": "mongodb-developer-led-enterprise",
+  "title": "MongoDB: Developer-Led, Enterprise-Closed",
+  "dek": "The database company that lets developers fall in love first, then sends an AE to make it official.",
+  "hero_image_url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&sig=mongodb-developer-led-enterprise",
+  "body_md": "## Bottoms-up meets top-down\n\nMongoDB's growth engine is **developer adoption**. Atlas spreads through engineering orgs on its own. The AE arrives once usage is already real.\n\n### The AE's job\n\n- Identify which free-tier accounts have enterprise gravity.\n- Convert grassroots usage into a committed contract.\n- Multi-thread from the engineering champion up to the VP.\n\n## Comp and culture\n\nBecause the product lands itself, MongoDB AEs are *expansion specialists*. The number rewards growing committed spend inside accounts that already use the product.\n\nGreat MongoDB AEs are translators — fluent enough with engineers to be trusted, commercial enough with execs to close.",
+  "author_name": "Dana Whitfield",
+  "read_minutes": 5,
+  "tags": [
+   "MongoDB",
+   "Developer",
+   "Enterprise"
+  ],
+  "published_at": "2026-05-08T15:17:18.774+00:00"
+ },
+ {
+  "id": "1401d714-912d-4248-8972-d6658147df63",
+  "kind": "compensation_data",
+  "slug": "enterprise-ae-ote-benchmarks-2026",
+  "title": "2026 Enterprise AE OTE Benchmarks",
+  "dek": "We aggregated verified compensation data across 1,400 enterprise AE seats. Here is what the market actually pays.",
+  "hero_image_url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&sig=enterprise-ae-ote-benchmarks-2026",
+  "body_md": "## The headline numbers\n\nAcross **1,400 verified enterprise AE seats**, the median 2026 on-target earnings landed at **$285,000**, split roughly 50/50 base and variable.\n\n### By company stage\n\n| Stage | Median OTE | Base |\n|-------|-----------|------|\n| Series B | $245K | $130K |\n| Series C | $270K | $140K |\n| Series D | $295K | $150K |\n| Public | $310K | $160K |\n\n## What moves the number\n\n- **Deal size** is the single strongest predictor of OTE.\n- Remote seats pay within 4% of in-office seats — the gap has nearly closed.\n- Accelerator structure matters more than headline OTE for top performers.\n\nThe data is clear: chase deal size and accelerator quality, not the OTE on the job post.",
+  "author_name": "AE Data Desk",
+  "read_minutes": 8,
+  "tags": [
+   "Compensation",
+   "Enterprise",
+   "Benchmarks"
+  ],
+  "published_at": "2026-05-05T15:17:18.799+00:00"
+ },
+ {
+  "id": "b6c3b082-a6a2-44fb-bea5-023f99d14d4f",
+  "kind": "compensation_data",
+  "slug": "smb-ae-comp-reality-check",
+  "title": "The SMB AE Comp Reality Check",
+  "dek": "SMB AE roles advertise aggressive OTEs. Verified attainment data tells a more honest story.",
+  "hero_image_url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&sig=smb-ae-comp-reality-check",
+  "body_md": "## The gap between posted and realized\n\nSMB AE job posts love a big OTE. But **realized earnings** depend entirely on attainment — and SMB attainment is volatile.\n\n### What the data shows\n\n- Median posted SMB OTE: $135K.\n- Median *realized* SMB earnings: $108K.\n- Only 38% of SMB AEs hit 100% of quota in 2025.\n\n## Reading a posting honestly\n\nWhen you see a $140K SMB OTE, mentally discount it. Ask about:\n\n1. The team's *average* attainment last year.\n2. Ramp quota relief.\n3. How often quotas are reset upward.\n\nA modest OTE with 70% team attainment beats a flashy OTE with 30%.",
+  "author_name": "AE Data Desk",
+  "read_minutes": 6,
+  "tags": [
+   "Compensation",
+   "SMB",
+   "Attainment"
+  ],
+  "published_at": "2026-05-02T15:17:18.829+00:00"
+ },
+ {
+  "id": "dfeab028-a6f3-48fa-8d12-e523b67b4b1e",
+  "kind": "compensation_data",
+  "slug": "accelerator-structures-that-matter",
+  "title": "Accelerator Structures That Actually Matter",
+  "dek": "Two AEs with the same OTE can earn 40% apart. The difference is buried in the accelerator schedule.",
+  "hero_image_url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&sig=accelerator-structures-that-matter",
+  "body_md": "## Why accelerators decide your year\n\nBase and OTE get all the attention in offer talks. But for anyone who beats quota, the **accelerator schedule** is where the real money lives.\n\n### Common structures\n\n- **Flat:** every dollar past quota pays the same rate. Predictable, unexciting.\n- **Stepped:** the rate jumps at 110%, 125%, 150%. Rewards overperformance hard.\n- **Decelerating:** the rate *drops* past a cap. A red flag — avoid.\n\n## What to ask\n\nIn any offer conversation, ask for the full commission plan document. Model your earnings at 80%, 100%, and 130% attainment. If the 130% number does not excite you, the plan is not built for a top performer.",
+  "author_name": "Marcus Reide",
+  "read_minutes": 5,
+  "tags": [
+   "Compensation",
+   "Accelerators",
+   "Negotiation"
+  ],
+  "published_at": "2026-04-29T15:17:18.85+00:00"
+ },
+ {
+  "id": "f9c42bbe-276a-48a6-9244-1f360e4abf35",
+  "kind": "compensation_data",
+  "slug": "remote-vs-onsite-pay-gap-closed",
+  "title": "The Remote-vs-Onsite Pay Gap Has Closed",
+  "dek": "Three years of verified data show remote AE seats now pay within striking distance of in-office roles.",
+  "hero_image_url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&sig=remote-vs-onsite-pay-gap-closed",
+  "body_md": "## A gap that quietly disappeared\n\nIn 2023, remote AE seats paid a visible discount. By **2026, that gap is effectively gone**.\n\n### The numbers\n\n- 2023: remote AE OTE trailed onsite by 11%.\n- 2024: the gap narrowed to 7%.\n- 2026: remote seats pay within **4%** of onsite — inside the noise.\n\n## Why it closed\n\nTalent competition did the work. The best AEs simply refused location discounts, and companies that held the line lost candidates. Today, location is rarely a comp lever for proven sellers.\n\nIf a company quotes you a steep remote discount, treat it as a signal about how they value sellers.",
+  "author_name": "AE Data Desk",
+  "read_minutes": 4,
+  "tags": [
+   "Compensation",
+   "Remote",
+   "Trends"
+  ],
+  "published_at": "2026-04-26T15:17:18.875+00:00"
+ },
+ {
+  "id": "1c865cd1-9ff0-4add-9c77-d0b499aa4cbe",
+  "kind": "compensation_data",
+  "slug": "ramp-quota-relief-data",
+  "title": "Ramp Quota Relief: What the Data Says",
+  "dek": "Ramp quota relief — the period of reduced quota — varies wildly. We pulled the numbers.",
+  "hero_image_url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&sig=ramp-quota-relief-data",
+  "body_md": "## The most underrated offer term\n\nRamp quota relief — the months of reduced quota when you start — can be worth **tens of thousands of dollars**. It is also one of the least negotiated terms.\n\n### What we found\n\n- Median ramp period: 3 months.\n- Best-in-class: 6 months at 50% quota relief.\n- Worst: full quota from week one — a structural disadvantage.\n\n## Negotiating it\n\nRamp relief is often easier to negotiate than base salary because it does not change your steady-state cost to the company. Always ask. A two-month improvement in relief can be the difference between a strong first year and a missed one.",
+  "author_name": "Priya Anand",
+  "read_minutes": 5,
+  "tags": [
+   "Compensation",
+   "Ramp Quota",
+   "New Roles"
+  ],
+  "published_at": "2026-04-23T15:17:18.899+00:00"
+ },
+ {
+  "id": "4570d43e-a88e-4bd6-9793-e762de715192",
+  "kind": "leadership_moves",
+  "slug": "vp-sales-musical-chairs-q1-2026",
+  "title": "VP Sales Musical Chairs: Q1 2026",
+  "dek": "A quarter of unusually heavy sales-leadership movement. Who moved where, and what it signals.",
+  "hero_image_url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&sig=vp-sales-musical-chairs-q1-2026",
+  "body_md": "## A busy quarter\n\nQ1 2026 saw an **unusual volume** of VP Sales and CRO transitions across growth-stage SaaS.\n\n### Notable moves\n\n- A veteran enterprise leader left a public company for a Series C rocket ship.\n- Two CROs swapped industries entirely — fintech to devtools.\n- A wave of first-time VPs were promoted from within rather than hired out.\n\n## What it signals for AEs\n\nLeadership churn is a *double-edged* signal. A new VP often means:\n\n1. New comp plans within two quarters.\n2. Territory reshuffles.\n3. A hiring spree as the leader brings in known talent.\n\nIf you are interviewing somewhere with a new sales leader, ask about their first-100-days plan. It tells you what your next year looks like.",
+  "author_name": "Tom Becker",
+  "read_minutes": 6,
+  "tags": [
+   "Leadership",
+   "Moves",
+   "Hiring"
+  ],
+  "published_at": "2026-04-20T15:17:18.925+00:00"
+ },
+ {
+  "id": "3099308e-2579-486a-a6f2-d858791fb396",
+  "kind": "leadership_moves",
+  "slug": "the-rise-of-the-player-coach-manager",
+  "title": "The Rise of the Player-Coach Sales Manager",
+  "dek": "Growth-stage companies increasingly want first-line managers who still carry a bag. AEs should take note.",
+  "hero_image_url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&sig=the-rise-of-the-player-coach-manager",
+  "body_md": "## A new shape of first-line management\n\nThe pure people-manager is fading at growth stage. Companies now want **player-coaches** — managers who still close deals.\n\n### Why the shift\n\n- Capital efficiency: a manager who carries quota is two hires in one.\n- Credibility: reps trust a manager who is still in the arena.\n- Pipeline: player-coaches keep the team's number honest.\n\n## What it means for your career\n\nFor AEs eyeing management, this is good news and a warning. Good news: the path is *shorter*. Warning: you will not escape the number. The first rung of leadership now means doing both jobs well, at once.\n\nDecide honestly whether that is the job you want.",
+  "author_name": "Dana Whitfield",
+  "read_minutes": 5,
+  "tags": [
+   "Leadership",
+   "Management",
+   "Career"
+  ],
+  "published_at": "2026-04-17T15:17:18.945+00:00"
+ },
+ {
+  "id": "96c700d6-d198-4ce3-9bb2-b8481b621a7b",
+  "kind": "leadership_moves",
+  "slug": "founder-led-sales-when-to-hire-ae",
+  "title": "Founder-Led Sales: When to Hire the First AE",
+  "dek": "The handoff from founder selling to a real sales team is treacherous. Here is how the best companies time it.",
+  "hero_image_url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&sig=founder-led-sales-when-to-hire-ae",
+  "body_md": "## The hardest handoff in startups\n\nMoving from **founder-led sales** to a repeatable sales team is one of the most failure-prone transitions a startup makes.\n\n### Signs it is time\n\n- The founder has personally closed 10 to 20 deals with a consistent pattern.\n- The pitch is documented and others can deliver it.\n- Inbound exceeds the founder's capacity to respond.\n\n## For the first AE\n\nBeing the first AE is high-risk, high-reward. You inherit a thin playbook and enormous upside. The best first AEs are *builders* — comfortable writing the motion as they sell it.\n\nIf you join too early, you will flail without a playbook. Too late, and the best territory is gone. Read the signs above carefully before you sign.",
+  "author_name": "Marcus Reide",
+  "read_minutes": 7,
+  "tags": [
+   "Leadership",
+   "Founders",
+   "Early Stage"
+  ],
+  "published_at": "2026-04-14T15:17:18.965+00:00"
+ },
+ {
+  "id": "8d9b7795-10f3-465b-8e6c-b63d12d16ac4",
+  "kind": "leadership_moves",
+  "slug": "sales-org-design-pods-vs-pools",
+  "title": "Sales Org Design: Pods vs. Pools",
+  "dek": "How a company structures its sales floor shapes your daily life as an AE. Two dominant models, compared.",
+  "hero_image_url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&sig=sales-org-design-pods-vs-pools",
+  "body_md": "## Two ways to build a floor\n\nMost sales orgs land on one of two structures: **pods** or **pools**.\n\n### The pod model\n\nA pod is a fixed unit — AE, SDR, SE, CSM — working a defined territory together. Tight collaboration, clear ownership, slower to rebalance.\n\n### The pool model\n\nResources are shared. Any SDR can pass to any AE; SEs are a shared bench. More flexible, less accountable, can feel impersonal.\n\n## What it means for you\n\nIn a pod, your SDR's quality *is* your pipeline — vet them in interviews. In a pool, your own prospecting discipline matters more.\n\nAsk which model a company runs before you join. It quietly determines whether you control your own number.",
+  "author_name": "Priya Anand",
+  "read_minutes": 6,
+  "tags": [
+   "Leadership",
+   "Org Design",
+   "Culture"
+  ],
+  "published_at": "2026-04-11T15:17:18.991+00:00"
+ },
+ {
+  "id": "55be6550-fb50-4a0e-afe4-543d4a7ad058",
+  "kind": "leadership_moves",
+  "slug": "cro-priorities-shifting-to-efficiency",
+  "title": "CRO Priorities Are Shifting to Efficiency",
+  "dek": "The growth-at-all-costs era is over. CROs now optimize for efficient revenue — and AE roles are changing with it.",
+  "hero_image_url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&sig=cro-priorities-shifting-to-efficiency",
+  "body_md": "## From growth to efficiency\n\nThe **growth-at-all-costs** mandate is gone. Today's CRO is measured on *efficient* revenue — magic number, CAC payback, net retention.\n\n### How it reshapes AE roles\n\n- Larger territories per AE — fewer reps, more accountability.\n- Heavier emphasis on expansion and retention, not just new logos.\n- Tighter deal desks and less discounting freedom.\n\n## What AEs should do\n\nIn an efficiency era, the AEs who thrive are those who can tell a *unit-economics* story — to customers and to their own leadership.\n\nKnow your accounts' ROI cold. Be the rep whose deals do not need a discount to close. That is the profile every efficiency-minded CRO is hunting for.",
+  "author_name": "AE Data Desk",
+  "read_minutes": 5,
+  "tags": [
+   "Leadership",
+   "Efficiency",
+   "Trends"
+  ],
+  "published_at": "2026-04-08T15:17:19.021+00:00"
+ }
+]

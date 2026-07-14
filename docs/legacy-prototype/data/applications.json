@@ -1,0 +1,1202 @@
+[
+ {
+  "id": "b2a6db74-cf0b-4b97-9160-3fa5c32f87a8",
+  "job_id": "3d9e337d-21fa-4a2c-8bdc-eea875f00ff5",
+  "candidate_id": "ffba64ef-ed08-49cd-b94a-2960e0a7f9e6",
+  "stage_id": "c9f6d846-f6fc-4e20-9541-40bbfdc57e34",
+  "status": "applied",
+  "source": "candidate_applied",
+  "created_at": "2026-05-19T15:17:25.385+00:00",
+  "updated_at": "2026-05-19T15:17:25.385+00:00"
+ },
+ {
+  "id": "5919c768-0251-4f14-9c15-9e6a509a185f",
+  "job_id": "4c834633-ea0f-4142-9130-cac24cc49e02",
+  "candidate_id": "ffba64ef-ed08-49cd-b94a-2960e0a7f9e6",
+  "stage_id": "99fcba99-74a3-41a5-815b-46112a417ac1",
+  "status": "in_pipeline",
+  "source": "company_sourced",
+  "created_at": "2026-05-18T15:17:25.489+00:00",
+  "updated_at": "2026-05-18T15:17:25.489+00:00"
+ },
+ {
+  "id": "0c92a314-949e-432e-b8d6-fa002277171f",
+  "job_id": "8a08658d-24ed-4002-9898-cd7f3599ac88",
+  "candidate_id": "ffba64ef-ed08-49cd-b94a-2960e0a7f9e6",
+  "stage_id": "742ee296-ce38-4753-9325-04b917b5bb6d",
+  "status": "rejected",
+  "source": "candidate_applied",
+  "created_at": "2026-05-17T15:17:25.543+00:00",
+  "updated_at": "2026-05-17T15:17:25.543+00:00"
+ },
+ {
+  "id": "44299128-c8c7-4a13-aff6-e1e4ca4eabc0",
+  "job_id": "a469b061-c66c-4355-b305-97faf9bafea2",
+  "candidate_id": "ffba64ef-ed08-49cd-b94a-2960e0a7f9e6",
+  "stage_id": "c647f862-0962-4cea-a06b-50f259d2006f",
+  "status": "withdrawn",
+  "source": "company_sourced",
+  "created_at": "2026-05-16T15:17:25.593+00:00",
+  "updated_at": "2026-05-16T15:17:25.593+00:00"
+ },
+ {
+  "id": "6e2a2b93-f5d5-4865-8ad3-1ab9377362df",
+  "job_id": "3d9e337d-21fa-4a2c-8bdc-eea875f00ff5",
+  "candidate_id": "c4acd09b-5b44-40f9-b1e5-d8f7f21fa488",
+  "stage_id": "605b3526-9bf1-47d2-8da2-bf8d41e66f19",
+  "status": "hired",
+  "source": "candidate_applied",
+  "created_at": "2026-05-15T15:17:25.643+00:00",
+  "updated_at": "2026-05-15T15:17:25.643+00:00"
+ },
+ {
+  "id": "370e0cd7-dfae-447d-8eeb-d1dcfe0366a4",
+  "job_id": "4c834633-ea0f-4142-9130-cac24cc49e02",
+  "candidate_id": "92b00e04-dd76-45d4-b220-4194e31f2b7b",
+  "stage_id": "769b173c-175d-4d15-a540-3ecb5f642651",
+  "status": "applied",
+  "source": "company_sourced",
+  "created_at": "2026-05-14T15:17:25.693+00:00",
+  "updated_at": "2026-05-14T15:17:25.693+00:00"
+ },
+ {
+  "id": "1ba4356c-dc9c-44d9-97b4-9c0bf2861553",
+  "job_id": "8a08658d-24ed-4002-9898-cd7f3599ac88",
+  "candidate_id": "4a5dda10-dca9-4af5-95a6-dedff3faa3e1",
+  "stage_id": "c9f6d846-f6fc-4e20-9541-40bbfdc57e34",
+  "status": "in_pipeline",
+  "source": "candidate_applied",
+  "created_at": "2026-05-13T15:17:25.739+00:00",
+  "updated_at": "2026-05-13T15:17:25.739+00:00"
+ },
+ {
+  "id": "805c0447-6497-464e-94f6-585e22620940",
+  "job_id": "a469b061-c66c-4355-b305-97faf9bafea2",
+  "candidate_id": "872a8f29-cfa8-4d01-aa61-a14634003f70",
+  "stage_id": "99fcba99-74a3-41a5-815b-46112a417ac1",
+  "status": "rejected",
+  "source": "company_sourced",
+  "created_at": "2026-05-12T15:17:25.792+00:00",
+  "updated_at": "2026-05-12T15:17:25.792+00:00"
+ },
+ {
+  "id": "89c86c72-2dd1-43a4-b685-622059dbfde1",
+  "job_id": "a9bd0eb0-9bc5-44c5-8c66-6db3236ce7b3",
+  "candidate_id": "20589600-eba1-4549-a419-40872d9914e2",
+  "stage_id": "742ee296-ce38-4753-9325-04b917b5bb6d",
+  "status": "withdrawn",
+  "source": "candidate_applied",
+  "created_at": "2026-05-11T15:17:25.834+00:00",
+  "updated_at": "2026-05-11T15:17:25.834+00:00"
+ },
+ {
+  "id": "12c650c2-1357-47ee-af4e-4bab4ad6a4ef",
+  "job_id": "0312a5c2-f0a9-4b52-b8bf-3a9a276df3f8",
+  "candidate_id": "2fea7fa9-fc42-405a-9f8c-a6c5c4e8aa53",
+  "stage_id": "9623d7b0-54ec-4405-bfe9-a5931d4bfad6",
+  "status": "hired",
+  "source": "company_sourced",
+  "created_at": "2026-05-10T15:17:25.88+00:00",
+  "updated_at": "2026-05-10T15:17:25.88+00:00"
+ },
+ {
+  "id": "e9d54901-638c-4f50-908d-09ee15723f58",
+  "job_id": "0356e55e-348f-43da-8a82-ef1c616b361c",
+  "candidate_id": "25d00e77-156a-4a00-a658-4b05389317c8",
+  "stage_id": "60b3111f-9ae0-401c-b164-af84cb0adb7c",
+  "status": "applied",
+  "source": "candidate_applied",
+  "created_at": "2026-05-09T15:17:25.931+00:00",
+  "updated_at": "2026-05-09T15:17:25.931+00:00"
+ },
+ {
+  "id": "a581e38f-2fb4-4630-9cec-26e073cd120d",
+  "job_id": "07725149-fa53-4c4f-89bc-6e63e7daab35",
+  "candidate_id": "646ab115-4ae4-4e95-97b7-711902d6d79e",
+  "stage_id": "6dc14e30-40db-4f2e-9119-c36593317dd3",
+  "status": "in_pipeline",
+  "source": "company_sourced",
+  "created_at": "2026-05-08T15:17:25.971+00:00",
+  "updated_at": "2026-05-08T15:17:25.971+00:00"
+ },
+ {
+  "id": "7b5315ca-5e8b-4be3-929d-6e63764263b2",
+  "job_id": "09441732-91bf-483a-bab1-1b6ab2721dc2",
+  "candidate_id": "8c2a0809-4f32-423e-b063-db30231c0b64",
+  "stage_id": "7f6cb6ef-2346-423b-ae43-fcce0102c094",
+  "status": "rejected",
+  "source": "candidate_applied",
+  "created_at": "2026-05-07T15:17:26.021+00:00",
+  "updated_at": "2026-05-07T15:17:26.021+00:00"
+ },
+ {
+  "id": "28a11a5d-fac9-498d-ae6d-9d18149d4db8",
+  "job_id": "0c0de365-d4ca-44b5-831d-95c2af1a2ad7",
+  "candidate_id": "70dd5a5c-6994-469f-bb01-3bb560cabeb3",
+  "stage_id": "ec28e614-8996-434f-afbd-0a94347f0ebf",
+  "status": "withdrawn",
+  "source": "company_sourced",
+  "created_at": "2026-05-06T15:17:26.066+00:00",
+  "updated_at": "2026-05-06T15:17:26.066+00:00"
+ },
+ {
+  "id": "4b5bc900-cfe6-4681-b1fa-7d8b077c3511",
+  "job_id": "0e91888b-ed4f-4f6f-b465-47d6e6a7b4dc",
+  "candidate_id": "5712215e-6064-48c7-b293-e2c3291a292a",
+  "stage_id": "ad650258-cf5f-4947-aec1-a56adf133760",
+  "status": "hired",
+  "source": "candidate_applied",
+  "created_at": "2026-05-05T15:17:26.112+00:00",
+  "updated_at": "2026-05-05T15:17:26.112+00:00"
+ },
+ {
+  "id": "817a4639-d215-4b22-bd8d-f10a0b210869",
+  "job_id": "0fdd9bed-5fe0-4ec3-b93e-0c00aea1f38a",
+  "candidate_id": "7a1d675b-5153-4b5b-8615-9f40c7c12e42",
+  "stage_id": "50cdca05-de1a-4271-8d04-ae108c7ef3c2",
+  "status": "applied",
+  "source": "company_sourced",
+  "created_at": "2026-05-04T15:17:26.158+00:00",
+  "updated_at": "2026-05-04T15:17:26.158+00:00"
+ },
+ {
+  "id": "10079ea3-5010-41ff-84ca-4f28650c9322",
+  "job_id": "140e5c10-0d8c-4db9-8cef-18c3ad838941",
+  "candidate_id": "00ee730c-088c-4602-ab87-88aed2cb568c",
+  "stage_id": "8ad6085f-87ef-44f7-aa93-0b71f3062847",
+  "status": "in_pipeline",
+  "source": "candidate_applied",
+  "created_at": "2026-05-03T15:17:26.211+00:00",
+  "updated_at": "2026-05-03T15:17:26.211+00:00"
+ },
+ {
+  "id": "6e72ed23-0f0c-422a-86d6-01015b1fe827",
+  "job_id": "1607735f-843a-4b8b-834d-39b0dadddc9f",
+  "candidate_id": "832ae099-7da5-4093-944f-c00958ab98cc",
+  "stage_id": "b3845701-41c9-4d48-b554-ac8fada67b25",
+  "status": "rejected",
+  "source": "company_sourced",
+  "created_at": "2026-05-02T15:17:26.263+00:00",
+  "updated_at": "2026-05-02T15:17:26.263+00:00"
+ },
+ {
+  "id": "736d2659-b1e4-4752-8bbe-7f10851e8b82",
+  "job_id": "225d8fd2-6dc9-4d3e-8225-c6156cda18ce",
+  "candidate_id": "edd11230-1737-4a14-86e1-420b6baeb8e4",
+  "stage_id": "fd796dea-b23f-4e05-b85c-fc18c37ae0d2",
+  "status": "withdrawn",
+  "source": "candidate_applied",
+  "created_at": "2026-05-01T15:17:26.308+00:00",
+  "updated_at": "2026-05-01T15:17:26.308+00:00"
+ },
+ {
+  "id": "3a071650-3779-4d6d-aa5e-6f7bda9a0ae7",
+  "job_id": "244bcf3f-1fd2-42cd-beaf-ed1a63a00306",
+  "candidate_id": "b8818f23-3eee-450f-8049-be566380fd37",
+  "stage_id": "ef4c2123-58da-4f83-afad-4ba44cf1e140",
+  "status": "hired",
+  "source": "company_sourced",
+  "created_at": "2026-04-30T15:17:26.358+00:00",
+  "updated_at": "2026-04-30T15:17:26.358+00:00"
+ },
+ {
+  "id": "b467bc10-709b-4adc-908c-250208546031",
+  "job_id": "27bf50f2-3392-403c-87d0-72b564ad8ead",
+  "candidate_id": "d7e515e3-24c6-4607-a166-59bea9d7cbd1",
+  "stage_id": "fb34c644-a68a-4af0-b63e-87774d3daa9e",
+  "status": "applied",
+  "source": "candidate_applied",
+  "created_at": "2026-04-29T15:17:26.409+00:00",
+  "updated_at": "2026-04-29T15:17:26.409+00:00"
+ },
+ {
+  "id": "ed9f07ab-36af-4f6f-bdd0-7e7d3e6b54fe",
+  "job_id": "2a7c0db5-8d66-4aef-a706-22b1942e7f48",
+  "candidate_id": "d6128c39-1956-4f5e-ad4d-554dade9e9ad",
+  "stage_id": "78250ef5-61ed-4af6-9ed9-e405922ab53d",
+  "status": "in_pipeline",
+  "source": "company_sourced",
+  "created_at": "2026-04-28T15:17:26.454+00:00",
+  "updated_at": "2026-04-28T15:17:26.454+00:00"
+ },
+ {
+  "id": "d8aa863e-fa8f-4a8b-9860-626a02604014",
+  "job_id": "3585fefa-f2f1-4994-aa3d-e7e9bc17c898",
+  "candidate_id": "e5e42da3-a0d3-476f-8580-f49b2d50e818",
+  "stage_id": "d792d49c-5fc4-480e-bd77-af0f49254d98",
+  "status": "rejected",
+  "source": "candidate_applied",
+  "created_at": "2026-04-27T15:17:26.525+00:00",
+  "updated_at": "2026-04-27T15:17:26.525+00:00"
+ },
+ {
+  "id": "df509e74-449f-43d8-b581-130a632fa1bd",
+  "job_id": "35f30d84-ca21-4e37-9982-95ef58dcdf08",
+  "candidate_id": "4d3b81a8-e90f-439b-877f-2f0b912c1129",
+  "stage_id": "6dc14e30-40db-4f2e-9119-c36593317dd3",
+  "status": "withdrawn",
+  "source": "company_sourced",
+  "created_at": "2026-04-26T15:17:26.581+00:00",
+  "updated_at": "2026-04-26T15:17:26.581+00:00"
+ },
+ {
+  "id": "18c29110-f67a-4a33-be24-5a9e8e3f2682",
+  "job_id": "37d753ed-cfd6-4621-bf1d-133c5c2f0128",
+  "candidate_id": "62010589-5465-4a7c-9a9a-641fec518364",
+  "stage_id": "fd796dea-b23f-4e05-b85c-fc18c37ae0d2",
+  "status": "hired",
+  "source": "candidate_applied",
+  "created_at": "2026-04-25T15:17:26.631+00:00",
+  "updated_at": "2026-04-25T15:17:26.631+00:00"
+ },
+ {
+  "id": "fdfe14e4-90cd-4244-b780-09288fbb52cb",
+  "job_id": "4ab87d3e-8a18-4600-9c4a-4172eb6046f8",
+  "candidate_id": "6dedf442-0147-4479-92fd-31931374398a",
+  "stage_id": "9968d8e1-33e4-4784-87fa-eb26913df5d8",
+  "status": "applied",
+  "source": "company_sourced",
+  "created_at": "2026-04-24T15:17:26.676+00:00",
+  "updated_at": "2026-04-24T15:17:26.676+00:00"
+ },
+ {
+  "id": "940420a1-ca74-4bde-b7c4-750fcf890858",
+  "job_id": "4b0813a5-59b0-4eea-83f4-9ddf0085b082",
+  "candidate_id": "88689b83-d311-4495-be25-21f89a84931c",
+  "stage_id": "8e97dbda-24ff-44dd-803a-2930461dc9d0",
+  "status": "in_pipeline",
+  "source": "candidate_applied",
+  "created_at": "2026-04-23T15:17:26.722+00:00",
+  "updated_at": "2026-04-23T15:17:26.722+00:00"
+ },
+ {
+  "id": "dd249447-dff1-4d2d-b21c-b1f68fc9ad08",
+  "job_id": "4e322b3a-c47a-4cce-ab34-cd52503b8429",
+  "candidate_id": "dfdf7e38-0dc0-4782-82ac-dbd7ad279583",
+  "stage_id": "c4daba25-e4d5-4854-80ba-251d28682990",
+  "status": "rejected",
+  "source": "company_sourced",
+  "created_at": "2026-04-22T15:17:26.766+00:00",
+  "updated_at": "2026-04-22T15:17:26.766+00:00"
+ },
+ {
+  "id": "9b28c62a-725b-44bd-bad1-95b0ef3c17eb",
+  "job_id": "5448652e-3ce6-46e7-884e-d7cfefde81e7",
+  "candidate_id": "e71cc379-1dcb-4077-b85c-9ea7eb40c85e",
+  "stage_id": "639cfc0c-ce96-47a1-8c80-fcd8b3b3cb80",
+  "status": "withdrawn",
+  "source": "candidate_applied",
+  "created_at": "2026-04-21T15:17:26.814+00:00",
+  "updated_at": "2026-04-21T15:17:26.814+00:00"
+ },
+ {
+  "id": "f1086c71-1c3a-40de-a295-979fefde71db",
+  "job_id": "5823c062-c678-4aa7-b381-ac1b144eebfe",
+  "candidate_id": "0122aad4-2732-4f78-bee1-eaec18979832",
+  "stage_id": "95a29cbb-1e5b-4684-870d-936b60b6c9d6",
+  "status": "hired",
+  "source": "company_sourced",
+  "created_at": "2026-04-20T15:17:26.863+00:00",
+  "updated_at": "2026-04-20T15:17:26.863+00:00"
+ },
+ {
+  "id": "50421a38-b349-42cb-97a4-76e11f46f403",
+  "job_id": "61d98c5a-1e62-40e3-ae9b-ce3846ce9a7e",
+  "candidate_id": "6412c75c-6da9-4dc1-9f0b-aaa49c219c29",
+  "stage_id": "27b8ef61-3cc2-4fab-92ae-02c6217ee99d",
+  "status": "applied",
+  "source": "candidate_applied",
+  "created_at": "2026-04-19T15:17:26.903+00:00",
+  "updated_at": "2026-04-19T15:17:26.903+00:00"
+ },
+ {
+  "id": "442566ff-01c8-4bb0-82f7-97698f938b5f",
+  "job_id": "6792cc0e-941a-4723-83e2-804ddfef7bfd",
+  "candidate_id": "88f5ec3c-9856-47da-a6c6-0f295214c683",
+  "stage_id": "7ef80176-4f36-426a-ae76-2fa370377c20",
+  "status": "in_pipeline",
+  "source": "company_sourced",
+  "created_at": "2026-04-18T15:17:26.953+00:00",
+  "updated_at": "2026-04-18T15:17:26.953+00:00"
+ },
+ {
+  "id": "2971015f-03bc-48f9-a81e-038c79cf92fe",
+  "job_id": "73e70e20-7fac-4c69-9df3-cdde97c416a0",
+  "candidate_id": "5ea6526c-9cd2-456c-87c8-2aae03e7de6f",
+  "stage_id": "696fc202-cac9-4c16-8b66-97f6492cb388",
+  "status": "rejected",
+  "source": "candidate_applied",
+  "created_at": "2026-04-17T15:17:27.003+00:00",
+  "updated_at": "2026-04-17T15:17:27.003+00:00"
+ },
+ {
+  "id": "ac9358f6-7748-4155-bbd0-ecfd636df1ce",
+  "job_id": "750268f4-ba8f-4883-8e34-1fee23611d1f",
+  "candidate_id": "c5c375d8-c34b-464b-9238-791fcbde8e0b",
+  "stage_id": "e416b3bf-ed96-41e6-98b6-6747e597f487",
+  "status": "withdrawn",
+  "source": "company_sourced",
+  "created_at": "2026-04-16T15:17:27.055+00:00",
+  "updated_at": "2026-04-16T15:17:27.055+00:00"
+ },
+ {
+  "id": "f5ead0c9-ca4a-48da-88fc-8247a1c4547a",
+  "job_id": "86d20868-d8d5-4fee-a8dc-bb8373821df6",
+  "candidate_id": "d25b01cc-7102-464a-8f38-7c9b48546167",
+  "stage_id": "997093f8-af85-4fc8-ae23-2e4c783f3fa9",
+  "status": "hired",
+  "source": "candidate_applied",
+  "created_at": "2026-04-15T15:17:27.1+00:00",
+  "updated_at": "2026-04-15T15:17:27.1+00:00"
+ },
+ {
+  "id": "62b77c5c-041f-4618-89c1-b2b9674b5f58",
+  "job_id": "95fc2671-fb1f-4fce-bac0-b5f59fc84226",
+  "candidate_id": "89bce409-ff39-4805-a12a-b794dec24d92",
+  "stage_id": "dc879400-22a1-4147-b899-8989bd55b5f3",
+  "status": "applied",
+  "source": "company_sourced",
+  "created_at": "2026-04-14T15:17:27.144+00:00",
+  "updated_at": "2026-04-14T15:17:27.144+00:00"
+ },
+ {
+  "id": "2bcac5e9-61e0-463e-b107-1154766910cd",
+  "job_id": "a8b2b557-bdc2-4f54-b4ef-eb7b02ae6605",
+  "candidate_id": "c5f9d1de-0011-42af-a392-6dddea19e920",
+  "stage_id": "4cfe23c1-bae2-4109-a130-4bb4f77c363e",
+  "status": "in_pipeline",
+  "source": "candidate_applied",
+  "created_at": "2026-04-13T15:17:27.196+00:00",
+  "updated_at": "2026-04-13T15:17:27.196+00:00"
+ },
+ {
+  "id": "58885b3a-e334-4846-99ed-353c13969d0a",
+  "job_id": "b25f2af7-2de3-4c02-bd72-f1937fde4963",
+  "candidate_id": "20762fde-2805-4034-b6d4-4c8bb5c18fa1",
+  "stage_id": "29ccfec3-e7fd-4cf5-a6ec-e6f3f2eac76e",
+  "status": "rejected",
+  "source": "company_sourced",
+  "created_at": "2026-04-12T15:17:27.246+00:00",
+  "updated_at": "2026-04-12T15:17:27.246+00:00"
+ },
+ {
+  "id": "cd00635e-b34a-4fb3-932b-f448bb8ae10d",
+  "job_id": "bd3a1d37-7ee2-462e-914d-607bf41c713f",
+  "candidate_id": "df6ac2d5-ff5f-4602-9c91-e043fb86b392",
+  "stage_id": "a4461e56-0100-424c-aa63-a3c89c19c1fd",
+  "status": "withdrawn",
+  "source": "candidate_applied",
+  "created_at": "2026-04-11T15:17:27.292+00:00",
+  "updated_at": "2026-04-11T15:17:27.292+00:00"
+ },
+ {
+  "id": "eb4a2704-8166-4cbb-acfc-6a7169bf7d73",
+  "job_id": "bfae2787-541c-4b2e-940f-5b4b5976cf09",
+  "candidate_id": "ff6ffbc7-e532-42f0-aca4-0591b8cf15c0",
+  "stage_id": "db153b68-cea7-4401-942c-1237cc24bf1f",
+  "status": "hired",
+  "source": "company_sourced",
+  "created_at": "2026-04-10T15:17:27.336+00:00",
+  "updated_at": "2026-04-10T15:17:27.336+00:00"
+ },
+ {
+  "id": "ca29b233-7b3e-48e4-993c-a0d0c6efa82c",
+  "job_id": "d10d437b-25f4-43ed-a0ef-617c329dfa60",
+  "candidate_id": "9148aeb2-0f3a-4f6a-bf47-6f9306f759e0",
+  "stage_id": "e6b75ad2-fe13-436d-9116-175b65143981",
+  "status": "applied",
+  "source": "candidate_applied",
+  "created_at": "2026-04-09T15:17:27.387+00:00",
+  "updated_at": "2026-04-09T15:17:27.387+00:00"
+ },
+ {
+  "id": "15abd28a-dc19-47cb-bad0-eb24c98ae5d4",
+  "job_id": "d65ce8e6-2276-4e89-b9bc-3dfb5d25f85e",
+  "candidate_id": "390e9825-f667-4124-b7f5-0df8f93c1b83",
+  "stage_id": "e803c986-8f4d-4735-b377-108439baf4ff",
+  "status": "in_pipeline",
+  "source": "company_sourced",
+  "created_at": "2026-04-08T15:17:27.427+00:00",
+  "updated_at": "2026-04-08T15:17:27.427+00:00"
+ },
+ {
+  "id": "f3cb5aa1-032f-4ec6-bf05-aefc5f7b8921",
+  "job_id": "d78f839f-3329-4e3e-9f6e-686b4a931026",
+  "candidate_id": "6b64321d-96f2-49de-81eb-4a31622d3823",
+  "stage_id": "0b24dda4-6abb-4c47-9e51-fedaa3cffe46",
+  "status": "rejected",
+  "source": "candidate_applied",
+  "created_at": "2026-04-07T15:17:27.478+00:00",
+  "updated_at": "2026-04-07T15:17:27.478+00:00"
+ },
+ {
+  "id": "f05185b7-89ab-4c00-b367-95ca3229d39d",
+  "job_id": "d7f6bf3b-63c5-4adc-8c67-3c3f37eaabf2",
+  "candidate_id": "e0fd96c3-d84e-43c0-8234-ad644fef301d",
+  "stage_id": "390abf24-1293-4540-8a92-42984f9fa8b3",
+  "status": "withdrawn",
+  "source": "company_sourced",
+  "created_at": "2026-04-06T15:17:27.529+00:00",
+  "updated_at": "2026-04-06T15:17:27.529+00:00"
+ },
+ {
+  "id": "028bbbc9-a4f4-4d48-9feb-a183a29a0e72",
+  "job_id": "dceaf071-8c82-401f-838d-23f2c95a8890",
+  "candidate_id": "efc5c2bd-ab6b-4d32-9375-733c39e2328f",
+  "stage_id": "a17a7776-8b1c-4e40-ab5f-2df22e261a12",
+  "status": "hired",
+  "source": "candidate_applied",
+  "created_at": "2026-04-05T15:17:27.578+00:00",
+  "updated_at": "2026-04-05T15:17:27.578+00:00"
+ },
+ {
+  "id": "96bb8756-693d-4e14-b33b-c0ebac1f1f94",
+  "job_id": "dd863384-7769-42e9-9f9c-8d2f2ad0a242",
+  "candidate_id": "2236524a-d460-49b8-beec-9e0485703ce2",
+  "stage_id": "e73475c7-77bc-4b44-a34a-1540cf5f891e",
+  "status": "applied",
+  "source": "company_sourced",
+  "created_at": "2026-04-04T15:17:27.624+00:00",
+  "updated_at": "2026-04-04T15:17:27.624+00:00"
+ },
+ {
+  "id": "1b02d7e8-3af9-4fed-acb1-edd53b3074e4",
+  "job_id": "e407cba5-28e9-494c-a91b-9863fa9d5ba3",
+  "candidate_id": "124e1cc4-b8f4-4ec5-911b-6c6cb8c67edf",
+  "stage_id": "e51dc6aa-1e3a-4cbc-add1-f185b493c339",
+  "status": "in_pipeline",
+  "source": "candidate_applied",
+  "created_at": "2026-04-03T15:17:27.669+00:00",
+  "updated_at": "2026-04-03T15:17:27.669+00:00"
+ },
+ {
+  "id": "3dd2ef89-2cc1-46f1-8366-878afe477e80",
+  "job_id": "e462d2f8-4843-4afd-9b2a-370665d6cdf7",
+  "candidate_id": "a826bc99-c4c2-436d-8119-cdd54e8cec0e",
+  "stage_id": "6dc14e30-40db-4f2e-9119-c36593317dd3",
+  "status": "rejected",
+  "source": "company_sourced",
+  "created_at": "2026-04-02T15:17:27.72+00:00",
+  "updated_at": "2026-04-02T15:17:27.72+00:00"
+ },
+ {
+  "id": "e6dee86c-2cd9-4be9-a3d6-a02cd7197b24",
+  "job_id": "e8b709e0-6783-4cac-a6d0-6c1554ea7586",
+  "candidate_id": "7c982f06-f535-45e1-b334-045b2a6a08ba",
+  "stage_id": "cd0422de-54a0-49a5-b560-61d0d7a8ad18",
+  "status": "withdrawn",
+  "source": "candidate_applied",
+  "created_at": "2026-04-01T15:17:27.765+00:00",
+  "updated_at": "2026-04-01T15:17:27.765+00:00"
+ },
+ {
+  "id": "13cb059d-fbdb-4f03-aea6-e97bfcb39aee",
+  "job_id": "ea60f931-62ba-4d00-a8aa-a88c67f5ad1f",
+  "candidate_id": "d4d78eec-72d5-4094-859c-fd2588957b6d",
+  "stage_id": "ea60ebb9-5d1e-41a8-aaf8-796ee552c5ef",
+  "status": "hired",
+  "source": "company_sourced",
+  "created_at": "2026-03-31T15:17:27.805+00:00",
+  "updated_at": "2026-03-31T15:17:27.805+00:00"
+ },
+ {
+  "id": "30a7870c-be1f-4297-8f5e-93fdd39ca4b4",
+  "job_id": "ff4dfe6c-4822-49d3-b01f-d0738542f9e1",
+  "candidate_id": "ccae9d1d-60d1-4a47-9ee6-b91afbaaa865",
+  "stage_id": "6a01182d-c730-48a6-ad79-8062abbd54e8",
+  "status": "applied",
+  "source": "candidate_applied",
+  "created_at": "2026-03-30T15:17:27.855+00:00",
+  "updated_at": "2026-03-30T15:17:27.855+00:00"
+ },
+ {
+  "id": "a51edee8-bfe2-48e8-9826-496b1ae6a5d4",
+  "job_id": "ffe57cbf-4c38-4de8-843d-70d2cb54cbeb",
+  "candidate_id": "40e8b238-407c-495d-9043-4764ea65b2ef",
+  "stage_id": "e73475c7-77bc-4b44-a34a-1540cf5f891e",
+  "status": "in_pipeline",
+  "source": "company_sourced",
+  "created_at": "2026-03-29T15:17:27.901+00:00",
+  "updated_at": "2026-03-29T15:17:27.901+00:00"
+ },
+ {
+  "id": "82211159-3f20-494f-bad2-32b5a088253d",
+  "job_id": "3d9e337d-21fa-4a2c-8bdc-eea875f00ff5",
+  "candidate_id": "9dd05c70-c299-4a03-afb0-767fe4ed0db9",
+  "stage_id": "605b3526-9bf1-47d2-8da2-bf8d41e66f19",
+  "status": "rejected",
+  "source": "candidate_applied",
+  "created_at": "2026-03-28T15:17:27.946+00:00",
+  "updated_at": "2026-03-28T15:17:27.946+00:00"
+ },
+ {
+  "id": "39655e20-3d78-467b-985d-239ea93119b2",
+  "job_id": "4c834633-ea0f-4142-9130-cac24cc49e02",
+  "candidate_id": "1a9dc35a-8465-4d58-84e2-21783d6daef7",
+  "stage_id": "769b173c-175d-4d15-a540-3ecb5f642651",
+  "status": "withdrawn",
+  "source": "company_sourced",
+  "created_at": "2026-03-27T15:17:27.992+00:00",
+  "updated_at": "2026-03-27T15:17:27.992+00:00"
+ },
+ {
+  "id": "7a6d33c0-7cac-41e0-b329-0138b5699cab",
+  "job_id": "8a08658d-24ed-4002-9898-cd7f3599ac88",
+  "candidate_id": "56236b9c-e09b-4dd0-8d38-dcf0c3d3d68d",
+  "stage_id": "c9f6d846-f6fc-4e20-9541-40bbfdc57e34",
+  "status": "hired",
+  "source": "candidate_applied",
+  "created_at": "2026-03-26T15:17:28.037+00:00",
+  "updated_at": "2026-03-26T15:17:28.037+00:00"
+ },
+ {
+  "id": "94aa7bc6-ae22-49cb-9906-390bef6a93ec",
+  "job_id": "a469b061-c66c-4355-b305-97faf9bafea2",
+  "candidate_id": "b11b72bc-26b0-4ced-a6ff-88c878118e9d",
+  "stage_id": "99fcba99-74a3-41a5-815b-46112a417ac1",
+  "status": "applied",
+  "source": "company_sourced",
+  "created_at": "2026-03-25T15:17:28.097+00:00",
+  "updated_at": "2026-03-25T15:17:28.097+00:00"
+ },
+ {
+  "id": "868f5d3a-a4fa-4ea2-bcce-58cc4c27f356",
+  "job_id": "a9bd0eb0-9bc5-44c5-8c66-6db3236ce7b3",
+  "candidate_id": "d3f2bdf4-14b5-4dd4-916c-863c4196fb9d",
+  "stage_id": "742ee296-ce38-4753-9325-04b917b5bb6d",
+  "status": "in_pipeline",
+  "source": "candidate_applied",
+  "created_at": "2026-03-24T15:17:28.148+00:00",
+  "updated_at": "2026-03-24T15:17:28.148+00:00"
+ },
+ {
+  "id": "355ab656-4f3f-414c-94d7-b1e0a7e67d79",
+  "job_id": "0312a5c2-f0a9-4b52-b8bf-3a9a276df3f8",
+  "candidate_id": "bbb62239-e3e5-4819-ac8a-8f78d7bfe1bc",
+  "stage_id": "9623d7b0-54ec-4405-bfe9-a5931d4bfad6",
+  "status": "rejected",
+  "source": "company_sourced",
+  "created_at": "2026-03-23T15:17:28.195+00:00",
+  "updated_at": "2026-03-23T15:17:28.195+00:00"
+ },
+ {
+  "id": "794ec6f7-cc8d-44ab-b1ae-8a8584bf806d",
+  "job_id": "0356e55e-348f-43da-8a82-ef1c616b361c",
+  "candidate_id": "0d913d3c-7a70-4778-8c6d-6a1499dfb62d",
+  "stage_id": "60b3111f-9ae0-401c-b164-af84cb0adb7c",
+  "status": "withdrawn",
+  "source": "candidate_applied",
+  "created_at": "2026-03-22T15:17:28.244+00:00",
+  "updated_at": "2026-03-22T15:17:28.244+00:00"
+ },
+ {
+  "id": "7f797a90-ae20-4f06-b821-21ee700acb92",
+  "job_id": "07725149-fa53-4c4f-89bc-6e63e7daab35",
+  "candidate_id": "9cde717e-93f1-452b-8897-a9723f25546c",
+  "stage_id": "6dc14e30-40db-4f2e-9119-c36593317dd3",
+  "status": "hired",
+  "source": "company_sourced",
+  "created_at": "2026-03-21T15:17:28.304+00:00",
+  "updated_at": "2026-03-21T15:17:28.304+00:00"
+ },
+ {
+  "id": "e22e4f4a-4e8f-42d9-ab7c-08e84ccdd53a",
+  "job_id": "09441732-91bf-483a-bab1-1b6ab2721dc2",
+  "candidate_id": "6c3cdc5e-927a-46cb-bdf0-500228863230",
+  "stage_id": "7f6cb6ef-2346-423b-ae43-fcce0102c094",
+  "status": "applied",
+  "source": "candidate_applied",
+  "created_at": "2026-03-20T15:17:28.35+00:00",
+  "updated_at": "2026-03-20T15:17:28.35+00:00"
+ },
+ {
+  "id": "6bd5fd65-22ff-4c33-91cc-a202705df76a",
+  "job_id": "0c0de365-d4ca-44b5-831d-95c2af1a2ad7",
+  "candidate_id": "06fd4da5-a6f6-4204-aa5e-913085c7246b",
+  "stage_id": "ec28e614-8996-434f-afbd-0a94347f0ebf",
+  "status": "in_pipeline",
+  "source": "company_sourced",
+  "created_at": "2026-03-19T15:17:28.395+00:00",
+  "updated_at": "2026-03-19T15:17:28.395+00:00"
+ },
+ {
+  "id": "8f15fe09-5266-4404-8220-5214aa741a54",
+  "job_id": "0e91888b-ed4f-4f6f-b465-47d6e6a7b4dc",
+  "candidate_id": "bd47abaf-2dfd-4a31-8e76-e8f73713d819",
+  "stage_id": "ad650258-cf5f-4947-aec1-a56adf133760",
+  "status": "rejected",
+  "source": "candidate_applied",
+  "created_at": "2026-03-18T15:17:28.445+00:00",
+  "updated_at": "2026-03-18T15:17:28.445+00:00"
+ },
+ {
+  "id": "2a914f86-40b3-4e88-9230-1404e3dffb0e",
+  "job_id": "0fdd9bed-5fe0-4ec3-b93e-0c00aea1f38a",
+  "candidate_id": "b5519e20-1ef9-46fe-8e74-56806e10c65e",
+  "stage_id": "50cdca05-de1a-4271-8d04-ae108c7ef3c2",
+  "status": "withdrawn",
+  "source": "company_sourced",
+  "created_at": "2026-03-17T15:17:28.503+00:00",
+  "updated_at": "2026-03-17T15:17:28.503+00:00"
+ },
+ {
+  "id": "379bbf69-b9b4-421d-9e9d-ddc62d12dcdf",
+  "job_id": "140e5c10-0d8c-4db9-8cef-18c3ad838941",
+  "candidate_id": "de2e4e42-fb93-436f-a1c7-93bd8ddb010e",
+  "stage_id": "8ad6085f-87ef-44f7-aa93-0b71f3062847",
+  "status": "hired",
+  "source": "candidate_applied",
+  "created_at": "2026-03-16T15:17:28.562+00:00",
+  "updated_at": "2026-03-16T15:17:28.562+00:00"
+ },
+ {
+  "id": "f9e4efd7-b735-41c8-a086-6252979afda2",
+  "job_id": "1607735f-843a-4b8b-834d-39b0dadddc9f",
+  "candidate_id": "6781469f-19f8-499b-9203-2631ba54224a",
+  "stage_id": "b3845701-41c9-4d48-b554-ac8fada67b25",
+  "status": "applied",
+  "source": "company_sourced",
+  "created_at": "2026-03-15T15:17:28.612+00:00",
+  "updated_at": "2026-03-15T15:17:28.612+00:00"
+ },
+ {
+  "id": "a30efada-bf33-47e8-aa7e-f7618fac664f",
+  "job_id": "225d8fd2-6dc9-4d3e-8225-c6156cda18ce",
+  "candidate_id": "17a6b1b5-847b-4a7b-bfdf-920ef2e5deec",
+  "stage_id": "fd796dea-b23f-4e05-b85c-fc18c37ae0d2",
+  "status": "in_pipeline",
+  "source": "candidate_applied",
+  "created_at": "2026-03-14T15:17:28.662+00:00",
+  "updated_at": "2026-03-14T15:17:28.662+00:00"
+ },
+ {
+  "id": "5ede8388-8552-4601-b462-91eaea03f823",
+  "job_id": "244bcf3f-1fd2-42cd-beaf-ed1a63a00306",
+  "candidate_id": "0d72f1f3-f34c-41e7-9d2f-8dc7af273c7d",
+  "stage_id": "ef4c2123-58da-4f83-afad-4ba44cf1e140",
+  "status": "rejected",
+  "source": "company_sourced",
+  "created_at": "2026-03-13T15:17:28.723+00:00",
+  "updated_at": "2026-03-13T15:17:28.723+00:00"
+ },
+ {
+  "id": "a505b1c3-c179-4abf-bcc5-d250e319fd62",
+  "job_id": "27bf50f2-3392-403c-87d0-72b564ad8ead",
+  "candidate_id": "cb37a236-3939-4789-9695-bb480d91c08b",
+  "stage_id": "fb34c644-a68a-4af0-b63e-87774d3daa9e",
+  "status": "withdrawn",
+  "source": "candidate_applied",
+  "created_at": "2026-03-12T15:17:28.784+00:00",
+  "updated_at": "2026-03-12T15:17:28.784+00:00"
+ },
+ {
+  "id": "4a4bd016-4150-4e15-969d-17abcaee35f6",
+  "job_id": "2a7c0db5-8d66-4aef-a706-22b1942e7f48",
+  "candidate_id": "fb27de20-ef27-4d79-ab4c-343c2e2c435d",
+  "stage_id": "78250ef5-61ed-4af6-9ed9-e405922ab53d",
+  "status": "hired",
+  "source": "company_sourced",
+  "created_at": "2026-03-11T15:17:28.838+00:00",
+  "updated_at": "2026-03-11T15:17:28.838+00:00"
+ },
+ {
+  "id": "2f0d552e-15d8-4c8e-ae78-8200580cb469",
+  "job_id": "3585fefa-f2f1-4994-aa3d-e7e9bc17c898",
+  "candidate_id": "bca45b05-4c14-4034-b290-b35092c2a11a",
+  "stage_id": "d792d49c-5fc4-480e-bd77-af0f49254d98",
+  "status": "applied",
+  "source": "candidate_applied",
+  "created_at": "2026-03-10T15:17:28.883+00:00",
+  "updated_at": "2026-03-10T15:17:28.883+00:00"
+ },
+ {
+  "id": "ea1672d1-d48f-4c17-9b8a-b8c3fa89d783",
+  "job_id": "35f30d84-ca21-4e37-9982-95ef58dcdf08",
+  "candidate_id": "ffba64ef-ed08-49cd-b94a-2960e0a7f9e6",
+  "stage_id": "6dc14e30-40db-4f2e-9119-c36593317dd3",
+  "status": "in_pipeline",
+  "source": "company_sourced",
+  "created_at": "2026-03-09T15:17:28.924+00:00",
+  "updated_at": "2026-03-09T15:17:28.924+00:00"
+ },
+ {
+  "id": "45226817-534a-4f42-ad02-4927d02c0d67",
+  "job_id": "37d753ed-cfd6-4621-bf1d-133c5c2f0128",
+  "candidate_id": "82a8b767-bd83-405f-b586-229bce2d7b8b",
+  "stage_id": "fd796dea-b23f-4e05-b85c-fc18c37ae0d2",
+  "status": "rejected",
+  "source": "candidate_applied",
+  "created_at": "2026-03-08T15:17:28.969+00:00",
+  "updated_at": "2026-03-08T15:17:28.969+00:00"
+ },
+ {
+  "id": "335013a1-d801-4a13-b9a0-a6d021647dcc",
+  "job_id": "4ab87d3e-8a18-4600-9c4a-4172eb6046f8",
+  "candidate_id": "70ffc9ee-1b73-4521-aad4-ef19dee4ede1",
+  "stage_id": "9968d8e1-33e4-4784-87fa-eb26913df5d8",
+  "status": "withdrawn",
+  "source": "company_sourced",
+  "created_at": "2026-03-07T15:17:29.019+00:00",
+  "updated_at": "2026-03-07T15:17:29.019+00:00"
+ },
+ {
+  "id": "50981488-a6f3-455d-a1e2-80db86128d56",
+  "job_id": "4b0813a5-59b0-4eea-83f4-9ddf0085b082",
+  "candidate_id": "1579fa9e-6d72-4527-8fa9-a96ca273fc20",
+  "stage_id": "8e97dbda-24ff-44dd-803a-2930461dc9d0",
+  "status": "hired",
+  "source": "candidate_applied",
+  "created_at": "2026-03-06T15:17:29.06+00:00",
+  "updated_at": "2026-03-06T15:17:29.06+00:00"
+ },
+ {
+  "id": "61315c09-5e54-4274-8c37-2c99e910c8d0",
+  "job_id": "4e322b3a-c47a-4cce-ab34-cd52503b8429",
+  "candidate_id": "30f26f21-6064-445d-b55f-dd10aa613831",
+  "stage_id": "c4daba25-e4d5-4854-80ba-251d28682990",
+  "status": "applied",
+  "source": "company_sourced",
+  "created_at": "2026-03-05T15:17:29.128+00:00",
+  "updated_at": "2026-03-05T15:17:29.128+00:00"
+ },
+ {
+  "id": "84e13c21-b412-4bc3-a113-aa60e1c3d4cf",
+  "job_id": "5448652e-3ce6-46e7-884e-d7cfefde81e7",
+  "candidate_id": "ae12db6b-1b0e-4d9f-a665-e0c5e99c315b",
+  "stage_id": "639cfc0c-ce96-47a1-8c80-fcd8b3b3cb80",
+  "status": "in_pipeline",
+  "source": "candidate_applied",
+  "created_at": "2026-03-04T15:17:29.176+00:00",
+  "updated_at": "2026-03-04T15:17:29.176+00:00"
+ },
+ {
+  "id": "cd2ede72-a4e1-4679-b1d6-6831c9e67cb0",
+  "job_id": "5823c062-c678-4aa7-b381-ac1b144eebfe",
+  "candidate_id": "3095c602-cc41-48cb-89a4-e930179e8dfc",
+  "stage_id": "95a29cbb-1e5b-4684-870d-936b60b6c9d6",
+  "status": "rejected",
+  "source": "company_sourced",
+  "created_at": "2026-03-03T15:17:29.231+00:00",
+  "updated_at": "2026-03-03T15:17:29.231+00:00"
+ },
+ {
+  "id": "2bcfc44b-7e9e-4ffe-a6cb-1bac02e6ab75",
+  "job_id": "61d98c5a-1e62-40e3-ae9b-ce3846ce9a7e",
+  "candidate_id": "895b80f5-402b-4e25-ad90-947215ee3c16",
+  "stage_id": "27b8ef61-3cc2-4fab-92ae-02c6217ee99d",
+  "status": "withdrawn",
+  "source": "candidate_applied",
+  "created_at": "2026-03-02T15:17:29.287+00:00",
+  "updated_at": "2026-03-02T15:17:29.287+00:00"
+ },
+ {
+  "id": "c71be5b7-f155-4945-a316-1344d781b1dd",
+  "job_id": "6792cc0e-941a-4723-83e2-804ddfef7bfd",
+  "candidate_id": "5778ce10-083e-4e90-bb5e-abb3fb890245",
+  "stage_id": "7ef80176-4f36-426a-ae76-2fa370377c20",
+  "status": "hired",
+  "source": "company_sourced",
+  "created_at": "2026-03-01T15:17:29.333+00:00",
+  "updated_at": "2026-03-01T15:17:29.333+00:00"
+ },
+ {
+  "id": "6eae2cdf-f48a-4faf-80f8-a79ecc42f530",
+  "job_id": "73e70e20-7fac-4c69-9df3-cdde97c416a0",
+  "candidate_id": "7691ff99-abb5-4764-83e0-2b1c69ef2448",
+  "stage_id": "696fc202-cac9-4c16-8b66-97f6492cb388",
+  "status": "applied",
+  "source": "candidate_applied",
+  "created_at": "2026-02-28T15:17:29.378+00:00",
+  "updated_at": "2026-02-28T15:17:29.378+00:00"
+ },
+ {
+  "id": "0d0b51b0-ac31-493d-bff9-243fd816345c",
+  "job_id": "750268f4-ba8f-4883-8e34-1fee23611d1f",
+  "candidate_id": "fa35cbd7-cd13-4caa-a095-6959188ad6d5",
+  "stage_id": "e416b3bf-ed96-41e6-98b6-6747e597f487",
+  "status": "in_pipeline",
+  "source": "company_sourced",
+  "created_at": "2026-02-27T15:17:29.422+00:00",
+  "updated_at": "2026-02-27T15:17:29.422+00:00"
+ },
+ {
+  "id": "61361866-033e-4470-b332-4babbd9d498c",
+  "job_id": "86d20868-d8d5-4fee-a8dc-bb8373821df6",
+  "candidate_id": "d3d18e26-7e14-4968-8ee7-579117e44fa6",
+  "stage_id": "997093f8-af85-4fc8-ae23-2e4c783f3fa9",
+  "status": "rejected",
+  "source": "candidate_applied",
+  "created_at": "2026-02-26T15:17:29.468+00:00",
+  "updated_at": "2026-02-26T15:17:29.468+00:00"
+ },
+ {
+  "id": "6dfbddea-a506-4a3d-9826-199f64f4ce76",
+  "job_id": "95fc2671-fb1f-4fce-bac0-b5f59fc84226",
+  "candidate_id": "cdd97eaa-e7de-4344-94fd-cad3e82c5568",
+  "stage_id": "dc879400-22a1-4147-b899-8989bd55b5f3",
+  "status": "withdrawn",
+  "source": "company_sourced",
+  "created_at": "2026-02-25T15:17:29.509+00:00",
+  "updated_at": "2026-02-25T15:17:29.509+00:00"
+ },
+ {
+  "id": "dcb9e265-5f60-4ff5-a833-566136a2216b",
+  "job_id": "a8b2b557-bdc2-4f54-b4ef-eb7b02ae6605",
+  "candidate_id": "eaac7c93-6fcf-48de-8453-c66509c71979",
+  "stage_id": "4cfe23c1-bae2-4109-a130-4bb4f77c363e",
+  "status": "hired",
+  "source": "candidate_applied",
+  "created_at": "2026-02-24T15:17:29.559+00:00",
+  "updated_at": "2026-02-24T15:17:29.559+00:00"
+ },
+ {
+  "id": "0e293ac1-0ffb-4f4a-b3b4-a5c55954d4cf",
+  "job_id": "b25f2af7-2de3-4c02-bd72-f1937fde4963",
+  "candidate_id": "a2ac248a-890e-461f-b32a-f68c9813d044",
+  "stage_id": "29ccfec3-e7fd-4cf5-a6ec-e6f3f2eac76e",
+  "status": "applied",
+  "source": "company_sourced",
+  "created_at": "2026-02-23T15:17:29.6+00:00",
+  "updated_at": "2026-02-23T15:17:29.6+00:00"
+ },
+ {
+  "id": "8d6bf4bc-4d1d-4e43-98d1-bbdd76a225a4",
+  "job_id": "bd3a1d37-7ee2-462e-914d-607bf41c713f",
+  "candidate_id": "8d627059-3f7d-4a0a-919b-d95f016f13f9",
+  "stage_id": "a4461e56-0100-424c-aa63-a3c89c19c1fd",
+  "status": "in_pipeline",
+  "source": "candidate_applied",
+  "created_at": "2026-02-22T15:17:29.655+00:00",
+  "updated_at": "2026-02-22T15:17:29.655+00:00"
+ },
+ {
+  "id": "f4669367-df01-40a0-9458-0ad7fd1133ca",
+  "job_id": "bfae2787-541c-4b2e-940f-5b4b5976cf09",
+  "candidate_id": "f84b5ed7-966f-4a74-b7b7-760d566bdd05",
+  "stage_id": "db153b68-cea7-4401-942c-1237cc24bf1f",
+  "status": "rejected",
+  "source": "company_sourced",
+  "created_at": "2026-02-21T15:17:29.705+00:00",
+  "updated_at": "2026-02-21T15:17:29.705+00:00"
+ },
+ {
+  "id": "7ee8bdf4-6b6b-44b4-99d5-83e6f5fe8183",
+  "job_id": "d10d437b-25f4-43ed-a0ef-617c329dfa60",
+  "candidate_id": "d4a35607-5faf-43aa-b764-6f4ed2611138",
+  "stage_id": "e6b75ad2-fe13-436d-9116-175b65143981",
+  "status": "withdrawn",
+  "source": "candidate_applied",
+  "created_at": "2026-02-20T15:17:29.755+00:00",
+  "updated_at": "2026-02-20T15:17:29.755+00:00"
+ },
+ {
+  "id": "2e2b5948-c2de-49b7-bd42-0c604741b19d",
+  "job_id": "d65ce8e6-2276-4e89-b9bc-3dfb5d25f85e",
+  "candidate_id": "5b2c9100-2df3-44e8-93c5-c1b2d48f881c",
+  "stage_id": "e803c986-8f4d-4735-b377-108439baf4ff",
+  "status": "hired",
+  "source": "company_sourced",
+  "created_at": "2026-02-19T15:17:29.801+00:00",
+  "updated_at": "2026-02-19T15:17:29.801+00:00"
+ },
+ {
+  "id": "a9867f66-778c-459d-9b41-fcdd4eb64145",
+  "job_id": "d78f839f-3329-4e3e-9f6e-686b4a931026",
+  "candidate_id": "5b0b8c99-475d-4a58-9b2d-ad27bba272c9",
+  "stage_id": "0b24dda4-6abb-4c47-9e51-fedaa3cffe46",
+  "status": "applied",
+  "source": "candidate_applied",
+  "created_at": "2026-02-18T15:17:29.842+00:00",
+  "updated_at": "2026-02-18T15:17:29.842+00:00"
+ },
+ {
+  "id": "8bcf4ae3-13d6-4d3f-ac56-73da2665c80c",
+  "job_id": "d7f6bf3b-63c5-4adc-8c67-3c3f37eaabf2",
+  "candidate_id": "6fe8ab76-208f-4efb-aa5b-63cda01d58a1",
+  "stage_id": "390abf24-1293-4540-8a92-42984f9fa8b3",
+  "status": "in_pipeline",
+  "source": "company_sourced",
+  "created_at": "2026-02-17T15:17:29.897+00:00",
+  "updated_at": "2026-02-17T15:17:29.897+00:00"
+ },
+ {
+  "id": "3e4f2f4a-9563-4fd3-8e3a-02d0486d744a",
+  "job_id": "dceaf071-8c82-401f-838d-23f2c95a8890",
+  "candidate_id": "3eb10c1e-8ffa-4982-ab4f-600e6eb605ed",
+  "stage_id": "a17a7776-8b1c-4e40-ab5f-2df22e261a12",
+  "status": "rejected",
+  "source": "candidate_applied",
+  "created_at": "2026-02-16T15:17:29.95+00:00",
+  "updated_at": "2026-02-16T15:17:29.95+00:00"
+ },
+ {
+  "id": "986b1e1d-1540-4b84-9cb8-ddf212d18d43",
+  "job_id": "dd863384-7769-42e9-9f9c-8d2f2ad0a242",
+  "candidate_id": "068089bc-1fde-4c09-a13f-1c242e5f066b",
+  "stage_id": "e73475c7-77bc-4b44-a34a-1540cf5f891e",
+  "status": "withdrawn",
+  "source": "company_sourced",
+  "created_at": "2026-02-15T15:17:30.008+00:00",
+  "updated_at": "2026-02-15T15:17:30.008+00:00"
+ },
+ {
+  "id": "103c9fdf-348c-4b6c-9b9c-537eeecfaccd",
+  "job_id": "e407cba5-28e9-494c-a91b-9863fa9d5ba3",
+  "candidate_id": "fbb3b61b-4d98-400a-ac10-8e0ed35d6ef8",
+  "stage_id": "e51dc6aa-1e3a-4cbc-add1-f185b493c339",
+  "status": "hired",
+  "source": "candidate_applied",
+  "created_at": "2026-02-14T15:17:30.063+00:00",
+  "updated_at": "2026-02-14T15:17:30.063+00:00"
+ },
+ {
+  "id": "48fce078-16a0-47c8-8952-883970761dbf",
+  "job_id": "e462d2f8-4843-4afd-9b2a-370665d6cdf7",
+  "candidate_id": "e649e300-2d19-4a77-adbf-151c3e03b235",
+  "stage_id": "6dc14e30-40db-4f2e-9119-c36593317dd3",
+  "status": "applied",
+  "source": "company_sourced",
+  "created_at": "2026-02-13T15:17:30.114+00:00",
+  "updated_at": "2026-02-13T15:17:30.114+00:00"
+ },
+ {
+  "id": "d7fee1a6-c203-45f8-beb8-bdc052edab83",
+  "job_id": "e8b709e0-6783-4cac-a6d0-6c1554ea7586",
+  "candidate_id": "db9c7548-f92c-4598-bb2a-932d7b648d98",
+  "stage_id": "cd0422de-54a0-49a5-b560-61d0d7a8ad18",
+  "status": "in_pipeline",
+  "source": "candidate_applied",
+  "created_at": "2026-02-12T15:17:30.164+00:00",
+  "updated_at": "2026-02-12T15:17:30.164+00:00"
+ },
+ {
+  "id": "59d0bb7b-8284-41c1-b023-1349d893e3ee",
+  "job_id": "ea60f931-62ba-4d00-a8aa-a88c67f5ad1f",
+  "candidate_id": "4dd42460-afca-4cab-a7b6-8eb6c9b736f5",
+  "stage_id": "ea60ebb9-5d1e-41a8-aaf8-796ee552c5ef",
+  "status": "rejected",
+  "source": "company_sourced",
+  "created_at": "2026-02-11T15:17:30.215+00:00",
+  "updated_at": "2026-02-11T15:17:30.215+00:00"
+ },
+ {
+  "id": "cf0aad64-7696-403a-9ef1-11ac04082e1e",
+  "job_id": "ff4dfe6c-4822-49d3-b01f-d0738542f9e1",
+  "candidate_id": "b02386f0-3d88-40e7-8203-8271a67aea64",
+  "stage_id": "6a01182d-c730-48a6-ad79-8062abbd54e8",
+  "status": "withdrawn",
+  "source": "candidate_applied",
+  "created_at": "2026-02-10T15:17:30.265+00:00",
+  "updated_at": "2026-02-10T15:17:30.265+00:00"
+ },
+ {
+  "id": "16d929e8-34e1-4519-8142-b9f91025c5a5",
+  "job_id": "ffe57cbf-4c38-4de8-843d-70d2cb54cbeb",
+  "candidate_id": "7fa4c5cb-9f4b-4ab5-98a9-55eb1de1e5fe",
+  "stage_id": "e73475c7-77bc-4b44-a34a-1540cf5f891e",
+  "status": "hired",
+  "source": "company_sourced",
+  "created_at": "2026-02-09T15:17:30.314+00:00",
+  "updated_at": "2026-02-09T15:17:30.314+00:00"
+ },
+ {
+  "id": "7adb8f83-8be7-4871-831c-192be5ce3a4b",
+  "job_id": "3d9e337d-21fa-4a2c-8bdc-eea875f00ff5",
+  "candidate_id": "291cf0c5-2977-4539-9e51-3c91d0887b47",
+  "stage_id": "605b3526-9bf1-47d2-8da2-bf8d41e66f19",
+  "status": "applied",
+  "source": "candidate_applied",
+  "created_at": "2026-02-08T15:17:30.356+00:00",
+  "updated_at": "2026-02-08T15:17:30.356+00:00"
+ },
+ {
+  "id": "6095a8a1-534c-4585-9e42-aecb8ea7bc7d",
+  "job_id": "4c834633-ea0f-4142-9130-cac24cc49e02",
+  "candidate_id": "7b2da295-b8ab-4874-9847-d2f753e43ba9",
+  "stage_id": "769b173c-175d-4d15-a540-3ecb5f642651",
+  "status": "in_pipeline",
+  "source": "company_sourced",
+  "created_at": "2026-02-07T15:17:30.401+00:00",
+  "updated_at": "2026-02-07T15:17:30.401+00:00"
+ },
+ {
+  "id": "4f4879e8-9c8a-443c-b73f-3f3c56db14f2",
+  "job_id": "8a08658d-24ed-4002-9898-cd7f3599ac88",
+  "candidate_id": "c1e873c1-be22-46cf-a075-4a03cde9ee08",
+  "stage_id": "c9f6d846-f6fc-4e20-9541-40bbfdc57e34",
+  "status": "rejected",
+  "source": "candidate_applied",
+  "created_at": "2026-02-06T15:17:30.446+00:00",
+  "updated_at": "2026-02-06T15:17:30.446+00:00"
+ },
+ {
+  "id": "a6196f77-364c-42ea-969f-5c98b5742059",
+  "job_id": "a469b061-c66c-4355-b305-97faf9bafea2",
+  "candidate_id": "7565c482-4108-4b76-afbe-226e12b3ce97",
+  "stage_id": "99fcba99-74a3-41a5-815b-46112a417ac1",
+  "status": "withdrawn",
+  "source": "company_sourced",
+  "created_at": "2026-02-05T15:17:30.486+00:00",
+  "updated_at": "2026-02-05T15:17:30.486+00:00"
+ },
+ {
+  "id": "05566e6b-9249-4012-95b5-5f6bbe072c2e",
+  "job_id": "a9bd0eb0-9bc5-44c5-8c66-6db3236ce7b3",
+  "candidate_id": "cf37c286-076d-44a3-ab73-c5c69e9eebb2",
+  "stage_id": "742ee296-ce38-4753-9325-04b917b5bb6d",
+  "status": "hired",
+  "source": "candidate_applied",
+  "created_at": "2026-02-04T15:17:30.527+00:00",
+  "updated_at": "2026-02-04T15:17:30.527+00:00"
+ },
+ {
+  "id": "864892c9-300e-4ea0-9350-9391ac78c5f9",
+  "job_id": "0312a5c2-f0a9-4b52-b8bf-3a9a276df3f8",
+  "candidate_id": "c4acd09b-5b44-40f9-b1e5-d8f7f21fa488",
+  "stage_id": "9623d7b0-54ec-4405-bfe9-a5931d4bfad6",
+  "status": "applied",
+  "source": "company_sourced",
+  "created_at": "2026-02-03T15:17:30.573+00:00",
+  "updated_at": "2026-02-03T15:17:30.573+00:00"
+ },
+ {
+  "id": "4ada510e-427c-46f7-aba3-7ec2b929a973",
+  "job_id": "0356e55e-348f-43da-8a82-ef1c616b361c",
+  "candidate_id": "92b00e04-dd76-45d4-b220-4194e31f2b7b",
+  "stage_id": "60b3111f-9ae0-401c-b164-af84cb0adb7c",
+  "status": "in_pipeline",
+  "source": "candidate_applied",
+  "created_at": "2026-02-02T15:17:30.618+00:00",
+  "updated_at": "2026-02-02T15:17:30.618+00:00"
+ },
+ {
+  "id": "987956f2-39d8-4870-9ebb-5b88e30cd28c",
+  "job_id": "07725149-fa53-4c4f-89bc-6e63e7daab35",
+  "candidate_id": "4a5dda10-dca9-4af5-95a6-dedff3faa3e1",
+  "stage_id": "6dc14e30-40db-4f2e-9119-c36593317dd3",
+  "status": "rejected",
+  "source": "company_sourced",
+  "created_at": "2026-02-01T15:17:30.664+00:00",
+  "updated_at": "2026-02-01T15:17:30.664+00:00"
+ },
+ {
+  "id": "8ee6bd79-2bf2-434a-a382-b1cfab188530",
+  "job_id": "09441732-91bf-483a-bab1-1b6ab2721dc2",
+  "candidate_id": "872a8f29-cfa8-4d01-aa61-a14634003f70",
+  "stage_id": "7f6cb6ef-2346-423b-ae43-fcce0102c094",
+  "status": "withdrawn",
+  "source": "candidate_applied",
+  "created_at": "2026-01-31T15:17:30.713+00:00",
+  "updated_at": "2026-01-31T15:17:30.713+00:00"
+ },
+ {
+  "id": "14760ea7-2c7a-4f31-96ed-ee9ce9741934",
+  "job_id": "0c0de365-d4ca-44b5-831d-95c2af1a2ad7",
+  "candidate_id": "20589600-eba1-4549-a419-40872d9914e2",
+  "stage_id": "ec28e614-8996-434f-afbd-0a94347f0ebf",
+  "status": "hired",
+  "source": "company_sourced",
+  "created_at": "2026-01-30T15:17:30.754+00:00",
+  "updated_at": "2026-01-30T15:17:30.754+00:00"
+ },
+ {
+  "id": "258d7b17-b403-4f99-99ec-5043642a8826",
+  "job_id": "0e91888b-ed4f-4f6f-b465-47d6e6a7b4dc",
+  "candidate_id": "2fea7fa9-fc42-405a-9f8c-a6c5c4e8aa53",
+  "stage_id": "ad650258-cf5f-4947-aec1-a56adf133760",
+  "status": "applied",
+  "source": "candidate_applied",
+  "created_at": "2026-01-29T15:17:30.799+00:00",
+  "updated_at": "2026-01-29T15:17:30.799+00:00"
+ },
+ {
+  "id": "3119f449-c301-4e63-b42a-df424f8218ac",
+  "job_id": "0fdd9bed-5fe0-4ec3-b93e-0c00aea1f38a",
+  "candidate_id": "25d00e77-156a-4a00-a658-4b05389317c8",
+  "stage_id": "50cdca05-de1a-4271-8d04-ae108c7ef3c2",
+  "status": "in_pipeline",
+  "source": "company_sourced",
+  "created_at": "2026-01-28T15:17:30.845+00:00",
+  "updated_at": "2026-01-28T15:17:30.845+00:00"
+ },
+ {
+  "id": "c61efbdf-a077-4789-82c8-6b7b7d01b017",
+  "job_id": "140e5c10-0d8c-4db9-8cef-18c3ad838941",
+  "candidate_id": "646ab115-4ae4-4e95-97b7-711902d6d79e",
+  "stage_id": "8ad6085f-87ef-44f7-aa93-0b71f3062847",
+  "status": "rejected",
+  "source": "candidate_applied",
+  "created_at": "2026-01-27T15:17:30.896+00:00",
+  "updated_at": "2026-01-27T15:17:30.896+00:00"
+ },
+ {
+  "id": "3cedb6d8-be16-4d1f-8abe-ba6d488be6eb",
+  "job_id": "1607735f-843a-4b8b-834d-39b0dadddc9f",
+  "candidate_id": "8c2a0809-4f32-423e-b063-db30231c0b64",
+  "stage_id": "b3845701-41c9-4d48-b554-ac8fada67b25",
+  "status": "withdrawn",
+  "source": "company_sourced",
+  "created_at": "2026-01-26T15:17:30.946+00:00",
+  "updated_at": "2026-01-26T15:17:30.946+00:00"
+ },
+ {
+  "id": "ee021575-4837-4daf-a207-ccddd3fa80c2",
+  "job_id": "225d8fd2-6dc9-4d3e-8225-c6156cda18ce",
+  "candidate_id": "70dd5a5c-6994-469f-bb01-3bb560cabeb3",
+  "stage_id": "fd796dea-b23f-4e05-b85c-fc18c37ae0d2",
+  "status": "hired",
+  "source": "candidate_applied",
+  "created_at": "2026-01-25T15:17:30.996+00:00",
+  "updated_at": "2026-01-25T15:17:30.996+00:00"
+ },
+ {
+  "id": "3f811130-2a46-473e-858b-5e00b36ba691",
+  "job_id": "244bcf3f-1fd2-42cd-beaf-ed1a63a00306",
+  "candidate_id": "5712215e-6064-48c7-b293-e2c3291a292a",
+  "stage_id": "ef4c2123-58da-4f83-afad-4ba44cf1e140",
+  "status": "applied",
+  "source": "company_sourced",
+  "created_at": "2026-01-24T15:17:31.041+00:00",
+  "updated_at": "2026-01-24T15:17:31.041+00:00"
+ },
+ {
+  "id": "640019f7-e406-4985-8041-6ad23c14f33f",
+  "job_id": "27bf50f2-3392-403c-87d0-72b564ad8ead",
+  "candidate_id": "7a1d675b-5153-4b5b-8615-9f40c7c12e42",
+  "stage_id": "fb34c644-a68a-4af0-b63e-87774d3daa9e",
+  "status": "in_pipeline",
+  "source": "candidate_applied",
+  "created_at": "2026-01-23T15:17:31.086+00:00",
+  "updated_at": "2026-01-23T15:17:31.086+00:00"
+ },
+ {
+  "id": "3fc2b0da-a88b-4776-b4a7-747cff869a67",
+  "job_id": "2a7c0db5-8d66-4aef-a706-22b1942e7f48",
+  "candidate_id": "00ee730c-088c-4602-ab87-88aed2cb568c",
+  "stage_id": "78250ef5-61ed-4af6-9ed9-e405922ab53d",
+  "status": "rejected",
+  "source": "company_sourced",
+  "created_at": "2026-01-22T15:17:31.132+00:00",
+  "updated_at": "2026-01-22T15:17:31.132+00:00"
+ },
+ {
+  "id": "b9a47eb3-64d9-4695-b8bb-491774c90e71",
+  "job_id": "3585fefa-f2f1-4994-aa3d-e7e9bc17c898",
+  "candidate_id": "832ae099-7da5-4093-944f-c00958ab98cc",
+  "stage_id": "d792d49c-5fc4-480e-bd77-af0f49254d98",
+  "status": "withdrawn",
+  "source": "candidate_applied",
+  "created_at": "2026-01-21T15:17:31.173+00:00",
+  "updated_at": "2026-01-21T15:17:31.173+00:00"
+ },
+ {
+  "id": "77352f1f-6f02-4145-b937-e08b53a9a11f",
+  "job_id": "35f30d84-ca21-4e37-9982-95ef58dcdf08",
+  "candidate_id": "edd11230-1737-4a14-86e1-420b6baeb8e4",
+  "stage_id": "6dc14e30-40db-4f2e-9119-c36593317dd3",
+  "status": "hired",
+  "source": "company_sourced",
+  "created_at": "2026-01-20T15:17:31.217+00:00",
+  "updated_at": "2026-01-20T15:17:31.217+00:00"
+ }
+]

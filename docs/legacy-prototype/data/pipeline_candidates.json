@@ -1,0 +1,134 @@
+[
+ {
+  "id": "03801a5e-f794-4ff5-9b7c-4431bf411182",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "candidate_id": "c4acd09b-5b44-40f9-b1e5-d8f7f21fa488",
+  "stage_id": "c9f6d846-f6fc-4e20-9541-40bbfdc57e34",
+  "conversation_id": "fc9b7a6e-46da-425f-8fdd-2090029641bf",
+  "notes": "Strong verified attainment — prioritize for phone screen.",
+  "added_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "last_activity_at": "2026-05-20T15:17:20.789+00:00",
+  "created_at": "2026-05-17T15:17:20.789+00:00"
+ },
+ {
+  "id": "117402f8-ae1a-4169-a02a-a8b387dd08e2",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "candidate_id": "df6ac2d5-ff5f-4602-9c91-e043fb86b392",
+  "stage_id": "99fcba99-74a3-41a5-815b-46112a417ac1",
+  "conversation_id": "10ba2456-de04-4392-a4fd-1d2d5a79ad97",
+  "notes": "Good segment fit. Confirm comp expectations.",
+  "added_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "last_activity_at": "2026-05-19T15:17:20.946+00:00",
+  "created_at": "2026-05-14T15:17:20.946+00:00"
+ },
+ {
+  "id": "2a5fb004-232b-4068-a43c-2b7f9ef3d6b7",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "candidate_id": "82a8b767-bd83-405f-b586-229bce2d7b8b",
+  "stage_id": "742ee296-ce38-4753-9325-04b917b5bb6d",
+  "conversation_id": "326a44a2-f18c-4969-97a2-94756ce954f2",
+  "notes": null,
+  "added_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "last_activity_at": "2026-05-18T15:17:21.044+00:00",
+  "created_at": "2026-05-11T15:17:21.044+00:00"
+ },
+ {
+  "id": "83711973-1947-442f-8dca-176c801e225c",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "candidate_id": "92b00e04-dd76-45d4-b220-4194e31f2b7b",
+  "stage_id": "c647f862-0962-4cea-a06b-50f259d2006f",
+  "conversation_id": "fdc526ba-7bc2-4575-a90b-e3af8e38464c",
+  "notes": "Strong verified attainment — prioritize for phone screen.",
+  "added_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "last_activity_at": "2026-05-17T15:17:21.148+00:00",
+  "created_at": "2026-05-08T15:17:21.148+00:00"
+ },
+ {
+  "id": "5983806e-a166-4a58-9003-31e022b29119",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "candidate_id": "ff6ffbc7-e532-42f0-aca4-0591b8cf15c0",
+  "stage_id": "605b3526-9bf1-47d2-8da2-bf8d41e66f19",
+  "conversation_id": "fc671518-6c2c-4bec-9285-09d628ba766e",
+  "notes": "Good segment fit. Confirm comp expectations.",
+  "added_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "last_activity_at": "2026-05-16T15:17:21.301+00:00",
+  "created_at": "2026-05-05T15:17:21.3+00:00"
+ },
+ {
+  "id": "8bde99a8-4fdd-40dc-8fd7-85edf0e87fbf",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "candidate_id": "70ffc9ee-1b73-4521-aad4-ef19dee4ede1",
+  "stage_id": "769b173c-175d-4d15-a540-3ecb5f642651",
+  "conversation_id": "868673fd-2dd5-45c1-b1c5-22fddd638975",
+  "notes": null,
+  "added_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "last_activity_at": "2026-05-15T15:17:21.476+00:00",
+  "created_at": "2026-05-02T15:17:21.476+00:00"
+ },
+ {
+  "id": "86e31ad3-40cf-4f92-872d-81a07b87531e",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "candidate_id": "4a5dda10-dca9-4af5-95a6-dedff3faa3e1",
+  "stage_id": "c9f6d846-f6fc-4e20-9541-40bbfdc57e34",
+  "conversation_id": null,
+  "notes": "Strong verified attainment — prioritize for phone screen.",
+  "added_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "last_activity_at": "2026-05-14T15:17:21.664+00:00",
+  "created_at": "2026-04-29T15:17:21.664+00:00"
+ },
+ {
+  "id": "cb74ef8e-4766-4dac-864b-4c242d5dee13",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "candidate_id": "9148aeb2-0f3a-4f6a-bf47-6f9306f759e0",
+  "stage_id": "99fcba99-74a3-41a5-815b-46112a417ac1",
+  "conversation_id": null,
+  "notes": "Good segment fit. Confirm comp expectations.",
+  "added_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "last_activity_at": "2026-05-13T15:17:21.759+00:00",
+  "created_at": "2026-04-26T15:17:21.759+00:00"
+ },
+ {
+  "id": "30d5f0ad-5674-4151-9ffb-4eae146f7486",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "candidate_id": "1579fa9e-6d72-4527-8fa9-a96ca273fc20",
+  "stage_id": "742ee296-ce38-4753-9325-04b917b5bb6d",
+  "conversation_id": null,
+  "notes": null,
+  "added_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "last_activity_at": "2026-05-12T15:17:21.839+00:00",
+  "created_at": "2026-04-23T15:17:21.839+00:00"
+ },
+ {
+  "id": "6b01191f-9c33-4bbb-a861-16bd4d70b316",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "candidate_id": "872a8f29-cfa8-4d01-aa61-a14634003f70",
+  "stage_id": "c647f862-0962-4cea-a06b-50f259d2006f",
+  "conversation_id": null,
+  "notes": "Strong verified attainment — prioritize for phone screen.",
+  "added_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "last_activity_at": "2026-05-11T15:17:21.949+00:00",
+  "created_at": "2026-04-20T15:17:21.949+00:00"
+ },
+ {
+  "id": "aeeb6913-8c9f-409e-9204-9d34770ebcc2",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "candidate_id": "390e9825-f667-4124-b7f5-0df8f93c1b83",
+  "stage_id": "605b3526-9bf1-47d2-8da2-bf8d41e66f19",
+  "conversation_id": null,
+  "notes": "Good segment fit. Confirm comp expectations.",
+  "added_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "last_activity_at": "2026-05-10T15:17:22.105+00:00",
+  "created_at": "2026-04-17T15:17:22.105+00:00"
+ },
+ {
+  "id": "2c73c5b8-2244-4917-b2d3-80666ff9b194",
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "candidate_id": "30f26f21-6064-445d-b55f-dd10aa613831",
+  "stage_id": "769b173c-175d-4d15-a540-3ecb5f642651",
+  "conversation_id": null,
+  "notes": null,
+  "added_by": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "last_activity_at": "2026-05-09T15:17:22.251+00:00",
+  "created_at": "2026-04-14T15:17:22.251+00:00"
+ }
+]

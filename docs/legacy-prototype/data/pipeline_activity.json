@@ -1,0 +1,1496 @@
+[
+ {
+  "id": "f28e48d5-fcb9-4a22-a884-d60ad4004647",
+  "pipeline_candidate_id": "03801a5e-f794-4ff5-9b7c-4431bf411182",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\"}",
+  "created_at": "2026-05-17T15:17:20.789+00:00",
+  "application_id": null
+ },
+ {
+  "id": "4387043b-4740-4d88-b943-1ce636815fe8",
+  "pipeline_candidate_id": "03801a5e-f794-4ff5-9b7c-4431bf411182",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "note_added",
+  "payload_json": "{\"note\":\"Strong verified attainment — prioritize for phone screen.\"}",
+  "created_at": "2026-05-18T15:17:20.789+00:00",
+  "application_id": null
+ },
+ {
+  "id": "734b2531-cbd6-401f-a9f5-73f632633c26",
+  "pipeline_candidate_id": "117402f8-ae1a-4169-a02a-a8b387dd08e2",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\"}",
+  "created_at": "2026-05-14T15:17:20.946+00:00",
+  "application_id": null
+ },
+ {
+  "id": "0fede68d-74ff-45a1-a033-383c5ee25714",
+  "pipeline_candidate_id": "117402f8-ae1a-4169-a02a-a8b387dd08e2",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\",\"to_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\"}",
+  "created_at": "2026-05-15T15:17:20.946+00:00",
+  "application_id": null
+ },
+ {
+  "id": "224fafdf-421f-491b-bdc6-cde65324fdc0",
+  "pipeline_candidate_id": "2a5fb004-232b-4068-a43c-2b7f9ef3d6b7",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\"}",
+  "created_at": "2026-05-11T15:17:21.044+00:00",
+  "application_id": null
+ },
+ {
+  "id": "92f87150-d63d-4a67-97a2-d99d8fe76d35",
+  "pipeline_candidate_id": "2a5fb004-232b-4068-a43c-2b7f9ef3d6b7",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\",\"to_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\"}",
+  "created_at": "2026-05-12T15:17:21.044+00:00",
+  "application_id": null
+ },
+ {
+  "id": "769f82df-11e3-449e-b78b-86397f93d423",
+  "pipeline_candidate_id": "2a5fb004-232b-4068-a43c-2b7f9ef3d6b7",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\",\"to_stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\"}",
+  "created_at": "2026-05-13T15:17:21.044+00:00",
+  "application_id": null
+ },
+ {
+  "id": "8c61c911-4368-41eb-bda3-0f9a5c770004",
+  "pipeline_candidate_id": "83711973-1947-442f-8dca-176c801e225c",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\"}",
+  "created_at": "2026-05-08T15:17:21.148+00:00",
+  "application_id": null
+ },
+ {
+  "id": "b6aa3028-e051-48aa-823f-0761488d8ddb",
+  "pipeline_candidate_id": "83711973-1947-442f-8dca-176c801e225c",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\",\"to_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\"}",
+  "created_at": "2026-05-09T15:17:21.148+00:00",
+  "application_id": null
+ },
+ {
+  "id": "4a6ce516-2415-49f0-bbee-5de6925b1da9",
+  "pipeline_candidate_id": "83711973-1947-442f-8dca-176c801e225c",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\",\"to_stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\"}",
+  "created_at": "2026-05-10T15:17:21.148+00:00",
+  "application_id": null
+ },
+ {
+  "id": "e9833a2f-0f67-4431-89c6-a624223b3218",
+  "pipeline_candidate_id": "83711973-1947-442f-8dca-176c801e225c",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\",\"to_stage_id\":\"c647f862-0962-4cea-a06b-50f259d2006f\"}",
+  "created_at": "2026-05-11T15:17:21.148+00:00",
+  "application_id": null
+ },
+ {
+  "id": "af063ade-2e50-4f12-a09e-38ecb640c6c4",
+  "pipeline_candidate_id": "83711973-1947-442f-8dca-176c801e225c",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "note_added",
+  "payload_json": "{\"note\":\"Strong verified attainment — prioritize for phone screen.\"}",
+  "created_at": "2026-05-12T15:17:21.148+00:00",
+  "application_id": null
+ },
+ {
+  "id": "fd780f07-a33c-411c-a59e-06b303b8e9b1",
+  "pipeline_candidate_id": "5983806e-a166-4a58-9003-31e022b29119",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\"}",
+  "created_at": "2026-05-05T15:17:21.3+00:00",
+  "application_id": null
+ },
+ {
+  "id": "efc969da-0fcd-4a81-a3eb-38be0bf3f82b",
+  "pipeline_candidate_id": "5983806e-a166-4a58-9003-31e022b29119",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\",\"to_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\"}",
+  "created_at": "2026-05-06T15:17:21.3+00:00",
+  "application_id": null
+ },
+ {
+  "id": "f1d5fd22-c9a0-4039-9ba6-f39af20de029",
+  "pipeline_candidate_id": "5983806e-a166-4a58-9003-31e022b29119",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\",\"to_stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\"}",
+  "created_at": "2026-05-07T15:17:21.3+00:00",
+  "application_id": null
+ },
+ {
+  "id": "f2f52161-2e29-4b64-9d9c-4b8bdbdb9102",
+  "pipeline_candidate_id": "5983806e-a166-4a58-9003-31e022b29119",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\",\"to_stage_id\":\"c647f862-0962-4cea-a06b-50f259d2006f\"}",
+  "created_at": "2026-05-08T15:17:21.3+00:00",
+  "application_id": null
+ },
+ {
+  "id": "3f535b4a-5c90-4d8c-83d9-b23461219b45",
+  "pipeline_candidate_id": "5983806e-a166-4a58-9003-31e022b29119",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"c647f862-0962-4cea-a06b-50f259d2006f\",\"to_stage_id\":\"605b3526-9bf1-47d2-8da2-bf8d41e66f19\"}",
+  "created_at": "2026-05-09T15:17:21.3+00:00",
+  "application_id": null
+ },
+ {
+  "id": "5e0fe5e7-0561-401e-99a9-0434c0f17202",
+  "pipeline_candidate_id": "8bde99a8-4fdd-40dc-8fd7-85edf0e87fbf",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\"}",
+  "created_at": "2026-05-02T15:17:21.476+00:00",
+  "application_id": null
+ },
+ {
+  "id": "bd8e19b5-702f-444c-8e52-d120863fd27f",
+  "pipeline_candidate_id": "8bde99a8-4fdd-40dc-8fd7-85edf0e87fbf",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\",\"to_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\"}",
+  "created_at": "2026-05-03T15:17:21.476+00:00",
+  "application_id": null
+ },
+ {
+  "id": "71f06559-cf35-413b-97bd-a2731a4c47d4",
+  "pipeline_candidate_id": "8bde99a8-4fdd-40dc-8fd7-85edf0e87fbf",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\",\"to_stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\"}",
+  "created_at": "2026-05-04T15:17:21.476+00:00",
+  "application_id": null
+ },
+ {
+  "id": "14f43f82-e2ce-4b6f-b90a-ba7fbbc3927c",
+  "pipeline_candidate_id": "8bde99a8-4fdd-40dc-8fd7-85edf0e87fbf",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\",\"to_stage_id\":\"c647f862-0962-4cea-a06b-50f259d2006f\"}",
+  "created_at": "2026-05-05T15:17:21.476+00:00",
+  "application_id": null
+ },
+ {
+  "id": "a8dd7039-0eac-45e9-9737-59714dd6097f",
+  "pipeline_candidate_id": "8bde99a8-4fdd-40dc-8fd7-85edf0e87fbf",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"c647f862-0962-4cea-a06b-50f259d2006f\",\"to_stage_id\":\"605b3526-9bf1-47d2-8da2-bf8d41e66f19\"}",
+  "created_at": "2026-05-06T15:17:21.476+00:00",
+  "application_id": null
+ },
+ {
+  "id": "74b5d96d-ed54-4144-98c2-01cb66bfdbfc",
+  "pipeline_candidate_id": "8bde99a8-4fdd-40dc-8fd7-85edf0e87fbf",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"605b3526-9bf1-47d2-8da2-bf8d41e66f19\",\"to_stage_id\":\"769b173c-175d-4d15-a540-3ecb5f642651\"}",
+  "created_at": "2026-05-07T15:17:21.476+00:00",
+  "application_id": null
+ },
+ {
+  "id": "2959c8e1-2db6-41a6-a29b-18b170207057",
+  "pipeline_candidate_id": "86e31ad3-40cf-4f92-872d-81a07b87531e",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\"}",
+  "created_at": "2026-04-29T15:17:21.664+00:00",
+  "application_id": null
+ },
+ {
+  "id": "b88e25e9-38d7-41e9-aea5-0a3f4e790ccb",
+  "pipeline_candidate_id": "86e31ad3-40cf-4f92-872d-81a07b87531e",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "note_added",
+  "payload_json": "{\"note\":\"Strong verified attainment — prioritize for phone screen.\"}",
+  "created_at": "2026-04-30T15:17:21.664+00:00",
+  "application_id": null
+ },
+ {
+  "id": "91faa3fd-200e-40b1-8cf9-7cd234e89d67",
+  "pipeline_candidate_id": "cb74ef8e-4766-4dac-864b-4c242d5dee13",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\"}",
+  "created_at": "2026-04-26T15:17:21.759+00:00",
+  "application_id": null
+ },
+ {
+  "id": "6dcf2b9d-b4fe-44b5-8bef-38a230bd40f1",
+  "pipeline_candidate_id": "cb74ef8e-4766-4dac-864b-4c242d5dee13",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\",\"to_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\"}",
+  "created_at": "2026-04-27T15:17:21.759+00:00",
+  "application_id": null
+ },
+ {
+  "id": "c73705c7-4986-40d0-a397-383e9fcf9d2e",
+  "pipeline_candidate_id": "30d5f0ad-5674-4151-9ffb-4eae146f7486",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\"}",
+  "created_at": "2026-04-23T15:17:21.839+00:00",
+  "application_id": null
+ },
+ {
+  "id": "c2b18289-ab51-40c2-8cf6-96fe5f41b775",
+  "pipeline_candidate_id": "30d5f0ad-5674-4151-9ffb-4eae146f7486",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\",\"to_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\"}",
+  "created_at": "2026-04-24T15:17:21.839+00:00",
+  "application_id": null
+ },
+ {
+  "id": "09735478-4773-4e14-877e-f07876519df9",
+  "pipeline_candidate_id": "30d5f0ad-5674-4151-9ffb-4eae146f7486",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\",\"to_stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\"}",
+  "created_at": "2026-04-25T15:17:21.839+00:00",
+  "application_id": null
+ },
+ {
+  "id": "32d61b50-eefe-49d2-9912-095cd659ee76",
+  "pipeline_candidate_id": "6b01191f-9c33-4bbb-a861-16bd4d70b316",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\"}",
+  "created_at": "2026-04-20T15:17:21.949+00:00",
+  "application_id": null
+ },
+ {
+  "id": "b0e9a8a8-e5fe-461c-bb36-dbe34939f07b",
+  "pipeline_candidate_id": "6b01191f-9c33-4bbb-a861-16bd4d70b316",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\",\"to_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\"}",
+  "created_at": "2026-04-21T15:17:21.949+00:00",
+  "application_id": null
+ },
+ {
+  "id": "0c5c0fbe-97be-4d29-9786-07ab146b9356",
+  "pipeline_candidate_id": "6b01191f-9c33-4bbb-a861-16bd4d70b316",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\",\"to_stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\"}",
+  "created_at": "2026-04-22T15:17:21.949+00:00",
+  "application_id": null
+ },
+ {
+  "id": "1b1940da-a469-4975-8a00-53369a823c80",
+  "pipeline_candidate_id": "6b01191f-9c33-4bbb-a861-16bd4d70b316",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\",\"to_stage_id\":\"c647f862-0962-4cea-a06b-50f259d2006f\"}",
+  "created_at": "2026-04-23T15:17:21.949+00:00",
+  "application_id": null
+ },
+ {
+  "id": "3cef1935-f38b-45bb-bd1e-ad4f3576b245",
+  "pipeline_candidate_id": "6b01191f-9c33-4bbb-a861-16bd4d70b316",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "note_added",
+  "payload_json": "{\"note\":\"Strong verified attainment — prioritize for phone screen.\"}",
+  "created_at": "2026-04-24T15:17:21.949+00:00",
+  "application_id": null
+ },
+ {
+  "id": "5abf2fe3-4811-459a-aacb-fcd0891ab3fa",
+  "pipeline_candidate_id": "aeeb6913-8c9f-409e-9204-9d34770ebcc2",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\"}",
+  "created_at": "2026-04-17T15:17:22.105+00:00",
+  "application_id": null
+ },
+ {
+  "id": "25d64e66-9d8a-488d-8bb8-ac4f390fe36e",
+  "pipeline_candidate_id": "aeeb6913-8c9f-409e-9204-9d34770ebcc2",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\",\"to_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\"}",
+  "created_at": "2026-04-18T15:17:22.105+00:00",
+  "application_id": null
+ },
+ {
+  "id": "f1212306-e117-4d91-a460-b7b31a0b7336",
+  "pipeline_candidate_id": "aeeb6913-8c9f-409e-9204-9d34770ebcc2",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\",\"to_stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\"}",
+  "created_at": "2026-04-19T15:17:22.105+00:00",
+  "application_id": null
+ },
+ {
+  "id": "dad5f3a9-0fc8-4592-af69-f7eadee42906",
+  "pipeline_candidate_id": "aeeb6913-8c9f-409e-9204-9d34770ebcc2",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\",\"to_stage_id\":\"c647f862-0962-4cea-a06b-50f259d2006f\"}",
+  "created_at": "2026-04-20T15:17:22.105+00:00",
+  "application_id": null
+ },
+ {
+  "id": "8af188d3-d2fd-47d0-b6ad-e405983607ce",
+  "pipeline_candidate_id": "aeeb6913-8c9f-409e-9204-9d34770ebcc2",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"c647f862-0962-4cea-a06b-50f259d2006f\",\"to_stage_id\":\"605b3526-9bf1-47d2-8da2-bf8d41e66f19\"}",
+  "created_at": "2026-04-21T15:17:22.105+00:00",
+  "application_id": null
+ },
+ {
+  "id": "068b5706-92f7-4d2f-b46d-efb9945309b3",
+  "pipeline_candidate_id": "2c73c5b8-2244-4917-b2d3-80666ff9b194",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\"}",
+  "created_at": "2026-04-14T15:17:22.251+00:00",
+  "application_id": null
+ },
+ {
+  "id": "44ed866e-b3f6-4c06-8f4c-51257f0682ea",
+  "pipeline_candidate_id": "2c73c5b8-2244-4917-b2d3-80666ff9b194",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\",\"to_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\"}",
+  "created_at": "2026-04-15T15:17:22.251+00:00",
+  "application_id": null
+ },
+ {
+  "id": "97ac11e6-2f8b-4256-8c18-5beb4ec43ad2",
+  "pipeline_candidate_id": "2c73c5b8-2244-4917-b2d3-80666ff9b194",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\",\"to_stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\"}",
+  "created_at": "2026-04-16T15:17:22.251+00:00",
+  "application_id": null
+ },
+ {
+  "id": "ac76535a-75c5-4705-96e6-23aa154ca6d1",
+  "pipeline_candidate_id": "2c73c5b8-2244-4917-b2d3-80666ff9b194",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\",\"to_stage_id\":\"c647f862-0962-4cea-a06b-50f259d2006f\"}",
+  "created_at": "2026-04-17T15:17:22.251+00:00",
+  "application_id": null
+ },
+ {
+  "id": "bc00c29d-efee-49a7-8252-55aee602ecdc",
+  "pipeline_candidate_id": "2c73c5b8-2244-4917-b2d3-80666ff9b194",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"c647f862-0962-4cea-a06b-50f259d2006f\",\"to_stage_id\":\"605b3526-9bf1-47d2-8da2-bf8d41e66f19\"}",
+  "created_at": "2026-04-18T15:17:22.251+00:00",
+  "application_id": null
+ },
+ {
+  "id": "5ffcc621-e7fa-477d-a917-b7a8968c9884",
+  "pipeline_candidate_id": "2c73c5b8-2244-4917-b2d3-80666ff9b194",
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "stage_changed",
+  "payload_json": "{\"from_stage_id\":\"605b3526-9bf1-47d2-8da2-bf8d41e66f19\",\"to_stage_id\":\"769b173c-175d-4d15-a540-3ecb5f642651\"}",
+  "created_at": "2026-04-19T15:17:22.251+00:00",
+  "application_id": null
+ },
+ {
+  "id": "d10d1c08-8227-4fdc-a6a1-410d9d91a1bc",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "ffba64ef-ed08-49cd-b94a-2960e0a7f9e6",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\"}",
+  "created_at": "2026-05-19T15:17:25.385+00:00",
+  "application_id": "b2a6db74-cf0b-4b97-9160-3fa5c32f87a8"
+ },
+ {
+  "id": "9fe30646-12f0-485c-818f-05d8024a9144",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\"}",
+  "created_at": "2026-05-18T15:17:25.489+00:00",
+  "application_id": "5919c768-0251-4f14-9c15-9e6a509a185f"
+ },
+ {
+  "id": "31c9208a-aa56-4dd4-9aba-cb512ae87931",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "ffba64ef-ed08-49cd-b94a-2960e0a7f9e6",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\"}",
+  "created_at": "2026-05-17T15:17:25.543+00:00",
+  "application_id": "0c92a314-949e-432e-b8d6-fa002277171f"
+ },
+ {
+  "id": "19bcf302-dd3d-41ad-b211-ab4d20cf1189",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c647f862-0962-4cea-a06b-50f259d2006f\"}",
+  "created_at": "2026-05-16T15:17:25.593+00:00",
+  "application_id": "44299128-c8c7-4a13-aff6-e1e4ca4eabc0"
+ },
+ {
+  "id": "21b1f020-632d-4a38-b673-5ca28779e748",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "c4acd09b-5b44-40f9-b1e5-d8f7f21fa488",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"605b3526-9bf1-47d2-8da2-bf8d41e66f19\"}",
+  "created_at": "2026-05-15T15:17:25.643+00:00",
+  "application_id": "6e2a2b93-f5d5-4865-8ad3-1ab9377362df"
+ },
+ {
+  "id": "1e03e562-eef9-421f-8b22-5f42664a9b00",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"769b173c-175d-4d15-a540-3ecb5f642651\"}",
+  "created_at": "2026-05-14T15:17:25.693+00:00",
+  "application_id": "370e0cd7-dfae-447d-8eeb-d1dcfe0366a4"
+ },
+ {
+  "id": "a8de49e0-02ec-4868-8933-f46506e1e4f7",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "4a5dda10-dca9-4af5-95a6-dedff3faa3e1",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\"}",
+  "created_at": "2026-05-13T15:17:25.739+00:00",
+  "application_id": "1ba4356c-dc9c-44d9-97b4-9c0bf2861553"
+ },
+ {
+  "id": "e80d057c-da68-49b9-bdbf-64b3e4f55563",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\"}",
+  "created_at": "2026-05-12T15:17:25.792+00:00",
+  "application_id": "805c0447-6497-464e-94f6-585e22620940"
+ },
+ {
+  "id": "457a1c3d-3831-4f07-a58e-413cbdec6b8f",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "20589600-eba1-4549-a419-40872d9914e2",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\"}",
+  "created_at": "2026-05-11T15:17:25.834+00:00",
+  "application_id": "89c86c72-2dd1-43a4-b685-622059dbfde1"
+ },
+ {
+  "id": "c483ca67-20ab-4ca8-b7ea-42ba09802ee2",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"9623d7b0-54ec-4405-bfe9-a5931d4bfad6\"}",
+  "created_at": "2026-05-10T15:17:25.88+00:00",
+  "application_id": "12c650c2-1357-47ee-af4e-4bab4ad6a4ef"
+ },
+ {
+  "id": "94af4dcf-e2bf-465b-b7d4-9c76409783ea",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "25d00e77-156a-4a00-a658-4b05389317c8",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"60b3111f-9ae0-401c-b164-af84cb0adb7c\"}",
+  "created_at": "2026-05-09T15:17:25.931+00:00",
+  "application_id": "e9d54901-638c-4f50-908d-09ee15723f58"
+ },
+ {
+  "id": "6720f774-d8cb-49a7-9925-b0a477bdcf5e",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"6dc14e30-40db-4f2e-9119-c36593317dd3\"}",
+  "created_at": "2026-05-08T15:17:25.971+00:00",
+  "application_id": "a581e38f-2fb4-4630-9cec-26e073cd120d"
+ },
+ {
+  "id": "7e62ed54-5ee6-4e96-8653-df26c36c82bd",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "8c2a0809-4f32-423e-b063-db30231c0b64",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"7f6cb6ef-2346-423b-ae43-fcce0102c094\"}",
+  "created_at": "2026-05-07T15:17:26.021+00:00",
+  "application_id": "7b5315ca-5e8b-4be3-929d-6e63764263b2"
+ },
+ {
+  "id": "399affa8-5e19-4251-b646-cb59c0a53ca9",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"ec28e614-8996-434f-afbd-0a94347f0ebf\"}",
+  "created_at": "2026-05-06T15:17:26.066+00:00",
+  "application_id": "28a11a5d-fac9-498d-ae6d-9d18149d4db8"
+ },
+ {
+  "id": "5533c91e-29cf-49b6-b38a-ad5234f72f74",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "5712215e-6064-48c7-b293-e2c3291a292a",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"ad650258-cf5f-4947-aec1-a56adf133760\"}",
+  "created_at": "2026-05-05T15:17:26.112+00:00",
+  "application_id": "4b5bc900-cfe6-4681-b1fa-7d8b077c3511"
+ },
+ {
+  "id": "6de12574-9138-4c9d-8941-fb7e00e28234",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"50cdca05-de1a-4271-8d04-ae108c7ef3c2\"}",
+  "created_at": "2026-05-04T15:17:26.158+00:00",
+  "application_id": "817a4639-d215-4b22-bd8d-f10a0b210869"
+ },
+ {
+  "id": "14fcbf5f-2f35-43cf-b1c6-ace860bbc0bb",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "00ee730c-088c-4602-ab87-88aed2cb568c",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"8ad6085f-87ef-44f7-aa93-0b71f3062847\"}",
+  "created_at": "2026-05-03T15:17:26.211+00:00",
+  "application_id": "10079ea3-5010-41ff-84ca-4f28650c9322"
+ },
+ {
+  "id": "f7ceee1b-d90a-43ac-8ad9-f9630ba3837b",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"b3845701-41c9-4d48-b554-ac8fada67b25\"}",
+  "created_at": "2026-05-02T15:17:26.263+00:00",
+  "application_id": "6e72ed23-0f0c-422a-86d6-01015b1fe827"
+ },
+ {
+  "id": "831b43a7-dbb9-4efc-a3f9-6c3e78e02fae",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "edd11230-1737-4a14-86e1-420b6baeb8e4",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"fd796dea-b23f-4e05-b85c-fc18c37ae0d2\"}",
+  "created_at": "2026-05-01T15:17:26.308+00:00",
+  "application_id": "736d2659-b1e4-4752-8bbe-7f10851e8b82"
+ },
+ {
+  "id": "83299d24-1858-4092-a4ce-34bf10ceef3e",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"ef4c2123-58da-4f83-afad-4ba44cf1e140\"}",
+  "created_at": "2026-04-30T15:17:26.358+00:00",
+  "application_id": "3a071650-3779-4d6d-aa5e-6f7bda9a0ae7"
+ },
+ {
+  "id": "69f006c0-b32e-42b5-b4bf-d5580a78f7e6",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "d7e515e3-24c6-4607-a166-59bea9d7cbd1",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"fb34c644-a68a-4af0-b63e-87774d3daa9e\"}",
+  "created_at": "2026-04-29T15:17:26.409+00:00",
+  "application_id": "b467bc10-709b-4adc-908c-250208546031"
+ },
+ {
+  "id": "cb242582-94f7-4cbb-97be-aa053ca46589",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"78250ef5-61ed-4af6-9ed9-e405922ab53d\"}",
+  "created_at": "2026-04-28T15:17:26.454+00:00",
+  "application_id": "ed9f07ab-36af-4f6f-bdd0-7e7d3e6b54fe"
+ },
+ {
+  "id": "13c34141-95be-4d82-9366-f8d9a1e7ac2c",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "e5e42da3-a0d3-476f-8580-f49b2d50e818",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"d792d49c-5fc4-480e-bd77-af0f49254d98\"}",
+  "created_at": "2026-04-27T15:17:26.525+00:00",
+  "application_id": "d8aa863e-fa8f-4a8b-9860-626a02604014"
+ },
+ {
+  "id": "62afb2b6-d61f-40a9-b39e-a62298199603",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"6dc14e30-40db-4f2e-9119-c36593317dd3\"}",
+  "created_at": "2026-04-26T15:17:26.581+00:00",
+  "application_id": "df509e74-449f-43d8-b581-130a632fa1bd"
+ },
+ {
+  "id": "a5265129-f502-4f37-bc6a-fb42807c3b9f",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "62010589-5465-4a7c-9a9a-641fec518364",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"fd796dea-b23f-4e05-b85c-fc18c37ae0d2\"}",
+  "created_at": "2026-04-25T15:17:26.631+00:00",
+  "application_id": "18c29110-f67a-4a33-be24-5a9e8e3f2682"
+ },
+ {
+  "id": "2b2d586d-ad02-4aff-9b63-52b8130f37c9",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"9968d8e1-33e4-4784-87fa-eb26913df5d8\"}",
+  "created_at": "2026-04-24T15:17:26.676+00:00",
+  "application_id": "fdfe14e4-90cd-4244-b780-09288fbb52cb"
+ },
+ {
+  "id": "79ba6736-cdca-4a21-895f-bccdcd125048",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "88689b83-d311-4495-be25-21f89a84931c",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"8e97dbda-24ff-44dd-803a-2930461dc9d0\"}",
+  "created_at": "2026-04-23T15:17:26.722+00:00",
+  "application_id": "940420a1-ca74-4bde-b7c4-750fcf890858"
+ },
+ {
+  "id": "65f1942f-331c-4ae0-aa98-638dcda542fe",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c4daba25-e4d5-4854-80ba-251d28682990\"}",
+  "created_at": "2026-04-22T15:17:26.766+00:00",
+  "application_id": "dd249447-dff1-4d2d-b21c-b1f68fc9ad08"
+ },
+ {
+  "id": "bc8511e3-6170-4073-8017-043306810c26",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "e71cc379-1dcb-4077-b85c-9ea7eb40c85e",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"639cfc0c-ce96-47a1-8c80-fcd8b3b3cb80\"}",
+  "created_at": "2026-04-21T15:17:26.814+00:00",
+  "application_id": "9b28c62a-725b-44bd-bad1-95b0ef3c17eb"
+ },
+ {
+  "id": "8e669d8d-5cd8-456d-a25a-65c18acafe06",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"95a29cbb-1e5b-4684-870d-936b60b6c9d6\"}",
+  "created_at": "2026-04-20T15:17:26.863+00:00",
+  "application_id": "f1086c71-1c3a-40de-a295-979fefde71db"
+ },
+ {
+  "id": "e34daf6a-c4e1-4e78-ba63-063beacb38c1",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "6412c75c-6da9-4dc1-9f0b-aaa49c219c29",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"27b8ef61-3cc2-4fab-92ae-02c6217ee99d\"}",
+  "created_at": "2026-04-19T15:17:26.903+00:00",
+  "application_id": "50421a38-b349-42cb-97a4-76e11f46f403"
+ },
+ {
+  "id": "1cf3a9d8-e2da-4475-9941-f4591e626e58",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"7ef80176-4f36-426a-ae76-2fa370377c20\"}",
+  "created_at": "2026-04-18T15:17:26.953+00:00",
+  "application_id": "442566ff-01c8-4bb0-82f7-97698f938b5f"
+ },
+ {
+  "id": "cdc371ca-c680-4176-b4bd-f01fe596b6a9",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "5ea6526c-9cd2-456c-87c8-2aae03e7de6f",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"696fc202-cac9-4c16-8b66-97f6492cb388\"}",
+  "created_at": "2026-04-17T15:17:27.003+00:00",
+  "application_id": "2971015f-03bc-48f9-a81e-038c79cf92fe"
+ },
+ {
+  "id": "ba753f99-a4fd-4250-b8c7-afb1f652ea4b",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"e416b3bf-ed96-41e6-98b6-6747e597f487\"}",
+  "created_at": "2026-04-16T15:17:27.055+00:00",
+  "application_id": "ac9358f6-7748-4155-bbd0-ecfd636df1ce"
+ },
+ {
+  "id": "47384ebe-649c-40c6-b7f8-53cb78fdf67e",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "d25b01cc-7102-464a-8f38-7c9b48546167",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"997093f8-af85-4fc8-ae23-2e4c783f3fa9\"}",
+  "created_at": "2026-04-15T15:17:27.1+00:00",
+  "application_id": "f5ead0c9-ca4a-48da-88fc-8247a1c4547a"
+ },
+ {
+  "id": "6694a6a3-e492-4a4c-970b-8b7181c9bc01",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"dc879400-22a1-4147-b899-8989bd55b5f3\"}",
+  "created_at": "2026-04-14T15:17:27.144+00:00",
+  "application_id": "62b77c5c-041f-4618-89c1-b2b9674b5f58"
+ },
+ {
+  "id": "b7d6938a-2913-4407-b079-738a8b1fada8",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "c5f9d1de-0011-42af-a392-6dddea19e920",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"4cfe23c1-bae2-4109-a130-4bb4f77c363e\"}",
+  "created_at": "2026-04-13T15:17:27.196+00:00",
+  "application_id": "2bcac5e9-61e0-463e-b107-1154766910cd"
+ },
+ {
+  "id": "f2bf380f-5efc-4653-86ce-3d7c557adeb0",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"29ccfec3-e7fd-4cf5-a6ec-e6f3f2eac76e\"}",
+  "created_at": "2026-04-12T15:17:27.246+00:00",
+  "application_id": "58885b3a-e334-4846-99ed-353c13969d0a"
+ },
+ {
+  "id": "824f50d1-5874-43f7-b571-1aebf8e482eb",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "df6ac2d5-ff5f-4602-9c91-e043fb86b392",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"a4461e56-0100-424c-aa63-a3c89c19c1fd\"}",
+  "created_at": "2026-04-11T15:17:27.292+00:00",
+  "application_id": "cd00635e-b34a-4fb3-932b-f448bb8ae10d"
+ },
+ {
+  "id": "bd7ea8e9-3003-45df-a17d-c8edd460e305",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"db153b68-cea7-4401-942c-1237cc24bf1f\"}",
+  "created_at": "2026-04-10T15:17:27.336+00:00",
+  "application_id": "eb4a2704-8166-4cbb-acfc-6a7169bf7d73"
+ },
+ {
+  "id": "ea742410-7c20-45cc-b8e1-f5d4a8fa5482",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "9148aeb2-0f3a-4f6a-bf47-6f9306f759e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"e6b75ad2-fe13-436d-9116-175b65143981\"}",
+  "created_at": "2026-04-09T15:17:27.387+00:00",
+  "application_id": "ca29b233-7b3e-48e4-993c-a0d0c6efa82c"
+ },
+ {
+  "id": "1fa55cb2-0089-4ea3-9502-1b844a1540dc",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"e803c986-8f4d-4735-b377-108439baf4ff\"}",
+  "created_at": "2026-04-08T15:17:27.427+00:00",
+  "application_id": "15abd28a-dc19-47cb-bad0-eb24c98ae5d4"
+ },
+ {
+  "id": "c9d0a154-403c-453c-ae43-e4cda5b13afd",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "6b64321d-96f2-49de-81eb-4a31622d3823",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"0b24dda4-6abb-4c47-9e51-fedaa3cffe46\"}",
+  "created_at": "2026-04-07T15:17:27.478+00:00",
+  "application_id": "f3cb5aa1-032f-4ec6-bf05-aefc5f7b8921"
+ },
+ {
+  "id": "5602dbea-8049-414b-8251-6c73bb83865f",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"390abf24-1293-4540-8a92-42984f9fa8b3\"}",
+  "created_at": "2026-04-06T15:17:27.529+00:00",
+  "application_id": "f05185b7-89ab-4c00-b367-95ca3229d39d"
+ },
+ {
+  "id": "53d70d18-993a-43ad-9c72-24d2402e4ab8",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "efc5c2bd-ab6b-4d32-9375-733c39e2328f",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"a17a7776-8b1c-4e40-ab5f-2df22e261a12\"}",
+  "created_at": "2026-04-05T15:17:27.578+00:00",
+  "application_id": "028bbbc9-a4f4-4d48-9feb-a183a29a0e72"
+ },
+ {
+  "id": "da315f97-4e90-4730-b6ab-8249462fd7ec",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"e73475c7-77bc-4b44-a34a-1540cf5f891e\"}",
+  "created_at": "2026-04-04T15:17:27.624+00:00",
+  "application_id": "96bb8756-693d-4e14-b33b-c0ebac1f1f94"
+ },
+ {
+  "id": "1f3f72a3-2d12-44f7-8492-d8bc25ca70be",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "124e1cc4-b8f4-4ec5-911b-6c6cb8c67edf",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"e51dc6aa-1e3a-4cbc-add1-f185b493c339\"}",
+  "created_at": "2026-04-03T15:17:27.669+00:00",
+  "application_id": "1b02d7e8-3af9-4fed-acb1-edd53b3074e4"
+ },
+ {
+  "id": "2be2eb4f-b9d0-45f1-8aea-44a98f369021",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"6dc14e30-40db-4f2e-9119-c36593317dd3\"}",
+  "created_at": "2026-04-02T15:17:27.72+00:00",
+  "application_id": "3dd2ef89-2cc1-46f1-8366-878afe477e80"
+ },
+ {
+  "id": "462fa3a5-7bb3-4bd6-85cd-4cd77574b65b",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "7c982f06-f535-45e1-b334-045b2a6a08ba",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"cd0422de-54a0-49a5-b560-61d0d7a8ad18\"}",
+  "created_at": "2026-04-01T15:17:27.765+00:00",
+  "application_id": "e6dee86c-2cd9-4be9-a3d6-a02cd7197b24"
+ },
+ {
+  "id": "e867a847-2f86-41eb-b055-c0297bac0f02",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"ea60ebb9-5d1e-41a8-aaf8-796ee552c5ef\"}",
+  "created_at": "2026-03-31T15:17:27.805+00:00",
+  "application_id": "13cb059d-fbdb-4f03-aea6-e97bfcb39aee"
+ },
+ {
+  "id": "055f033f-168e-4668-846a-94d146a0e3f7",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "ccae9d1d-60d1-4a47-9ee6-b91afbaaa865",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"6a01182d-c730-48a6-ad79-8062abbd54e8\"}",
+  "created_at": "2026-03-30T15:17:27.855+00:00",
+  "application_id": "30a7870c-be1f-4297-8f5e-93fdd39ca4b4"
+ },
+ {
+  "id": "5b19d9bb-bd9c-4306-b596-1b976771fe52",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"e73475c7-77bc-4b44-a34a-1540cf5f891e\"}",
+  "created_at": "2026-03-29T15:17:27.901+00:00",
+  "application_id": "a51edee8-bfe2-48e8-9826-496b1ae6a5d4"
+ },
+ {
+  "id": "afa278fc-2ad8-457c-9c7f-018cc8227591",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "9dd05c70-c299-4a03-afb0-767fe4ed0db9",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"605b3526-9bf1-47d2-8da2-bf8d41e66f19\"}",
+  "created_at": "2026-03-28T15:17:27.946+00:00",
+  "application_id": "82211159-3f20-494f-bad2-32b5a088253d"
+ },
+ {
+  "id": "3d699d74-375f-4802-8687-90475bd54337",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"769b173c-175d-4d15-a540-3ecb5f642651\"}",
+  "created_at": "2026-03-27T15:17:27.992+00:00",
+  "application_id": "39655e20-3d78-467b-985d-239ea93119b2"
+ },
+ {
+  "id": "fb3401ac-d36d-46b0-8518-4ea0cbc63395",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "56236b9c-e09b-4dd0-8d38-dcf0c3d3d68d",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\"}",
+  "created_at": "2026-03-26T15:17:28.037+00:00",
+  "application_id": "7a6d33c0-7cac-41e0-b329-0138b5699cab"
+ },
+ {
+  "id": "7c35eac2-8bcd-4b28-9138-bc0a57131d00",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\"}",
+  "created_at": "2026-03-25T15:17:28.097+00:00",
+  "application_id": "94aa7bc6-ae22-49cb-9906-390bef6a93ec"
+ },
+ {
+  "id": "81896b59-3e34-48be-a4b8-f27a67c48f7e",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "d3f2bdf4-14b5-4dd4-916c-863c4196fb9d",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\"}",
+  "created_at": "2026-03-24T15:17:28.148+00:00",
+  "application_id": "868f5d3a-a4fa-4ea2-bcce-58cc4c27f356"
+ },
+ {
+  "id": "cc52278b-008f-49cc-9b49-6ed9f35d5b25",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"9623d7b0-54ec-4405-bfe9-a5931d4bfad6\"}",
+  "created_at": "2026-03-23T15:17:28.195+00:00",
+  "application_id": "355ab656-4f3f-414c-94d7-b1e0a7e67d79"
+ },
+ {
+  "id": "c97dba62-dd1e-4dfa-af7d-1c109831de43",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "0d913d3c-7a70-4778-8c6d-6a1499dfb62d",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"60b3111f-9ae0-401c-b164-af84cb0adb7c\"}",
+  "created_at": "2026-03-22T15:17:28.244+00:00",
+  "application_id": "794ec6f7-cc8d-44ab-b1ae-8a8584bf806d"
+ },
+ {
+  "id": "2240141b-d018-4ddd-9d40-bf6ea357e896",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"6dc14e30-40db-4f2e-9119-c36593317dd3\"}",
+  "created_at": "2026-03-21T15:17:28.304+00:00",
+  "application_id": "7f797a90-ae20-4f06-b821-21ee700acb92"
+ },
+ {
+  "id": "af794442-8867-4e29-9774-8f8925c304f4",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "6c3cdc5e-927a-46cb-bdf0-500228863230",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"7f6cb6ef-2346-423b-ae43-fcce0102c094\"}",
+  "created_at": "2026-03-20T15:17:28.35+00:00",
+  "application_id": "e22e4f4a-4e8f-42d9-ab7c-08e84ccdd53a"
+ },
+ {
+  "id": "53d8cb1b-92d4-4b07-8942-8f7a08a3ffc7",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"ec28e614-8996-434f-afbd-0a94347f0ebf\"}",
+  "created_at": "2026-03-19T15:17:28.395+00:00",
+  "application_id": "6bd5fd65-22ff-4c33-91cc-a202705df76a"
+ },
+ {
+  "id": "b559ea09-9a11-40ce-b599-2199050ee2ca",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "bd47abaf-2dfd-4a31-8e76-e8f73713d819",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"ad650258-cf5f-4947-aec1-a56adf133760\"}",
+  "created_at": "2026-03-18T15:17:28.445+00:00",
+  "application_id": "8f15fe09-5266-4404-8220-5214aa741a54"
+ },
+ {
+  "id": "c38b1d26-31f2-4c0a-8d87-2a6fb4b1a0d3",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"50cdca05-de1a-4271-8d04-ae108c7ef3c2\"}",
+  "created_at": "2026-03-17T15:17:28.503+00:00",
+  "application_id": "2a914f86-40b3-4e88-9230-1404e3dffb0e"
+ },
+ {
+  "id": "4d8c521a-b855-421d-9bed-96a52b681dd0",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "de2e4e42-fb93-436f-a1c7-93bd8ddb010e",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"8ad6085f-87ef-44f7-aa93-0b71f3062847\"}",
+  "created_at": "2026-03-16T15:17:28.562+00:00",
+  "application_id": "379bbf69-b9b4-421d-9e9d-ddc62d12dcdf"
+ },
+ {
+  "id": "d7443c3d-5afb-4646-9d30-46ce533f0b40",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"b3845701-41c9-4d48-b554-ac8fada67b25\"}",
+  "created_at": "2026-03-15T15:17:28.612+00:00",
+  "application_id": "f9e4efd7-b735-41c8-a086-6252979afda2"
+ },
+ {
+  "id": "3f5c1efc-a446-4c56-8faa-4209a96faa5b",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "17a6b1b5-847b-4a7b-bfdf-920ef2e5deec",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"fd796dea-b23f-4e05-b85c-fc18c37ae0d2\"}",
+  "created_at": "2026-03-14T15:17:28.662+00:00",
+  "application_id": "a30efada-bf33-47e8-aa7e-f7618fac664f"
+ },
+ {
+  "id": "5d09bd5d-4c86-449d-bbf1-ddf01cae0970",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"ef4c2123-58da-4f83-afad-4ba44cf1e140\"}",
+  "created_at": "2026-03-13T15:17:28.723+00:00",
+  "application_id": "5ede8388-8552-4601-b462-91eaea03f823"
+ },
+ {
+  "id": "0970fdf5-d708-4d8a-80c3-af874847f902",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "cb37a236-3939-4789-9695-bb480d91c08b",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"fb34c644-a68a-4af0-b63e-87774d3daa9e\"}",
+  "created_at": "2026-03-12T15:17:28.784+00:00",
+  "application_id": "a505b1c3-c179-4abf-bcc5-d250e319fd62"
+ },
+ {
+  "id": "97e8b81f-c7a5-4730-9fbd-22d0800e06bd",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"78250ef5-61ed-4af6-9ed9-e405922ab53d\"}",
+  "created_at": "2026-03-11T15:17:28.838+00:00",
+  "application_id": "4a4bd016-4150-4e15-969d-17abcaee35f6"
+ },
+ {
+  "id": "452c64b5-b746-4fc6-8ecf-d820dfff8637",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "bca45b05-4c14-4034-b290-b35092c2a11a",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"d792d49c-5fc4-480e-bd77-af0f49254d98\"}",
+  "created_at": "2026-03-10T15:17:28.883+00:00",
+  "application_id": "2f0d552e-15d8-4c8e-ae78-8200580cb469"
+ },
+ {
+  "id": "2a2bde9d-e8db-450a-8e2c-be50df5a408b",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"6dc14e30-40db-4f2e-9119-c36593317dd3\"}",
+  "created_at": "2026-03-09T15:17:28.924+00:00",
+  "application_id": "ea1672d1-d48f-4c17-9b8a-b8c3fa89d783"
+ },
+ {
+  "id": "f10e161d-6e06-43fd-b639-ff4c50dd6a81",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "82a8b767-bd83-405f-b586-229bce2d7b8b",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"fd796dea-b23f-4e05-b85c-fc18c37ae0d2\"}",
+  "created_at": "2026-03-08T15:17:28.969+00:00",
+  "application_id": "45226817-534a-4f42-ad02-4927d02c0d67"
+ },
+ {
+  "id": "381d5cb3-3a12-42cf-baee-f909b05edb0e",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"9968d8e1-33e4-4784-87fa-eb26913df5d8\"}",
+  "created_at": "2026-03-07T15:17:29.019+00:00",
+  "application_id": "335013a1-d801-4a13-b9a0-a6d021647dcc"
+ },
+ {
+  "id": "caad6b0d-ef6a-43ef-91f4-8a1b0ab7b991",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "1579fa9e-6d72-4527-8fa9-a96ca273fc20",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"8e97dbda-24ff-44dd-803a-2930461dc9d0\"}",
+  "created_at": "2026-03-06T15:17:29.06+00:00",
+  "application_id": "50981488-a6f3-455d-a1e2-80db86128d56"
+ },
+ {
+  "id": "7b3b2703-ebdc-4411-afe8-af2b4577fa5e",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c4daba25-e4d5-4854-80ba-251d28682990\"}",
+  "created_at": "2026-03-05T15:17:29.128+00:00",
+  "application_id": "61315c09-5e54-4274-8c37-2c99e910c8d0"
+ },
+ {
+  "id": "c48c7223-3467-461e-a059-0f4a4eb637ec",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "ae12db6b-1b0e-4d9f-a665-e0c5e99c315b",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"639cfc0c-ce96-47a1-8c80-fcd8b3b3cb80\"}",
+  "created_at": "2026-03-04T15:17:29.176+00:00",
+  "application_id": "84e13c21-b412-4bc3-a113-aa60e1c3d4cf"
+ },
+ {
+  "id": "ec5b38a1-f885-463b-9091-ec2dbb46d537",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"95a29cbb-1e5b-4684-870d-936b60b6c9d6\"}",
+  "created_at": "2026-03-03T15:17:29.231+00:00",
+  "application_id": "cd2ede72-a4e1-4679-b1d6-6831c9e67cb0"
+ },
+ {
+  "id": "1d0a57b9-e23a-493d-8748-eb05f0034a42",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "895b80f5-402b-4e25-ad90-947215ee3c16",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"27b8ef61-3cc2-4fab-92ae-02c6217ee99d\"}",
+  "created_at": "2026-03-02T15:17:29.287+00:00",
+  "application_id": "2bcfc44b-7e9e-4ffe-a6cb-1bac02e6ab75"
+ },
+ {
+  "id": "14ed7db5-fd1a-46f7-bd6f-ea993cbb44bf",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"7ef80176-4f36-426a-ae76-2fa370377c20\"}",
+  "created_at": "2026-03-01T15:17:29.333+00:00",
+  "application_id": "c71be5b7-f155-4945-a316-1344d781b1dd"
+ },
+ {
+  "id": "6d8d1215-7546-402e-8b5c-ca062bd25593",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "7691ff99-abb5-4764-83e0-2b1c69ef2448",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"696fc202-cac9-4c16-8b66-97f6492cb388\"}",
+  "created_at": "2026-02-28T15:17:29.378+00:00",
+  "application_id": "6eae2cdf-f48a-4faf-80f8-a79ecc42f530"
+ },
+ {
+  "id": "857d014c-56a7-4f06-a851-7c3e347f5b56",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"e416b3bf-ed96-41e6-98b6-6747e597f487\"}",
+  "created_at": "2026-02-27T15:17:29.422+00:00",
+  "application_id": "0d0b51b0-ac31-493d-bff9-243fd816345c"
+ },
+ {
+  "id": "f5783ed0-e005-4554-84a4-7e7d30f89340",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "d3d18e26-7e14-4968-8ee7-579117e44fa6",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"997093f8-af85-4fc8-ae23-2e4c783f3fa9\"}",
+  "created_at": "2026-02-26T15:17:29.468+00:00",
+  "application_id": "61361866-033e-4470-b332-4babbd9d498c"
+ },
+ {
+  "id": "d9a4aa9e-64a6-41e9-8a3e-c7e04cc2c58d",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"dc879400-22a1-4147-b899-8989bd55b5f3\"}",
+  "created_at": "2026-02-25T15:17:29.509+00:00",
+  "application_id": "6dfbddea-a506-4a3d-9826-199f64f4ce76"
+ },
+ {
+  "id": "63c2d5b7-e2f4-43f4-9df2-57c58a4890b3",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "eaac7c93-6fcf-48de-8453-c66509c71979",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"4cfe23c1-bae2-4109-a130-4bb4f77c363e\"}",
+  "created_at": "2026-02-24T15:17:29.559+00:00",
+  "application_id": "dcb9e265-5f60-4ff5-a833-566136a2216b"
+ },
+ {
+  "id": "fb23d230-aab9-494c-88f4-df7a5cdeb2ec",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"29ccfec3-e7fd-4cf5-a6ec-e6f3f2eac76e\"}",
+  "created_at": "2026-02-23T15:17:29.6+00:00",
+  "application_id": "0e293ac1-0ffb-4f4a-b3b4-a5c55954d4cf"
+ },
+ {
+  "id": "c378d0bf-434c-471d-bbe4-96da28cfb290",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "8d627059-3f7d-4a0a-919b-d95f016f13f9",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"a4461e56-0100-424c-aa63-a3c89c19c1fd\"}",
+  "created_at": "2026-02-22T15:17:29.655+00:00",
+  "application_id": "8d6bf4bc-4d1d-4e43-98d1-bbdd76a225a4"
+ },
+ {
+  "id": "393e85d9-51b7-43b3-82a6-0cc27a458fc8",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"db153b68-cea7-4401-942c-1237cc24bf1f\"}",
+  "created_at": "2026-02-21T15:17:29.705+00:00",
+  "application_id": "f4669367-df01-40a0-9458-0ad7fd1133ca"
+ },
+ {
+  "id": "7259728e-02c8-4294-b0ea-4848d3af1484",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "d4a35607-5faf-43aa-b764-6f4ed2611138",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"e6b75ad2-fe13-436d-9116-175b65143981\"}",
+  "created_at": "2026-02-20T15:17:29.755+00:00",
+  "application_id": "7ee8bdf4-6b6b-44b4-99d5-83e6f5fe8183"
+ },
+ {
+  "id": "c53441cb-d882-45bd-ab11-611be0a75510",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"e803c986-8f4d-4735-b377-108439baf4ff\"}",
+  "created_at": "2026-02-19T15:17:29.801+00:00",
+  "application_id": "2e2b5948-c2de-49b7-bd42-0c604741b19d"
+ },
+ {
+  "id": "7891ed87-3861-4e1a-99a4-2e575dfba615",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "5b0b8c99-475d-4a58-9b2d-ad27bba272c9",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"0b24dda4-6abb-4c47-9e51-fedaa3cffe46\"}",
+  "created_at": "2026-02-18T15:17:29.842+00:00",
+  "application_id": "a9867f66-778c-459d-9b41-fcdd4eb64145"
+ },
+ {
+  "id": "bda940d9-44dc-47b2-bf31-d863b2814c08",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"390abf24-1293-4540-8a92-42984f9fa8b3\"}",
+  "created_at": "2026-02-17T15:17:29.897+00:00",
+  "application_id": "8bcf4ae3-13d6-4d3f-ac56-73da2665c80c"
+ },
+ {
+  "id": "549b3757-31e3-4313-aa2c-48a1d0cd7a87",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "3eb10c1e-8ffa-4982-ab4f-600e6eb605ed",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"a17a7776-8b1c-4e40-ab5f-2df22e261a12\"}",
+  "created_at": "2026-02-16T15:17:29.95+00:00",
+  "application_id": "3e4f2f4a-9563-4fd3-8e3a-02d0486d744a"
+ },
+ {
+  "id": "18b90ec4-c2d4-4bbd-8561-f79ce0970c83",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"e73475c7-77bc-4b44-a34a-1540cf5f891e\"}",
+  "created_at": "2026-02-15T15:17:30.008+00:00",
+  "application_id": "986b1e1d-1540-4b84-9cb8-ddf212d18d43"
+ },
+ {
+  "id": "44d453c0-9fa2-492c-9a97-e031019ee7f6",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "fbb3b61b-4d98-400a-ac10-8e0ed35d6ef8",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"e51dc6aa-1e3a-4cbc-add1-f185b493c339\"}",
+  "created_at": "2026-02-14T15:17:30.063+00:00",
+  "application_id": "103c9fdf-348c-4b6c-9b9c-537eeecfaccd"
+ },
+ {
+  "id": "91005361-c0cd-4829-9b2e-7702a03c1aa8",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"6dc14e30-40db-4f2e-9119-c36593317dd3\"}",
+  "created_at": "2026-02-13T15:17:30.114+00:00",
+  "application_id": "48fce078-16a0-47c8-8952-883970761dbf"
+ },
+ {
+  "id": "59a29a83-43cd-4ee1-9db8-b363c0874d26",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "db9c7548-f92c-4598-bb2a-932d7b648d98",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"cd0422de-54a0-49a5-b560-61d0d7a8ad18\"}",
+  "created_at": "2026-02-12T15:17:30.164+00:00",
+  "application_id": "d7fee1a6-c203-45f8-beb8-bdc052edab83"
+ },
+ {
+  "id": "70408d6c-9559-4e32-9c73-58ead657b00f",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"ea60ebb9-5d1e-41a8-aaf8-796ee552c5ef\"}",
+  "created_at": "2026-02-11T15:17:30.215+00:00",
+  "application_id": "59d0bb7b-8284-41c1-b023-1349d893e3ee"
+ },
+ {
+  "id": "642d1be2-f7b4-453e-b449-37cf11965e43",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "b02386f0-3d88-40e7-8203-8271a67aea64",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"6a01182d-c730-48a6-ad79-8062abbd54e8\"}",
+  "created_at": "2026-02-10T15:17:30.265+00:00",
+  "application_id": "cf0aad64-7696-403a-9ef1-11ac04082e1e"
+ },
+ {
+  "id": "3a4ff73b-fc3d-41d1-bcb1-2bcf4796592e",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"e73475c7-77bc-4b44-a34a-1540cf5f891e\"}",
+  "created_at": "2026-02-09T15:17:30.314+00:00",
+  "application_id": "16d929e8-34e1-4519-8142-b9f91025c5a5"
+ },
+ {
+  "id": "5412f1b9-a942-42e0-9f23-d27c13e7fc5b",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "291cf0c5-2977-4539-9e51-3c91d0887b47",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"605b3526-9bf1-47d2-8da2-bf8d41e66f19\"}",
+  "created_at": "2026-02-08T15:17:30.356+00:00",
+  "application_id": "7adb8f83-8be7-4871-831c-192be5ce3a4b"
+ },
+ {
+  "id": "1fe178b5-17c6-44c4-a7b7-db5b16bb8436",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"769b173c-175d-4d15-a540-3ecb5f642651\"}",
+  "created_at": "2026-02-07T15:17:30.401+00:00",
+  "application_id": "6095a8a1-534c-4585-9e42-aecb8ea7bc7d"
+ },
+ {
+  "id": "dc66047a-7652-43ff-a201-f5a13ea710c9",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "c1e873c1-be22-46cf-a075-4a03cde9ee08",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"c9f6d846-f6fc-4e20-9541-40bbfdc57e34\"}",
+  "created_at": "2026-02-06T15:17:30.446+00:00",
+  "application_id": "4f4879e8-9c8a-443c-b73f-3f3c56db14f2"
+ },
+ {
+  "id": "71643f65-3c01-4c77-b0d6-2b2451aaeb47",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"99fcba99-74a3-41a5-815b-46112a417ac1\"}",
+  "created_at": "2026-02-05T15:17:30.486+00:00",
+  "application_id": "a6196f77-364c-42ea-969f-5c98b5742059"
+ },
+ {
+  "id": "e9cd8039-0668-4013-9346-f6d189df1b61",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "cf37c286-076d-44a3-ab73-c5c69e9eebb2",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"742ee296-ce38-4753-9325-04b917b5bb6d\"}",
+  "created_at": "2026-02-04T15:17:30.527+00:00",
+  "application_id": "05566e6b-9249-4012-95b5-5f6bbe072c2e"
+ },
+ {
+  "id": "ea20b1ad-a19e-4e91-bcee-df411c84c5e3",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"9623d7b0-54ec-4405-bfe9-a5931d4bfad6\"}",
+  "created_at": "2026-02-03T15:17:30.573+00:00",
+  "application_id": "864892c9-300e-4ea0-9350-9391ac78c5f9"
+ },
+ {
+  "id": "f13fe34b-ee17-45eb-8f59-fe49d4eca685",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "92b00e04-dd76-45d4-b220-4194e31f2b7b",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"60b3111f-9ae0-401c-b164-af84cb0adb7c\"}",
+  "created_at": "2026-02-02T15:17:30.618+00:00",
+  "application_id": "4ada510e-427c-46f7-aba3-7ec2b929a973"
+ },
+ {
+  "id": "fcd1fc3b-7109-4456-bda4-6bc8d974efd1",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"6dc14e30-40db-4f2e-9119-c36593317dd3\"}",
+  "created_at": "2026-02-01T15:17:30.664+00:00",
+  "application_id": "987956f2-39d8-4870-9ebb-5b88e30cd28c"
+ },
+ {
+  "id": "5525c561-2615-4ce2-92ca-48d8452bf449",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "872a8f29-cfa8-4d01-aa61-a14634003f70",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"7f6cb6ef-2346-423b-ae43-fcce0102c094\"}",
+  "created_at": "2026-01-31T15:17:30.713+00:00",
+  "application_id": "8ee6bd79-2bf2-434a-a382-b1cfab188530"
+ },
+ {
+  "id": "5b9c58a4-4a7c-4a81-8095-ce9143cc4efc",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"ec28e614-8996-434f-afbd-0a94347f0ebf\"}",
+  "created_at": "2026-01-30T15:17:30.754+00:00",
+  "application_id": "14760ea7-2c7a-4f31-96ed-ee9ce9741934"
+ },
+ {
+  "id": "414b97ed-0092-416b-831b-3ff4be78a7ad",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "2fea7fa9-fc42-405a-9f8c-a6c5c4e8aa53",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"ad650258-cf5f-4947-aec1-a56adf133760\"}",
+  "created_at": "2026-01-29T15:17:30.799+00:00",
+  "application_id": "258d7b17-b403-4f99-99ec-5043642a8826"
+ },
+ {
+  "id": "574b0da9-391d-4b94-a553-c436c1ac2076",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"50cdca05-de1a-4271-8d04-ae108c7ef3c2\"}",
+  "created_at": "2026-01-28T15:17:30.845+00:00",
+  "application_id": "3119f449-c301-4e63-b42a-df424f8218ac"
+ },
+ {
+  "id": "60990c56-438b-4fc4-9f12-34fd7dd0c6f3",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "646ab115-4ae4-4e95-97b7-711902d6d79e",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"8ad6085f-87ef-44f7-aa93-0b71f3062847\"}",
+  "created_at": "2026-01-27T15:17:30.896+00:00",
+  "application_id": "c61efbdf-a077-4789-82c8-6b7b7d01b017"
+ },
+ {
+  "id": "f1b31eda-c7cb-4c8e-af81-3a1c061bbdf2",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"b3845701-41c9-4d48-b554-ac8fada67b25\"}",
+  "created_at": "2026-01-26T15:17:30.946+00:00",
+  "application_id": "3cedb6d8-be16-4d1f-8abe-ba6d488be6eb"
+ },
+ {
+  "id": "3a84e842-057f-4dcc-b024-cb8769f76996",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "70dd5a5c-6994-469f-bb01-3bb560cabeb3",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"fd796dea-b23f-4e05-b85c-fc18c37ae0d2\"}",
+  "created_at": "2026-01-25T15:17:30.996+00:00",
+  "application_id": "ee021575-4837-4daf-a207-ccddd3fa80c2"
+ },
+ {
+  "id": "f011217e-55e1-4ff5-bf71-ce6f279dec70",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"ef4c2123-58da-4f83-afad-4ba44cf1e140\"}",
+  "created_at": "2026-01-24T15:17:31.041+00:00",
+  "application_id": "3f811130-2a46-473e-858b-5e00b36ba691"
+ },
+ {
+  "id": "6c32264b-6027-41cc-9859-c1e333c4210f",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "7a1d675b-5153-4b5b-8615-9f40c7c12e42",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"fb34c644-a68a-4af0-b63e-87774d3daa9e\"}",
+  "created_at": "2026-01-23T15:17:31.086+00:00",
+  "application_id": "640019f7-e406-4985-8041-6ad23c14f33f"
+ },
+ {
+  "id": "5a0f2409-1fcb-466c-8e88-f433ed557c7b",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"78250ef5-61ed-4af6-9ed9-e405922ab53d\"}",
+  "created_at": "2026-01-22T15:17:31.132+00:00",
+  "application_id": "3fc2b0da-a88b-4776-b4a7-747cff869a67"
+ },
+ {
+  "id": "e66ec8c4-f19d-4a57-a6d6-9132344b125c",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "832ae099-7da5-4093-944f-c00958ab98cc",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"d792d49c-5fc4-480e-bd77-af0f49254d98\"}",
+  "created_at": "2026-01-21T15:17:31.173+00:00",
+  "application_id": "b9a47eb3-64d9-4695-b8bb-491774c90e71"
+ },
+ {
+  "id": "7b97530b-c855-4c14-9065-4a68fb70c334",
+  "pipeline_candidate_id": null,
+  "actor_user_id": "29462c88-b65d-46b1-97eb-59f5790916e0",
+  "kind": "added_to_pipeline",
+  "payload_json": "{\"stage_id\":\"6dc14e30-40db-4f2e-9119-c36593317dd3\"}",
+  "created_at": "2026-01-20T15:17:31.217+00:00",
+  "application_id": "77352f1f-6f02-4145-b937-e08b53a9a11f"
+ }
+]

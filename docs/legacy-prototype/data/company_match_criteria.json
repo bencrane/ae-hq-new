@@ -1,0 +1,396 @@
+[
+ {
+  "company_id": "2cd64c7d-e136-4928-bc61-ea84156487a6",
+  "segments": [
+   "Enterprise",
+   "StrategicEnterprise"
+  ],
+  "sales_motions": [
+   "enterprise",
+   "hybrid"
+  ],
+  "min_years_experience": 5,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Sequoia Capital",
+   "Andreessen Horowitz"
+  ],
+  "updated_at": "2026-05-20T15:17:31.303079+00:00"
+ },
+ {
+  "company_id": "68c8c049-5f07-4493-bfb1-1887612812ba",
+  "segments": [
+   "Enterprise",
+   "StrategicEnterprise"
+  ],
+  "sales_motions": [
+   "enterprise"
+  ],
+  "min_years_experience": 6,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Sequoia Capital",
+   "Altimeter Capital"
+  ],
+  "updated_at": "2026-05-20T15:17:31.348406+00:00"
+ },
+ {
+  "company_id": "3d056df0-c21e-4917-8c4d-aced442503f5",
+  "segments": [
+   "MidMarket",
+   "Enterprise"
+  ],
+  "sales_motions": [
+   "hybrid",
+   "sales_led"
+  ],
+  "min_years_experience": 4,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Sequoia Capital"
+  ],
+  "updated_at": "2026-05-20T15:17:31.37375+00:00"
+ },
+ {
+  "company_id": "e87186c2-76de-41e7-869c-d13759cbc830",
+  "segments": [
+   "MidMarket",
+   "Enterprise"
+  ],
+  "sales_motions": [
+   "sales_led"
+  ],
+  "min_years_experience": 4,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Index Ventures"
+  ],
+  "updated_at": "2026-05-20T15:17:31.398884+00:00"
+ },
+ {
+  "company_id": "f3157f6a-b3ba-4b3c-84d4-5bb11bd3c438",
+  "segments": [
+   "Enterprise"
+  ],
+  "sales_motions": [
+   "hybrid",
+   "enterprise"
+  ],
+  "min_years_experience": 5,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Bessemer Venture Partners",
+   "GGV Capital"
+  ],
+  "updated_at": "2026-05-20T15:17:31.415296+00:00"
+ },
+ {
+  "company_id": "581f3b91-78ef-49ce-a17d-8e2d9d748e3d",
+  "segments": [
+   "MidMarket",
+   "Enterprise"
+  ],
+  "sales_motions": [
+   "sales_led"
+  ],
+  "min_years_experience": 3,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Andreessen Horowitz",
+   "Kleiner Perkins"
+  ],
+  "updated_at": "2026-05-20T15:17:31.43921+00:00"
+ },
+ {
+  "company_id": "49d4f2b7-da18-482a-952f-bd95bdcde6d7",
+  "segments": [
+   "SMB",
+   "MidMarket"
+  ],
+  "sales_motions": [],
+  "min_years_experience": 2,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Accel"
+  ],
+  "updated_at": "2026-05-20T15:17:31.464349+00:00"
+ },
+ {
+  "company_id": "2938ab1b-125a-41ca-97cd-da48632399a7",
+  "segments": [
+   "SMB",
+   "MidMarket"
+  ],
+  "sales_motions": [
+   "plg"
+  ],
+  "min_years_experience": 2,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Sequoia Capital",
+   "Accel"
+  ],
+  "updated_at": "2026-05-20T15:17:31.494661+00:00"
+ },
+ {
+  "company_id": "a9e9f612-16db-4af2-ae2c-43aa5d2040fd",
+  "segments": [
+   "SMB",
+   "MidMarket"
+  ],
+  "sales_motions": [
+   "plg"
+  ],
+  "min_years_experience": 2,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Index Ventures"
+  ],
+  "updated_at": "2026-05-20T15:17:31.520485+00:00"
+ },
+ {
+  "company_id": "b6946c69-c953-4a0d-af97-d4e2dd834d12",
+  "segments": [
+   "Enterprise",
+   "StrategicEnterprise"
+  ],
+  "sales_motions": [
+   "enterprise"
+  ],
+  "min_years_experience": 5,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Spark Capital",
+   "Menlo Ventures"
+  ],
+  "updated_at": "2026-05-20T15:17:31.550056+00:00"
+ },
+ {
+  "company_id": "40bdafe4-dea5-4009-a6f3-ea49115e1c1f",
+  "segments": [
+   "Enterprise",
+   "StrategicEnterprise"
+  ],
+  "sales_motions": [
+   "enterprise"
+  ],
+  "min_years_experience": 5,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Khosla Ventures",
+   "Thrive Capital"
+  ],
+  "updated_at": "2026-05-20T15:17:31.575267+00:00"
+ },
+ {
+  "company_id": "1ab36612-87aa-4511-aeb4-b74f662f78af",
+  "segments": [
+   "MidMarket",
+   "Enterprise"
+  ],
+  "sales_motions": [
+   "sales_led"
+  ],
+  "min_years_experience": 3,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Founders Fund",
+   "Khosla Ventures"
+  ],
+  "updated_at": "2026-05-20T15:17:31.600512+00:00"
+ },
+ {
+  "company_id": "b41884fb-95e7-42a4-8b49-f018e52ee39f",
+  "segments": [
+   "MidMarket",
+   "Enterprise"
+  ],
+  "sales_motions": [
+   "sales_led"
+  ],
+  "min_years_experience": 3,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Ribbit Capital",
+   "DST Global"
+  ],
+  "updated_at": "2026-05-20T15:17:31.625709+00:00"
+ },
+ {
+  "company_id": "32494934-5f24-48c0-8d75-2b862846371d",
+  "segments": [
+   "SMB",
+   "MidMarket"
+  ],
+  "sales_motions": [
+   "plg"
+  ],
+  "min_years_experience": 2,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Andreessen Horowitz",
+   "CRV"
+  ],
+  "updated_at": "2026-05-20T15:17:31.645838+00:00"
+ },
+ {
+  "company_id": "7e2cef92-8860-41c4-96a6-1d5fd5c110f3",
+  "segments": [
+   "MidMarket",
+   "Enterprise"
+  ],
+  "sales_motions": [
+   "hybrid"
+  ],
+  "min_years_experience": 3,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Sequoia Capital",
+   "Altimeter Capital"
+  ],
+  "updated_at": "2026-05-20T15:17:31.666379+00:00"
+ },
+ {
+  "company_id": "a16e49e9-6099-4cb6-acb1-94eae0d29e8f",
+  "segments": [
+   "SMB",
+   "MidMarket"
+  ],
+  "sales_motions": [
+   "plg"
+  ],
+  "min_years_experience": 2,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "General Catalyst",
+   "Bessemer Venture Partners"
+  ],
+  "updated_at": "2026-05-20T15:17:31.691148+00:00"
+ },
+ {
+  "company_id": "3a3deaab-09d3-4f09-92cf-8240f572fd36",
+  "segments": [
+   "SMB",
+   "MidMarket"
+  ],
+  "sales_motions": [],
+  "min_years_experience": 1,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Redpoint Ventures",
+   "Lux Capital"
+  ],
+  "updated_at": "2026-05-20T15:17:31.716371+00:00"
+ },
+ {
+  "company_id": "21699104-dfdc-4dea-8c80-837905603d31",
+  "segments": [
+   "SMB",
+   "MidMarket"
+  ],
+  "sales_motions": [
+   "plg"
+  ],
+  "min_years_experience": 2,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Andreessen Horowitz",
+   "Khosla Ventures"
+  ],
+  "updated_at": "2026-05-20T15:17:31.736616+00:00"
+ },
+ {
+  "company_id": "da4e19d3-1d7c-45ce-98af-8d18461f17b4",
+  "segments": [
+   "SMB",
+   "MidMarket"
+  ],
+  "sales_motions": [
+   "plg"
+  ],
+  "min_years_experience": 1,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Andreessen Horowitz",
+   "Thrive Capital"
+  ],
+  "updated_at": "2026-05-20T15:17:31.768228+00:00"
+ },
+ {
+  "company_id": "7f5c32ff-5e76-40ec-aca5-f35a932adc30",
+  "segments": [
+   "SMB",
+   "MidMarket"
+  ],
+  "sales_motions": [
+   "plg"
+  ],
+  "min_years_experience": 2,
+  "worked_at_company_ids": [
+   "2cd64c7d-e136-4928-bc61-ea84156487a6",
+   "68c8c049-5f07-4493-bfb1-1887612812ba"
+  ],
+  "investor_pedigree": [
+   "Y Combinator",
+   "Coatue Management"
+  ],
+  "updated_at": "2026-05-20T15:17:31.792738+00:00"
+ }
+]
