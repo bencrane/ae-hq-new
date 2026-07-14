@@ -45,3 +45,12 @@ ingest.post("/clay/people", async (c) => {
   await upsert("clay_find_people", "linkedin_url", payload);
   return c.json({ ok: true, url: payload.url });
 });
+
+ingest.post("/clay/enriched-people", async (c) => {
+  const payload = (await c.req.json())?.raw_payload;
+  if (typeof payload?.url !== "string" || payload.url.length === 0) {
+    return c.json({ error: "url missing from payload" }, 422);
+  }
+  await upsert("clay_enriched_people", "linkedin_url", payload);
+  return c.json({ ok: true, url: payload.url });
+});
