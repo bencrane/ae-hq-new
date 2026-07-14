@@ -1,0 +1,352 @@
+<meta charset="utf-8">
+<title>AccountExecutive.com — Variant C</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#101114; --bg2:#16181d; --bg3:#1b1e24; --line:#26282e; --line2:#2e3138;
+    --text:#e8eaef; --sub:#9a9fab; --mut:#5f6470; --accent:#7c6cff; --accent2:#a99dff;
+    --green:#4ade80; --mono:'JetBrains Mono',monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-size:14px;-webkit-font-smoothing:antialiased;letter-spacing:-0.006em}
+  .app{display:flex;min-height:2000px;width:1440px;margin:0 auto}
+
+  /* ── Sidebar ── */
+  .side{width:232px;flex:none;border-right:1px solid var(--line);background:var(--bg);padding:16px 12px;display:flex;flex-direction:column;gap:4px}
+  .brand{display:flex;align-items:center;gap:10px;padding:6px 8px 18px}
+  .mark{width:26px;height:26px;border-radius:7px;background:linear-gradient(135deg,#8b7dff,#5b4dd6);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;color:#fff;letter-spacing:0}
+  .brand b{font-size:13.5px;font-weight:650;letter-spacing:-0.01em}
+  .brand span{color:var(--mut);font-weight:500}
+  .nav a{display:flex;align-items:center;gap:10px;padding:7px 10px;border-radius:8px;color:var(--sub);font-weight:500;font-size:13.5px;text-decoration:none}
+  .nav a svg{width:15px;height:15px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex:none}
+  .nav a.on{background:var(--bg3);color:var(--text);box-shadow:inset 0 0 0 1px var(--line)}
+  .nav a.on svg{stroke:var(--accent2)}
+  .nav a .n{margin-left:auto;font-family:var(--mono);font-size:10.5px;color:var(--mut)}
+  .side .label{font-size:10.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);padding:18px 10px 6px}
+  .save{display:flex;align-items:center;gap:9px;padding:6px 10px;border-radius:8px;color:var(--sub);font-size:13px;font-weight:450}
+  .save i{width:6px;height:6px;border-radius:2px;background:var(--line2);flex:none}
+  .side-foot{margin-top:auto;border-top:1px solid var(--line);padding:14px 8px 2px;display:flex;align-items:center;gap:10px}
+  .ava{width:26px;height:26px;border-radius:50%;background:var(--bg3);border:1px solid var(--line2);display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:600;color:var(--sub)}
+  .side-foot div{line-height:1.25}
+  .side-foot b{display:block;font-size:12.5px;font-weight:550}
+  .side-foot span{font-size:11px;color:var(--mut)}
+
+  /* ── Main ── */
+  .main{flex:1;min-width:0;border-right:1px solid var(--line)}
+  .topbar{height:52px;border-bottom:1px solid var(--line);display:flex;align-items:center;padding:0 24px;gap:16px}
+  .crumb{font-size:13px;color:var(--mut);font-weight:500}
+  .crumb b{color:var(--text);font-weight:550}
+  .crumb i{font-style:normal;margin:0 7px;color:var(--line2)}
+  .topbar .right{margin-left:auto;display:flex;align-items:center;gap:10px}
+  .pill-live{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--sub);border:1px solid var(--line);border-radius:99px;padding:4px 11px;font-weight:500}
+  .pill-live i{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 6px rgba(74,222,128,.55)}
+  .btn{font-size:12.5px;font-weight:550;padding:5px 12px;border-radius:7px;border:1px solid var(--line2);color:var(--text);background:var(--bg3)}
+  .btn.pri{background:var(--accent);border-color:transparent;color:#fff;box-shadow:0 1px 0 rgba(0,0,0,.3),inset 0 1px 0 rgba(255,255,255,.15)}
+
+  .content{padding:32px 32px 40px}
+  .h1{font-size:22px;font-weight:650;letter-spacing:-0.022em}
+  .sub-h{color:var(--sub);font-size:13.5px;margin-top:6px;font-weight:450}
+
+  /* ── Command palette ── */
+  .palette{margin-top:24px;background:linear-gradient(180deg,#1a1c22,#16181d);border:1px solid var(--line2);border-radius:14px;box-shadow:0 24px 60px -20px rgba(0,0,0,.6),0 0 0 4px rgba(124,108,255,.05);overflow:hidden}
+  .pal-input{display:flex;align-items:center;gap:12px;padding:16px 18px;border-bottom:1px solid var(--line)}
+  .pal-input svg{width:17px;height:17px;stroke:var(--accent2);fill:none;stroke-width:1.7;stroke-linecap:round;flex:none}
+  .pal-input .q{font-size:15px;color:var(--text);font-weight:450;flex:1}
+  .pal-input .q em{font-style:normal;color:var(--mut)}
+  .caret{display:inline-block;width:1.5px;height:17px;background:var(--accent2);vertical-align:-3px;margin-left:1px;border-radius:1px}
+  kbd{font-family:var(--mono);font-size:10.5px;color:var(--sub);border:1px solid var(--line2);border-bottom-width:2px;border-radius:5px;padding:2px 6px;background:var(--bg3)}
+  .pal-sec{padding:8px}
+  .pal-label{font-size:10.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);padding:8px 12px 6px}
+  .pal-row{display:flex;align-items:center;gap:11px;padding:9px 12px;border-radius:8px;font-size:13.5px;color:var(--sub);font-weight:450}
+  .pal-row svg{width:14px;height:14px;stroke:var(--mut);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex:none}
+  .pal-row.sel{background:rgba(124,108,255,.09);color:var(--text);box-shadow:inset 0 0 0 1px rgba(124,108,255,.25)}
+  .pal-row.sel svg{stroke:var(--accent2)}
+  .pal-row .go{margin-left:auto;font-size:11px;color:var(--mut);font-weight:500}
+  .pal-row.sel .go{color:var(--accent2)}
+  .pal-foot{border-top:1px solid var(--line);padding:9px 18px;display:flex;gap:18px;font-size:11px;color:var(--mut);font-weight:500}
+  .pal-foot span{display:flex;align-items:center;gap:6px}
+
+  /* ── Stat strip ── */
+  .stats{display:flex;gap:0;margin-top:28px;border:1px solid var(--line);border-radius:12px;background:var(--bg2);overflow:hidden}
+  .stat{flex:1;padding:16px 22px;border-right:1px solid var(--line)}
+  .stat:last-child{border-right:0}
+  .stat .v{font-size:20px;font-weight:650;letter-spacing:-0.02em;font-variant-numeric:tabular-nums}
+  .stat .k{font-size:12px;color:var(--mut);margin-top:3px;font-weight:500}
+  .stat .d{font-size:11px;color:var(--green);margin-top:3px;font-family:var(--mono)}
+
+  /* ── Table ── */
+  .tbl-head{display:flex;align-items:center;margin-top:34px;margin-bottom:12px}
+  .tbl-head h2{font-size:14.5px;font-weight:600;letter-spacing:-0.01em}
+  .tbl-head .filters{margin-left:auto;display:flex;gap:8px}
+  .fchip{font-size:12px;font-weight:500;color:var(--sub);border:1px solid var(--line);border-radius:7px;padding:4px 10px;display:flex;align-items:center;gap:6px;background:var(--bg2)}
+  .fchip.on{color:var(--text);border-color:var(--line2);background:var(--bg3)}
+  .fchip s{text-decoration:none;color:var(--mut);font-size:10px}
+
+  table{width:100%;border-collapse:separate;border-spacing:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--bg2)}
+  th{font-size:10.5px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--mut);text-align:left;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--bg2)}
+  td{padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:middle;font-size:13.5px}
+  tr:last-child td{border-bottom:0}
+  .co{display:flex;align-items:center;gap:11px}
+  .logo{width:28px;height:28px;border-radius:7px;flex:none;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:650;color:#fff;letter-spacing:0}
+  .co div{line-height:1.3}
+  .co b{font-weight:550;font-size:13.5px;display:block}
+  .co span{font-size:11.5px;color:var(--mut)}
+  .role{font-weight:450;color:var(--text)}
+  .ote{font-family:var(--mono);font-size:12.5px;font-weight:500;color:var(--text);font-variant-numeric:tabular-nums}
+  .chip{display:inline-flex;align-items:center;font-size:11px;font-weight:550;padding:2.5px 8px;border-radius:99px;border:1px solid var(--line2);color:var(--sub);background:var(--bg3)}
+  .chip.b{color:#8ecbff;border-color:rgba(142,203,255,.25);background:rgba(142,203,255,.06)}
+  .chip.c{color:var(--accent2);border-color:rgba(169,157,255,.28);background:rgba(124,108,255,.08)}
+  .chip.d{color:#7fe0b0;border-color:rgba(127,224,176,.25);background:rgba(127,224,176,.06)}
+  .spark{display:flex;align-items:center;gap:8px}
+  .spark .pct{font-family:var(--mono);font-size:11px;color:var(--green)}
+  .spark .pct.dn{color:#f0a35e}
+  .loc{color:var(--sub);font-size:12.5px}
+  .newdot{display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--accent);margin-right:8px;vertical-align:1px}
+  .tbl-foot{display:flex;align-items:center;margin-top:12px;font-size:12px;color:var(--mut);font-weight:500}
+  .tbl-foot .pg{margin-left:auto;display:flex;gap:6px}
+  .pg a{border:1px solid var(--line);border-radius:6px;padding:3px 9px;color:var(--sub);text-decoration:none;font-size:12px}
+  .pg a.cur{background:var(--bg3);color:var(--text);border-color:var(--line2)}
+
+  /* ── Right rail ── */
+  .rail{width:336px;flex:none;padding:24px 22px;display:flex;flex-direction:column;gap:20px;background:var(--bg)}
+  .panel{border:1px solid var(--line);border-radius:12px;background:var(--bg2);overflow:hidden}
+  .panel-h{display:flex;align-items:center;padding:13px 16px;border-bottom:1px solid var(--line)}
+  .panel-h h3{font-size:12.5px;font-weight:600;letter-spacing:-0.005em}
+  .panel-h .tag{margin-left:auto;font-size:10.5px;font-family:var(--mono);color:var(--mut)}
+  .panel-b{padding:14px 16px}
+  .flow-src{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+  .flow-src .meta b{display:block;font-size:13px;font-weight:600}
+  .flow-src .meta span{font-size:11px;color:var(--mut)}
+  .frow{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+  .frow:last-child{margin-bottom:0}
+  .frow .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),var(--accent2));flex:none}
+  .frow .to{font-size:12.5px;font-weight:550;width:64px;flex:none}
+  .frow .ct{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--sub)}
+  .fnote{font-size:11px;color:var(--mut);margin-top:12px;padding-top:12px;border-top:1px solid var(--line);line-height:1.5}
+  .fnote a{color:var(--accent2);text-decoration:none;font-weight:500}
+
+  .move{display:flex;gap:11px;padding:11px 0;border-bottom:1px solid var(--line)}
+  .move:first-child{padding-top:2px}
+  .move:last-child{border-bottom:0;padding-bottom:2px}
+  .move .mini{width:24px;height:24px;border-radius:50%;flex:none;background:var(--bg3);border:1px solid var(--line2);display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:600;color:var(--sub)}
+  .move .body{line-height:1.45;font-size:12.5px;color:var(--sub);font-weight:450}
+  .move .body b{color:var(--text);font-weight:550}
+  .move .body .arr{color:var(--accent2);font-weight:600;margin:0 2px}
+  .move .body time{display:block;font-size:10.5px;color:var(--mut);margin-top:2px;font-family:var(--mono)}
+
+  .rank-row{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:12.5px}
+  .rank-row:last-child{border-bottom:0}
+  .rank-row .idx{font-family:var(--mono);font-size:10.5px;color:var(--mut);width:16px}
+  .rank-row b{font-weight:550}
+  .rank-row .sc{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--accent2)}
+</style>
+
+<div class="app">
+
+  <!-- Sidebar -->
+  <aside class="side">
+    <div class="brand"><div class="mark">AE</div><b>AccountExecutive<span>.com</span></b></div>
+    <nav class="nav">
+      <a href="#" class="on"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 20V9"/></svg>Jobs<span class="n">27.8k</span></a>
+      <a href="#"><svg viewBox="0 0 24 24"><path d="M4 21V7l8-4 8 4v14M9 21v-6h6v6"/></svg>Companies<span class="n">9.4k</span></a>
+      <a href="#"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Moves<span class="n">50k</span></a>
+      <a href="#"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-8M22 20H2"/></svg>Rankings</a>
+      <a href="#"><svg viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></svg>Saved<span class="n">12</span></a>
+    </nav>
+    <div class="label">Saved searches</div>
+    <div class="save"><i></i>Ent AE · Series C · NYC</div>
+    <div class="save"><i></i>Fintech · $300k+ OTE</div>
+    <div class="save"><i></i>AI infra · Remote</div>
+    <div class="label">Tracked companies</div>
+    <div class="save"><i style="background:#7c6cff"></i>Sierra</div>
+    <div class="save"><i style="background:#3d4048"></i>Cursor</div>
+    <div class="save"><i style="background:#3d4048"></i>Clay</div>
+    <div class="side-foot">
+      <div class="ava">JT</div>
+      <div><b>Jordan Tate</b><span>Ent AE · 7 yrs</span></div>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+    <div class="topbar">
+      <div class="crumb"><b>Jobs</b><i>/</i>Enterprise AE<i>/</i>All markets</div>
+      <div class="right">
+        <div class="pill-live"><i></i>1,204 roles added this week</div>
+        <button class="btn">Filters</button>
+        <button class="btn pri">New alert</button>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="h1">Your next role, decided with data.</div>
+      <div class="sub-h">Live AE openings fused with company quality, real OTE, and where reps actually go next.</div>
+
+      <!-- Command palette -->
+      <div class="palette">
+        <div class="pal-input">
+          <svg viewBox="0 0 24 24"><path d="M12 3l1.8 4.6L18 9l-4.2 1.4L12 15l-1.8-4.6L6 9l4.2-1.4zM19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9z"/></svg>
+          <div class="q">Ask anything about your next role<em>…</em><span class="caret"></span></div>
+          <kbd>⌘K</kbd>
+        </div>
+        <div class="pal-sec">
+          <div class="pal-label">Suggested</div>
+          <div class="pal-row sel"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Where do Datadog reps go next?<span class="go">Career paths ↵</span></div>
+          <div class="pal-row"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>Series B fintechs hiring Enterprise AEs in NYC<span class="go">Jobs</span></div>
+          <div class="pal-row"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-8"/></svg>Compare selling at Ramp vs Brex<span class="go">Companies</span></div>
+        </div>
+        <div class="pal-foot"><span><kbd>↑↓</kbd> navigate</span><span><kbd>↵</kbd> ask</span><span><kbd>esc</kbd> dismiss</span><span style="margin-left:auto">Answers grounded in 50,212 verified career paths</span></div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats">
+        <div class="stat"><div class="v">27,842</div><div class="k">Live AE roles</div><div class="d">+1,204 this week</div></div>
+        <div class="stat"><div class="v">9,410</div><div class="k">Companies scored</div><div class="d">+86 this week</div></div>
+        <div class="stat"><div class="v">50,212</div><div class="k">Career paths mapped</div><div class="d">+617 this week</div></div>
+        <div class="stat"><div class="v">$284k</div><div class="k">Median Ent AE OTE</div><div class="d">+4.2% YoY</div></div>
+      </div>
+
+      <!-- Job table -->
+      <div class="tbl-head">
+        <h2>Open roles</h2>
+        <div class="filters">
+          <div class="fchip on">Enterprise <s>×</s></div>
+          <div class="fchip on">$250k+ OTE <s>×</s></div>
+          <div class="fchip">Series B–D</div>
+          <div class="fchip">Remote OK</div>
+        </div>
+      </div>
+      <table>
+        <tr><th style="width:26%">Company</th><th style="width:22%">Role</th><th style="width:11%">OTE</th><th style="width:11%">Stage</th><th style="width:16%">Sales headcount · 12m</th><th>Location</th></tr>
+
+        <tr>
+          <td><div class="co"><div class="logo" style="background:#5b4dd6">Si</div><div><b><span class="newdot"></span>Sierra</b><span>AI agents · a16z, Sequoia</span></div></div></td>
+          <td class="role">Enterprise AE</td>
+          <td class="ote">$320k</td>
+          <td><span class="chip c">Series C</span></td>
+          <td><div class="spark"><svg width="72" height="20" viewBox="0 0 72 20"><polyline points="0,17 12,16 24,14 36,12 48,8 60,5 72,2" fill="none" stroke="#4ade80" stroke-width="1.5"/></svg><span class="pct">+118%</span></div></td>
+          <td class="loc">SF · Hybrid</td>
+        </tr>
+        <tr>
+          <td><div class="co"><div class="logo" style="background:#2f6b52">Ra</div><div><b>Ramp</b><span>Fintech · Founders Fund</span></div></div></td>
+          <td class="role">Strategic AE</td>
+          <td class="ote">$340k</td>
+          <td><span class="chip d">Series D</span></td>
+          <td><div class="spark"><svg width="72" height="20" viewBox="0 0 72 20"><polyline points="0,15 12,14 24,13 36,11 48,10 60,7 72,5" fill="none" stroke="#4ade80" stroke-width="1.5"/></svg><span class="pct">+42%</span></div></td>
+          <td class="loc">NYC</td>
+        </tr>
+        <tr>
+          <td><div class="co"><div class="logo" style="background:#8a5a2f">Cu</div><div><b><span class="newdot"></span>Cursor</b><span>Dev tools · Thrive, a16z</span></div></div></td>
+          <td class="role">Enterprise AE</td>
+          <td class="ote">$310k</td>
+          <td><span class="chip c">Series C</span></td>
+          <td><div class="spark"><svg width="72" height="20" viewBox="0 0 72 20"><polyline points="0,18 12,17 24,16 36,13 48,9 60,4 72,1" fill="none" stroke="#4ade80" stroke-width="1.5"/></svg><span class="pct">+205%</span></div></td>
+          <td class="loc">SF · Remote OK</td>
+        </tr>
+        <tr>
+          <td><div class="co"><div class="logo" style="background:#3b5f8f">Cl</div><div><b>Clay</b><span>GTM data · Sequoia, Meritech</span></div></div></td>
+          <td class="role">Mid-Market AE</td>
+          <td class="ote">$230k</td>
+          <td><span class="chip c">Series C</span></td>
+          <td><div class="spark"><svg width="72" height="20" viewBox="0 0 72 20"><polyline points="0,16 12,15 24,13 36,10 48,8 60,6 72,3" fill="none" stroke="#4ade80" stroke-width="1.5"/></svg><span class="pct">+96%</span></div></td>
+          <td class="loc">NYC</td>
+        </tr>
+        <tr>
+          <td><div class="co"><div class="logo" style="background:#6b3b3b">An</div><div><b>Anthropic</b><span>AI · Google, Spark</span></div></div></td>
+          <td class="role">Enterprise AE</td>
+          <td class="ote">$350k</td>
+          <td><span class="chip">Growth</span></td>
+          <td><div class="spark"><svg width="72" height="20" viewBox="0 0 72 20"><polyline points="0,17 12,15 24,12 36,10 48,7 60,4 72,2" fill="none" stroke="#4ade80" stroke-width="1.5"/></svg><span class="pct">+131%</span></div></td>
+          <td class="loc">SF / NYC</td>
+        </tr>
+        <tr>
+          <td><div class="co"><div class="logo" style="background:#2f5b6b">Va</div><div><b>Vanta</b><span>Security · Sequoia, CRV</span></div></div></td>
+          <td class="role">Mid-Market AE</td>
+          <td class="ote">$215k</td>
+          <td><span class="chip c">Series C</span></td>
+          <td><div class="spark"><svg width="72" height="20" viewBox="0 0 72 20"><polyline points="0,14 12,13 24,12 36,11 48,9 60,8 72,6" fill="none" stroke="#4ade80" stroke-width="1.5"/></svg><span class="pct">+28%</span></div></td>
+          <td class="loc">Remote (US)</td>
+        </tr>
+        <tr>
+          <td><div class="co"><div class="logo" style="background:#4a4a8f">Wr</div><div><b>Writer</b><span>Enterprise AI · ICONIQ</span></div></div></td>
+          <td class="role">Enterprise AE</td>
+          <td class="ote">$300k</td>
+          <td><span class="chip c">Series C</span></td>
+          <td><div class="spark"><svg width="72" height="20" viewBox="0 0 72 20"><polyline points="0,16 12,14 24,13 36,11 48,8 60,6 72,4" fill="none" stroke="#4ade80" stroke-width="1.5"/></svg><span class="pct">+74%</span></div></td>
+          <td class="loc">SF · Hybrid</td>
+        </tr>
+        <tr>
+          <td><div class="co"><div class="logo" style="background:#6b2f5b">De</div><div><b>Deel</b><span>Global payroll · a16z</span></div></div></td>
+          <td class="role">Strategic AE</td>
+          <td class="ote">$330k</td>
+          <td><span class="chip d">Series D</span></td>
+          <td><div class="spark"><svg width="72" height="20" viewBox="0 0 72 20"><polyline points="0,13 12,12 24,12 36,10 48,10 60,8 72,7" fill="none" stroke="#4ade80" stroke-width="1.5"/></svg><span class="pct">+19%</span></div></td>
+          <td class="loc">Remote (Global)</td>
+        </tr>
+        <tr>
+          <td><div class="co"><div class="logo" style="background:#3d3d44">Rt</div><div><b>Retool</b><span>Internal tools · Sequoia</span></div></div></td>
+          <td class="role">Enterprise AE</td>
+          <td class="ote">$290k</td>
+          <td><span class="chip c">Series C</span></td>
+          <td><div class="spark"><svg width="72" height="20" viewBox="0 0 72 20"><polyline points="0,10 12,11 24,10 36,11 48,10 60,9 72,9" fill="none" stroke="#9a9fab" stroke-width="1.5"/></svg><span class="pct dn">+4%</span></div></td>
+          <td class="loc">SF / Austin</td>
+        </tr>
+        <tr>
+          <td><div class="co"><div class="logo" style="background:#2f4a6b">Ri</div><div><b>Rippling</b><span>HR platform · Kleiner Perkins</span></div></div></td>
+          <td class="role">Mid-Market AE</td>
+          <td class="ote">$200k</td>
+          <td><span class="chip">Growth</span></td>
+          <td><div class="spark"><svg width="72" height="20" viewBox="0 0 72 20"><polyline points="0,14 12,13 24,11 36,10 48,9 60,7 72,6" fill="none" stroke="#4ade80" stroke-width="1.5"/></svg><span class="pct">+33%</span></div></td>
+          <td class="loc">Austin</td>
+        </tr>
+      </table>
+      <div class="tbl-foot">Showing 10 of 27,842 roles · sorted by company momentum
+        <div class="pg"><a href="#" class="cur">1</a><a href="#">2</a><a href="#">3</a><a href="#">…</a><a href="#">2,785</a></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Right rail -->
+  <aside class="rail">
+    <div class="panel">
+      <div class="panel-h"><h3>Alumni flow</h3><span class="tag">last 24 mo</span></div>
+      <div class="panel-b">
+        <div class="flow-src">
+          <div class="logo" style="background:#5b3b8f;width:26px;height:26px;font-size:10px">Go</div>
+          <div class="meta"><b>Where Gong reps go next</b><span>212 tracked departures · sellers only</span></div>
+        </div>
+        <div class="frow"><span class="to">Sierra</span><div class="bar" style="width:112px"></div><span class="ct">14</span></div>
+        <div class="frow"><span class="to">Clay</span><div class="bar" style="width:88px;opacity:.8"></div><span class="ct">11</span></div>
+        <div class="frow"><span class="to">Writer</span><div class="bar" style="width:72px;opacity:.65"></div><span class="ct">9</span></div>
+        <div class="frow"><span class="to">Cursor</span><div class="bar" style="width:56px;opacity:.5"></div><span class="ct">7</span></div>
+        <div class="frow"><span class="to">Ramp</span><div class="bar" style="width:40px;opacity:.4"></div><span class="ct">5</span></div>
+        <div class="fnote">Reps leaving Gong land at AI-native GTM companies 3.1× more often than the platform average. <a href="#">View full path graph →</a></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-h"><h3>Moves feed</h3><span class="tag">live</span></div>
+      <div class="panel-b">
+        <div class="move"><div class="mini">JA</div><div class="body"><b>J. Alvarez</b>, Ent AE<br>Datadog <span class="arr">→</span> Cursor<time>2h ago · SF</time></div></div>
+        <div class="move"><div class="mini">MK</div><div class="body"><b>M. Kessler</b>, Strategic AE<br>Rippling <span class="arr">→</span> Anthropic<time>6h ago · NYC</time></div></div>
+        <div class="move"><div class="mini">DP</div><div class="body"><b>D. Park</b>, MM AE<br>Vanta <span class="arr">→</span> Clay<time>yesterday · NYC</time></div></div>
+        <div class="move"><div class="mini">SR</div><div class="body"><b>S. Romano</b>, Ent AE<br>Deel <span class="arr">→</span> Sierra<time>yesterday · Remote</time></div></div>
+        <div class="move"><div class="mini">LN</div><div class="body"><b>L. Nguyen</b>, Ent AE<br>Retool <span class="arr">→</span> Writer<time>2d ago · SF</time></div></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-h"><h3>Momentum ranking</h3><span class="tag">Q3 ’26</span></div>
+      <div class="panel-b">
+        <div class="rank-row"><span class="idx">01</span><b>Cursor</b><span class="sc">98.2</span></div>
+        <div class="rank-row"><span class="idx">02</span><b>Sierra</b><span class="sc">96.7</span></div>
+        <div class="rank-row"><span class="idx">03</span><b>Anthropic</b><span class="sc">95.1</span></div>
+        <div class="rank-row"><span class="idx">04</span><b>Clay</b><span class="sc">92.4</span></div>
+        <div class="rank-row"><span class="idx">05</span><b>Ramp</b><span class="sc">90.8</span></div>
+        <div class="rank-row"><span class="idx">06</span><b>Writer</b><span class="sc">88.3</span></div>
+      </div>
+    </div>
+  </aside>
+</div>
