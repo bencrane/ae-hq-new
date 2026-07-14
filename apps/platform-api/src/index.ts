@@ -2,6 +2,7 @@ import { serve } from "@hono/node-server";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { config, envReport } from "./env.js";
+import { ingest } from "./ingest.js";
 import { jobs } from "./jobs.js";
 
 const app = new Hono();
@@ -42,6 +43,7 @@ app.get("/api/v1/status", async (c) => {
 });
 
 app.route("/api/v1/jobs", jobs);
+app.route("/api/v1/ingest", ingest);
 
 app.onError((err, c) => {
   console.error(err);
