@@ -2,6 +2,7 @@ import { serve } from "@hono/node-server";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { config, envReport } from "./env.js";
+import { jobs } from "./jobs.js";
 
 const app = new Hono();
 
@@ -38,6 +39,13 @@ app.get("/api/v1/status", async (c) => {
     supabase,
     timestamp: new Date().toISOString(),
   });
+});
+
+app.route("/api/v1/jobs", jobs);
+
+app.onError((err, c) => {
+  console.error(err);
+  return c.json({ error: "internal error" }, 500);
 });
 
 serve({ fetch: app.fetch, port: config.port }, (info) => {
