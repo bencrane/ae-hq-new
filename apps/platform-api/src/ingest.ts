@@ -29,7 +29,7 @@ async function upsert(table: string, conflictColumn: string, payload: unknown) {
 }
 
 ingest.post("/clay/companies", async (c) => {
-  const payload = await c.req.json();
+  const payload = (await c.req.json())?.raw_payload;
   if (payload?.clay_company_id == null) {
     return c.json({ error: "clay_company_id missing from payload" }, 422);
   }
@@ -38,7 +38,7 @@ ingest.post("/clay/companies", async (c) => {
 });
 
 ingest.post("/clay/people", async (c) => {
-  const payload = await c.req.json();
+  const payload = (await c.req.json())?.raw_payload;
   if (typeof payload?.url !== "string" || payload.url.length === 0) {
     return c.json({ error: "url missing from payload" }, 422);
   }
